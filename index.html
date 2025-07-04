@@ -118,6 +118,7 @@
         }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -162,6 +163,34 @@
                 <h2 class="chart-title">🔍 깊이별 지진 분포</h2>
                 <div class="chart-container">
                     <div id="depthChart"></div>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">📅 일자별 지진 발생 빈도</h2>
+                <div class="chart-container">
+                    <div id="dailyFrequencyChart" style="height: 500px;"></div>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">📈 지진 발생 추세 분석</h2>
+                <div class="chart-container">
+                    <div id="trendChart" style="height: 400px;"></div>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">🗺️ 3D 지진 분포 지도</h2>
+                <div class="chart-container">
+                    <div id="map3dChart" style="height: 600px;"></div>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">🔥 지진 발생 히트맵</h2>
+                <div class="chart-container">
+                    <div id="heatmapChart" style="height: 400px;"></div>
                 </div>
             </div>
             
@@ -231,6 +260,12 @@
                 createTimeChart(data.earthquakes);
                 createRegionChart(data.earthquakes);
                 createDepthChart(data.earthquakes);
+                
+                // 새로운 고급 차트 생성
+                createDailyFrequencyChart(data.earthquakes);
+                createTrendChart(data.earthquakes);
+                create3DMapChart(data.earthquakes);
+                createHeatmapChart(data.earthquakes);
                 
             } catch (error) {
                 console.error('차트 로드 실패:', error);
@@ -349,6 +384,194 @@
             mermaid.render('depthChart-svg', chartDef).then(result => {
                 element.innerHTML = result.svg;
             });
+        }
+        
+        // 일자별 지진 발생 빈도 차트
+        function createDailyFrequencyChart(earthquakes) {
+            const dailyCounts = {};
+            
+            earthquakes.forEach(eq => {
+                const date = eq.dateTime.split(' ')[0];
+                dailyCounts[date] = (dailyCounts[date] || 0) + 1;
+            });
+            
+            const sortedDates = Object.keys(dailyCounts).sort();
+            const recentDates = sortedDates.slice(-30); // 최근 30일
+            
+            const trace = {
+                x: recentDates,
+                y: recentDates.map(date => dailyCounts[date]),
+                type: 'scatter',
+                mode: 'lines+markers',
+                name: '일일 지진 발생 건수',
+                line: { color: '#e74c3c', width: 3 },
+                marker: { size: 6, color: '#c0392b' }
+            };
+            
+            const layout = {
+                title: '최근 30일 일자별 지진 발생 빈도',
+                xaxis: { title: '날짜' },
+                yaxis: { title: '발생 건수' },
+                showlegend: false,
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)'
+            };
+            
+            Plotly.newPlot('dailyFrequencyChart', [trace], layout, {responsive: true});
+        }
+        
+        // 지진 발생 추세 분석 차트 (7일 이동평균)
+        function createTrendChart(earthquakes) {
+            const dailyCounts = {};
+            
+            earthquakes.forEach(eq => {
+                const date = eq.dateTime.split(' ')[0];
+                dailyCounts[date] = (dailyCounts[date] || 0) + 1;
+            });
+            
+            const sortedDates = Object.keys(dailyCounts).sort();
+            const movingAverage = [];
+            
+            for (let i = 6; i < sortedDates.length; i++) {
+                const avg = sortedDates.slice(i-6, i+1)
+                    .reduce((sum, date) => sum + (dailyCounts[date] || 0), 0) / 7;
+                movingAverage.push({date: sortedDates[i], avg});
+            }
+            
+            const recent = movingAverage.slice(-60); // 최근 60일
+            
+            const trace = {
+                x: recent.map(item => item.date),
+                y: recent.map(item => item.avg),
+                type: 'scatter',
+                mode: 'lines',
+                name: '7일 이동평균',
+                line: { color: '#3498db', width: 4 },
+                fill: 'tozeroy',
+                fillcolor: 'rgba(52, 152, 219, 0.1)'
+            };
+            
+            const layout = {
+                title: '지진 발생 추세 (7일 이동평균)',
+                xaxis: { title: '날짜' },
+                yaxis: { title: '평균 발생 건수' },
+                showlegend: false,
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)'
+            };
+            
+            Plotly.newPlot('trendChart', [trace], layout, {responsive: true});
+        }
+        
+        // 3D 지진 분포 지도
+        function create3DMapChart(earthquakes) {
+            const validEqs = earthquakes.filter(eq => eq.coordinates && eq.coordinates.includes('+'));
+            
+            const lats = [];
+            const lons = [];
+            const magnitudes = [];
+            const depths = [];
+            const texts = [];
+            
+            validEqs.forEach(eq => {
+                try {
+                    const coords = eq.coordinates.split('/')[0];
+                    const latMatch = coords.match(/([+-]\d+\.\d+)/g);
+                    if (latMatch && latMatch.length >= 2) {
+                        const lat = parseFloat(latMatch[0]);
+                        const lon = parseFloat(latMatch[1]);
+                        const depth = parseInt(eq.depth) || 0;
+                        
+                        lats.push(lat);
+                        lons.push(lon);
+                        magnitudes.push(parseFloat(eq.magnitude) || 0);
+                        depths.push(depth);
+                        texts.push(`${eq.epicenterKr || eq.epicenter}<br>규모: ${eq.magnitude}<br>깊이: ${eq.depth}<br>${eq.dateTime}`);
+                    }
+                } catch (error) {
+                    console.warn('좌표 파싱 실패:', eq.coordinates);
+                }
+            });
+            
+            const trace = {
+                type: 'scatter3d',
+                mode: 'markers',
+                x: lons,
+                y: lats,
+                z: depths,
+                text: texts,
+                hoverinfo: 'text',
+                marker: {
+                    size: magnitudes.map(m => Math.max(3, m * 2)),
+                    color: magnitudes,
+                    colorscale: [
+                        [0, '#2ecc71'],
+                        [0.3, '#f1c40f'],
+                        [0.6, '#e67e22'],
+                        [1, '#e74c3c']
+                    ],
+                    colorbar: {
+                        title: '규모',
+                        thickness: 15
+                    },
+                    opacity: 0.8
+                }
+            };
+            
+            const layout = {
+                title: '3D 지진 분포 (위도, 경도, 깊이)',
+                scene: {
+                    xaxis: { title: '경도' },
+                    yaxis: { title: '위도' },
+                    zaxis: { title: '깊이 (km)', autorange: 'reversed' }
+                },
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)'
+            };
+            
+            Plotly.newPlot('map3dChart', [trace], layout, {responsive: true});
+        }
+        
+        // 지진 발생 히트맵 (요일 vs 시간)
+        function createHeatmapChart(earthquakes) {
+            const heatmapData = Array(7).fill().map(() => Array(24).fill(0));
+            const dayNames = ['일', '월', '화', '수', '목', '금', '토'];
+            
+            earthquakes.forEach(eq => {
+                const date = new Date(eq.dateTime);
+                const day = date.getDay();
+                const hour = date.getHours();
+                heatmapData[day][hour]++;
+            });
+            
+            const trace = {
+                z: heatmapData,
+                x: Array.from({length: 24}, (_, i) => `${i}시`),
+                y: dayNames,
+                type: 'heatmap',
+                colorscale: [
+                    [0, '#ecf0f1'],
+                    [0.2, '#3498db'],
+                    [0.4, '#2ecc71'],
+                    [0.6, '#f1c40f'],
+                    [0.8, '#e67e22'],
+                    [1, '#e74c3c']
+                ],
+                colorbar: {
+                    title: '발생 건수',
+                    thickness: 15
+                }
+            };
+            
+            const layout = {
+                title: '요일별 시간대별 지진 발생 패턴',
+                xaxis: { title: '시간' },
+                yaxis: { title: '요일' },
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)'
+            };
+            
+            Plotly.newPlot('heatmapChart', [trace], layout, {responsive: true});
         }
         
         function createEarthquakeTable(earthquakes) {
