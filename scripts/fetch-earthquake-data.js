@@ -20,20 +20,32 @@ async function fetchEarthquakeData() {
     const response = await axios.get(JMA_API_URL);
     const earthquakeList = response.data;
     
-    const earthquakes = earthquakeList.map(earthquake => ({
-      eventID: earthquake.eid,
-      dateTime: moment(earthquake.at).format('YYYY-MM-DD HH:mm:ss'),
-      epicenter: earthquake.en_anm || earthquake.anm,
-      epicenterKr: getKoreanEpicenter(earthquake.en_anm || earthquake.anm),
-      magnitude: earthquake.mag,
-      depth: earthquake.dep ? `${earthquake.dep}km` : '',
-      maxIntensity: earthquake.maxi,
-      reportedDateTime: earthquake.rdt,
-      title: earthquake.en_ttl || earthquake.ttl,
-      coordinates: earthquake.cod,
-      areaCode: earthquake.acd,
-      jsonFile: earthquake.json
-    }));
+    const earthquakes = earthquakeList.map(earthquake => {
+      // coordinates에서 깊이 정보 추출 (예: "+29.4+129.3-20000/" -> 20km)
+      let depthFromCoords = '';
+      if (earthquake.cod && earthquake.cod.includes('-')) {
+        const coordMatch = earthquake.cod.match(/([+-]\d+\.\d+)([+-]\d+\.\d+)([+-]\d+)/);
+        if (coordMatch && coordMatch[3]) {
+          const depthValue = Math.abs(parseInt(coordMatch[3])) / 1000; // -20000 -> 20
+          depthFromCoords = `${depthValue}km`;
+        }
+      }
+      
+      return {
+        eventID: earthquake.eid,
+        dateTime: moment(earthquake.at).format('YYYY-MM-DD HH:mm:ss'),
+        epicenter: earthquake.en_anm || earthquake.anm,
+        epicenterKr: getKoreanEpicenter(earthquake.en_anm || earthquake.anm),
+        magnitude: earthquake.mag,
+        depth: earthquake.dep ? `${earthquake.dep}km` : depthFromCoords,
+        maxIntensity: earthquake.maxi,
+        reportedDateTime: earthquake.rdt,
+        title: earthquake.en_ttl || earthquake.ttl,
+        coordinates: earthquake.cod,
+        areaCode: earthquake.acd,
+        jsonFile: earthquake.json
+      };
+    });
     
     // 데이터 디렉토리 생성
     if (!fs.existsSync(DATA_DIR)) {

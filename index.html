@@ -236,6 +236,18 @@
                         </select>
                     </div>
                     
+                    <div class="filter-group">
+                        <label class="filter-label" for="depthFilter">깊이:</label>
+                        <select id="depthFilter" class="filter-select">
+                            <option value="all">전체 깊이</option>
+                            <option value="0-10">0-10km (얕은)</option>
+                            <option value="11-50">11-50km</option>
+                            <option value="51-100">51-100km</option>
+                            <option value="101-200">101-200km</option>
+                            <option value="201+">201km+ (깊은)</option>
+                        </select>
+                    </div>
+                    
                     <button id="applyFilter" class="filter-button">필터 적용</button>
                     <button id="resetFilter" class="filter-button reset">초기화</button>
                     
@@ -367,6 +379,7 @@
         function filterData() {
             const magnitudeFilter = document.getElementById('magnitudeFilter').value;
             const dateFilter = document.getElementById('dateFilter').value;
+            const depthFilter = document.getElementById('depthFilter').value;
             
             let filtered = [...allEarthquakeData];
             
@@ -391,6 +404,28 @@
                 });
             }
             
+            // 깊이 필터링
+            if (depthFilter !== 'all') {
+                filtered = filtered.filter(eq => {
+                    const depth = parseInt(eq.depth) || 0;
+                    
+                    switch (depthFilter) {
+                        case '0-10':
+                            return depth >= 0 && depth <= 10;
+                        case '11-50':
+                            return depth >= 11 && depth <= 50;
+                        case '51-100':
+                            return depth >= 51 && depth <= 100;
+                        case '101-200':
+                            return depth >= 101 && depth <= 200;
+                        case '201+':
+                            return depth > 200;
+                        default:
+                            return true;
+                    }
+                });
+            }
+            
             return filtered;
         }
         
@@ -412,6 +447,7 @@
         function resetFilters() {
             document.getElementById('magnitudeFilter').value = 'all';
             document.getElementById('dateFilter').value = 'all';
+            document.getElementById('depthFilter').value = 'all';
             
             filteredData = [...allEarthquakeData];
             
@@ -429,9 +465,10 @@
         function updateFilterStatus() {
             const magnitudeFilter = document.getElementById('magnitudeFilter').value;
             const dateFilter = document.getElementById('dateFilter').value;
+            const depthFilter = document.getElementById('depthFilter').value;
             const statusElement = document.getElementById('filterStatus');
             
-            if (magnitudeFilter !== 'all' || dateFilter !== 'all') {
+            if (magnitudeFilter !== 'all' || dateFilter !== 'all' || depthFilter !== 'all') {
                 let statusText = `필터 적용 (${filteredData.length}/${allEarthquakeData.length}건)`;
                 statusElement.textContent = statusText;
                 statusElement.style.display = 'block';
