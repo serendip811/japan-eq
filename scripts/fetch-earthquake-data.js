@@ -5,6 +5,7 @@ const moment = require('moment');
 
 const JMA_API_URL = 'https://www.jma.go.jp/bosai/quake/data/list.json';
 const DATA_DIR = path.join(__dirname, '../data');
+const MONTHLY_DIR = path.join(DATA_DIR, 'monthly');
 
 async function fetchEarthquakeData() {
   try {
@@ -32,29 +33,31 @@ async function fetchEarthquakeData() {
     if (!fs.existsSync(DATA_DIR)) {
       fs.mkdirSync(DATA_DIR, { recursive: true });
     }
+    if (!fs.existsSync(MONTHLY_DIR)) {
+      fs.mkdirSync(MONTHLY_DIR, { recursive: true });
+    }
     
-    // 현재 시간으로 파일명 생성
+    // 월별 데이터 저장
+    await saveMonthlyData(earthquakes);
+    
+    // 전체 데이터 병합 및 저장
+    const allData = await mergeAllMonthlyData();
+    
+    // 최신 데이터 파일로 저장
+    const latestFilepath = path.join(DATA_DIR, 'latest.json');
+    fs.writeFileSync(latestFilepath, JSON.stringify(allData, null, 2));
+    
+    // 백업용 타임스탬프 파일도 저장
     const timestamp = moment().format('YYYY-MM-DD_HH-mm-ss');
     const filename = `earthquakes_${timestamp}.json`;
     const filepath = path.join(DATA_DIR, filename);
+    fs.writeFileSync(filepath, JSON.stringify(allData, null, 2));
     
-    // 데이터 저장
-    const data = {
-      fetchedAt: moment().toISOString(),
-      count: earthquakes.length,
-      earthquakes
-    };
-    
-    fs.writeFileSync(filepath, JSON.stringify(data, null, 2));
-    
-    // 최신 데이터 파일로도 저장
-    const latestFilepath = path.join(DATA_DIR, 'latest.json');
-    fs.writeFileSync(latestFilepath, JSON.stringify(data, null, 2));
-    
-    console.log(`${earthquakes.length}개의 지진 데이터를 수집했습니다.`);
+    console.log(`${earthquakes.length}개의 새로운 지진 데이터를 수집했습니다.`);
+    console.log(`전체 데이터 수: ${allData.count}개`);
     console.log(`파일 저장: ${filepath}`);
     
-    return data;
+    return allData;
     
   } catch (error) {
     console.error('지진 데이터 수집 중 오류 발생:', error);
@@ -87,7 +90,109 @@ if (require.main === module) {
     });
 }
 
+// 월별 데이터 저장 함수
+async function saveMonthlyData(earthquakes) {
+  const monthlyGroups = {};
+  
+  // 월별로 그룹화
+  earthquakes.forEach(eq => {
+    const month = moment(eq.dateTime).format('YYYY-MM');
+    if (!monthlyGroups[month]) {
+      monthlyGroups[month] = [];
+    }
+    monthlyGroups[month].push(eq);
+  });
+  
+  // 각 월별 데이터 저장
+  for (const [month, data] of Object.entries(monthlyGroups)) {
+    const monthlyFilepath = path.join(MONTHLY_DIR, `${month}.json`);
+    
+    let existingData = [];
+    if (fs.existsSync(monthlyFilepath)) {
+      try {
+        const existingFile = fs.readFileSync(monthlyFilepath, 'utf8');
+        const existingJson = JSON.parse(existingFile);
+        existingData = existingJson.earthquakes || [];
+      } catch (error) {
+        console.warn(`기존 월별 데이터 로드 실패 (${month}):`, error);
+      }
+    }
+    
+    // 중복 제거 (eventID 기준)
+    const existingIds = new Set(existingData.map(eq => eq.eventID));
+    const newData = data.filter(eq => !existingIds.has(eq.eventID));
+    
+    if (newData.length > 0) {
+      const mergedData = [...existingData, ...newData];
+      const monthlyData = {
+        month,
+        fetchedAt: moment().toISOString(),
+        count: mergedData.length,
+        earthquakes: mergedData.sort((a, b) => new Date(b.dateTime) - new Date(a.dateTime))
+      };
+      
+      fs.writeFileSync(monthlyFilepath, JSON.stringify(monthlyData, null, 2));
+      console.log(`${month} 월별 데이터 저장: ${newData.length}개 새로운 데이터, 총 ${mergedData.length}개`);
+    } else {
+      console.log(`${month} 월별 데이터: 새로운 데이터 없음`);
+    }
+  }
+}
+
+// 전체 월별 데이터 병합 함수
+async function mergeAllMonthlyData() {
+  const allEarthquakes = [];
+  
+  if (!fs.existsSync(MONTHLY_DIR)) {
+    return {
+      fetchedAt: moment().toISOString(),
+      count: 0,
+      earthquakes: []
+    };
+  }
+  
+  const monthlyFiles = fs.readdirSync(MONTHLY_DIR)
+    .filter(file => file.endsWith('.json'))
+    .sort((a, b) => b.localeCompare(a)); // 최신 월부터 정렬
+  
+  for (const file of monthlyFiles) {
+    try {
+      const filepath = path.join(MONTHLY_DIR, file);
+      const fileContent = fs.readFileSync(filepath, 'utf8');
+      const monthlyData = JSON.parse(fileContent);
+      
+      if (monthlyData.earthquakes) {
+        allEarthquakes.push(...monthlyData.earthquakes);
+      }
+    } catch (error) {
+      console.warn(`월별 데이터 로드 실패 (${file}):`, error);
+    }
+  }
+  
+  // 중복 제거 및 정렬
+  const uniqueEarthquakes = [];
+  const seenIds = new Set();
+  
+  for (const eq of allEarthquakes) {
+    if (!seenIds.has(eq.eventID)) {
+      seenIds.add(eq.eventID);
+      uniqueEarthquakes.push(eq);
+    }
+  }
+  
+  uniqueEarthquakes.sort((a, b) => new Date(b.dateTime) - new Date(a.dateTime));
+  
+  return {
+    fetchedAt: moment().toISOString(),
+    count: uniqueEarthquakes.length,
+    earthquakes: uniqueEarthquakes,
+    monthlyFiles: monthlyFiles.length
+  };
+}
+
 module.exports = {
   fetchEarthquakeData,
-  fetchDetailData
+  fetchDetailData,
+  saveMonthlyData,
+  mergeAllMonthlyData
 };
