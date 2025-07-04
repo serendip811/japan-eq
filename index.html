@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>일본 지진 데이터 시각화</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        
+        .header-info {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #ecf0f1;
+            border-radius: 8px;
+        }
+        
+        .chart-section {
+            margin-bottom: 50px;
+        }
+        
+        .chart-title {
+            font-size: 1.8em;
+            color: #34495e;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        
+        .chart-container {
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        .data-table th,
+        .data-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .data-table th {
+            background-color: #3498db;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .data-table tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .magnitude-high {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        .magnitude-medium {
+            color: #f39c12;
+            font-weight: bold;
+        }
+        
+        .magnitude-low {
+            color: #27ae60;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            border-radius: 8px;
+        }
+        
+        .update-info {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌏 일본 지진 데이터 시각화</h1>
+        
+        <div class="header-info">
+            <p><strong>실시간 지진 정보를 시각화하여 제공합니다</strong></p>
+            <p>데이터 출처: <a href="https://www.data.jma.go.jp/multi/quake/index.html?lang=kr">일본 기상청</a></p>
+        </div>
+        
+        <div id="loading" class="loading">
+            데이터를 불러오는 중...
+        </div>
+        
+        <div id="content" style="display: none;">
+            <div class="update-info">
+                <span id="lastUpdate">마지막 업데이트: -</span>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">📊 규모별 지진 발생 횟수</h2>
+                <div class="chart-container">
+                    <iframe id="magnitudeChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">⏰ 시간대별 지진 발생 분포</h2>
+                <div class="chart-container">
+                    <iframe id="timeChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">🗾 지역별 지진 발생 횟수</h2>
+                <div class="chart-container">
+                    <iframe id="regionChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">🔍 깊이별 지진 분포</h2>
+                <div class="chart-container">
+                    <iframe id="depthChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                </div>
+            </div>
+            
+            <div class="chart-section">
+                <h2 class="chart-title">📋 최근 지진 목록</h2>
+                <div class="chart-container">
+                    <table class="data-table" id="earthquakeTable">
+                        <thead>
+                            <tr>
+                                <th>발생시각</th>
+                                <th>진앙지</th>
+                                <th>규모</th>
+                                <th>깊이</th>
+                                <th>최대진도</th>
+                            </tr>
+                        </thead>
+                        <tbody id="earthquakeTableBody">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>🔄 데이터는 매시간 자동으로 업데이트됩니다</p>
+            <p>GitHub Actions를 통해 자동으로 수집 및 처리됩니다</p>
+        </div>
+    </div>
+    
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('./data/latest.json');
+                const data = await response.json();
+                
+                // 업데이트 시간 표시
+                document.getElementById('lastUpdate').textContent = 
+                    `마지막 업데이트: ${new Date(data.fetchedAt).toLocaleString('ko-KR')}`;
+                
+                // 차트 로드
+                loadCharts();
+                
+                // 테이블 생성
+                createEarthquakeTable(data.earthquakes);
+                
+                // 로딩 숨기고 컨텐츠 표시
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('content').style.display = 'block';
+                
+            } catch (error) {
+                console.error('데이터 로드 실패:', error);
+                document.getElementById('loading').innerHTML = '데이터를 불러올 수 없습니다.';
+            }
+        }
+        
+        function loadCharts() {
+            // Mermaid 차트를 iframe으로 로드
+            const charts = ['magnitude', 'time', 'region', 'depth'];
+            
+            charts.forEach(chart => {
+                const iframe = document.getElementById(chart + 'Chart');
+                iframe.src = `./charts/${chart}-chart.md`;
+            });
+        }
+        
+        function createEarthquakeTable(earthquakes) {
+            const tbody = document.getElementById('earthquakeTableBody');
+            tbody.innerHTML = '';
+            
+            earthquakes.slice(0, 20).forEach(eq => {
+                const row = document.createElement('tr');
+                
+                // 규모에 따른 색상 클래스 결정
+                let magnitudeClass = 'magnitude-low';
+                if (eq.magnitude >= 6.0) magnitudeClass = 'magnitude-high';
+                else if (eq.magnitude >= 4.0) magnitudeClass = 'magnitude-medium';
+                
+                row.innerHTML = `
+                    <td>${eq.dateTime}</td>
+                    <td>${eq.epicenter}</td>
+                    <td class="${magnitudeClass}">${eq.magnitude}</td>
+                    <td>${eq.depth}km</td>
+                    <td>${eq.maxIntensity}</td>
+                `;
+                
+                tbody.appendChild(row);
+            });
+        }
+        
+        // 페이지 로드 시 데이터 로드
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
