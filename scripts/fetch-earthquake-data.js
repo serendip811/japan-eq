@@ -21,13 +21,12 @@ async function fetchEarthquakeData() {
     const earthquakeList = response.data;
     
     const earthquakes = earthquakeList.map(earthquake => {
-      // coordinates에서 깊이 정보 추출 (예: "+29.4+129.3-20000/" -> 20km)
-      let depthFromCoords = '';
+      // coordinates에서 깊이 정보 추출 (예: "+29.4+129.3-20000/" -> 20)
+      let depthFromCoords = null;
       if (earthquake.cod && earthquake.cod.includes('-')) {
         const coordMatch = earthquake.cod.match(/([+-]\d+\.\d+)([+-]\d+\.\d+)([+-]\d+)/);
         if (coordMatch && coordMatch[3]) {
-          const depthValue = Math.abs(parseInt(coordMatch[3])) / 1000; // -20000 -> 20
-          depthFromCoords = `${depthValue}km`;
+          depthFromCoords = Math.abs(parseInt(coordMatch[3])) / 1000; // -20000 -> 20
         }
       }
       
@@ -37,7 +36,7 @@ async function fetchEarthquakeData() {
         epicenter: earthquake.en_anm || earthquake.anm,
         epicenterKr: getKoreanEpicenter(earthquake.en_anm || earthquake.anm),
         magnitude: earthquake.mag,
-        depth: earthquake.dep ? `${earthquake.dep}km` : depthFromCoords,
+        depth: earthquake.dep ? parseFloat(earthquake.dep) : depthFromCoords,
         maxIntensity: earthquake.maxi,
         reportedDateTime: earthquake.rdt,
         title: earthquake.en_ttl || earthquake.ttl,
