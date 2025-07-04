@@ -116,6 +116,78 @@
             font-size: 1.2em;
             color: #7f8c8d;
         }
+        
+        .filter-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border: 2px solid #e9ecef;
+        }
+        
+        .filter-controls {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .filter-label {
+            font-weight: bold;
+            color: #2c3e50;
+            min-width: 80px;
+        }
+        
+        .filter-select {
+            padding: 8px 12px;
+            border: 2px solid #bdc3c7;
+            border-radius: 5px;
+            font-size: 14px;
+            background: white;
+            min-width: 120px;
+        }
+        
+        .filter-select:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .filter-button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .filter-button:hover {
+            background: #2980b9;
+        }
+        
+        .filter-button.reset {
+            background: #95a5a6;
+        }
+        
+        .filter-button.reset:hover {
+            background: #7f8c8d;
+        }
+        
+        .filter-status {
+            background: #e8f5e8;
+            color: #27ae60;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+        }
     </style>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
@@ -135,6 +207,42 @@
         <div id="content" style="display: none;">
             <div class="update-info">
                 <span id="lastUpdate">마지막 업데이트: -</span>
+            </div>
+            
+            <div class="filter-section">
+                <h3 style="margin-top: 0; color: #2c3e50;">🔍 데이터 필터링</h3>
+                <div class="filter-controls">
+                    <div class="filter-group">
+                        <label class="filter-label" for="magnitudeFilter">진도 범위:</label>
+                        <select id="magnitudeFilter" class="filter-select">
+                            <option value="all">전체 보기</option>
+                            <option value="1">1.0 이상</option>
+                            <option value="2">2.0 이상</option>
+                            <option value="3">3.0 이상</option>
+                            <option value="4">4.0 이상</option>
+                            <option value="5">5.0 이상</option>
+                            <option value="6">6.0 이상</option>
+                            <option value="7">7.0 이상</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label class="filter-label" for="dateFilter">기간:</label>
+                        <select id="dateFilter" class="filter-select">
+                            <option value="all">전체 기간</option>
+                            <option value="7">최근 7일</option>
+                            <option value="30">최근 30일</option>
+                            <option value="90">최근 90일</option>
+                        </select>
+                    </div>
+                    
+                    <button id="applyFilter" class="filter-button">필터 적용</button>
+                    <button id="resetFilter" class="filter-button reset">초기화</button>
+                    
+                    <div id="filterStatus" class="filter-status" style="display: none;">
+                        필터 적용됨
+                    </div>
+                </div>
             </div>
             
             <div class="chart-section">
@@ -213,20 +321,31 @@
     </div>
     
     <script>
+        // 전역 변수
+        let allEarthquakeData = [];
+        let filteredData = [];
+        
         async function loadData() {
             try {
                 const response = await fetch('./data/latest.json');
                 const data = await response.json();
                 
+                // 전역 데이터 저장
+                allEarthquakeData = data.earthquakes;
+                filteredData = [...allEarthquakeData];
+                
                 // 업데이트 시간 표시
                 document.getElementById('lastUpdate').textContent = 
                     `마지막 업데이트: ${new Date(data.fetchedAt).toLocaleString('ko-KR')}`;
+                
+                // 필터 이벤트 리스너 추가
+                setupFilterEventListeners();
                 
                 // 차트 로드
                 await loadCharts();
                 
                 // 테이블 생성
-                createEarthquakeTable(data.earthquakes);
+                createEarthquakeTable(filteredData);
                 
                 // 로딩 숨기고 컨텐츠 표시
                 document.getElementById('loading').style.display = 'none';
@@ -238,22 +357,112 @@
             }
         }
         
+        // 필터 이벤트 리스너 설정
+        function setupFilterEventListeners() {
+            document.getElementById('applyFilter').addEventListener('click', applyFilters);
+            document.getElementById('resetFilter').addEventListener('click', resetFilters);
+        }
+        
+        // 데이터 필터링 함수
+        function filterData() {
+            const magnitudeFilter = document.getElementById('magnitudeFilter').value;
+            const dateFilter = document.getElementById('dateFilter').value;
+            
+            let filtered = [...allEarthquakeData];
+            
+            // 진도 필터링
+            if (magnitudeFilter !== 'all') {
+                const minMagnitude = parseFloat(magnitudeFilter);
+                filtered = filtered.filter(eq => {
+                    const magnitude = parseFloat(eq.magnitude) || 0;
+                    return magnitude >= minMagnitude;
+                });
+            }
+            
+            // 날짜 필터링
+            if (dateFilter !== 'all') {
+                const daysAgo = parseInt(dateFilter);
+                const cutoffDate = new Date();
+                cutoffDate.setDate(cutoffDate.getDate() - daysAgo);
+                
+                filtered = filtered.filter(eq => {
+                    const eqDate = new Date(eq.dateTime);
+                    return eqDate >= cutoffDate;
+                });
+            }
+            
+            return filtered;
+        }
+        
+        // 필터 적용
+        function applyFilters() {
+            filteredData = filterData();
+            
+            // 모든 차트 업데이트
+            updateAllCharts();
+            
+            // 테이블 업데이트
+            createEarthquakeTable(filteredData);
+            
+            // 필터 상태 표시
+            updateFilterStatus();
+        }
+        
+        // 필터 초기화
+        function resetFilters() {
+            document.getElementById('magnitudeFilter').value = 'all';
+            document.getElementById('dateFilter').value = 'all';
+            
+            filteredData = [...allEarthquakeData];
+            
+            // 모든 차트 업데이트
+            updateAllCharts();
+            
+            // 테이블 업데이트
+            createEarthquakeTable(filteredData);
+            
+            // 필터 상태 숨기기
+            document.getElementById('filterStatus').style.display = 'none';
+        }
+        
+        // 필터 상태 업데이트
+        function updateFilterStatus() {
+            const magnitudeFilter = document.getElementById('magnitudeFilter').value;
+            const dateFilter = document.getElementById('dateFilter').value;
+            const statusElement = document.getElementById('filterStatus');
+            
+            if (magnitudeFilter !== 'all' || dateFilter !== 'all') {
+                let statusText = `필터 적용 (${filteredData.length}/${allEarthquakeData.length}건)`;
+                statusElement.textContent = statusText;
+                statusElement.style.display = 'block';
+            } else {
+                statusElement.style.display = 'none';
+            }
+        }
+        
+        // 모든 차트 업데이트
+        function updateAllCharts() {
+            createMagnitudeChart(filteredData);
+            createRegionChart(filteredData);
+            createDepthChart(filteredData);
+            createDailyFrequencyChart(filteredData);
+            createTrendChart(filteredData);
+            create3DMapChart(filteredData);
+            createHeatmapChart(filteredData);
+        }
+        
         async function loadCharts() {
             try {
-                // 차트 데이터 로드
-                const response = await fetch('./data/latest.json');
-                const data = await response.json();
-                
-                // 각 차트 생성
-                createMagnitudeChart(data.earthquakes);
-                createRegionChart(data.earthquakes);
-                createDepthChart(data.earthquakes);
+                // 각 차트 생성 (filteredData 사용)
+                createMagnitudeChart(filteredData);
+                createRegionChart(filteredData);
+                createDepthChart(filteredData);
                 
                 // 새로운 고급 차트 생성
-                createDailyFrequencyChart(data.earthquakes);
-                createTrendChart(data.earthquakes);
-                create3DMapChart(data.earthquakes);
-                createHeatmapChart(data.earthquakes);
+                createDailyFrequencyChart(filteredData);
+                createTrendChart(filteredData);
+                create3DMapChart(filteredData);
+                createHeatmapChart(filteredData);
                 
             } catch (error) {
                 console.error('차트 로드 실패:', error);
