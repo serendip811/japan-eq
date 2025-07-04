@@ -297,7 +297,7 @@
             const regionCounts = {};
             
             earthquakes.forEach(eq => {
-                const region = eq.epicenter || '기타';
+                const region = eq.epicenterKr || eq.epicenter || '기타';
                 regionCounts[region] = (regionCounts[region] || 0) + 1;
             });
             
@@ -365,7 +365,7 @@
                 
                 row.innerHTML = `
                     <td>${eq.dateTime}</td>
-                    <td>${eq.epicenter}</td>
+                    <td>${eq.epicenterKr || eq.epicenter}</td>
                     <td class="${magnitudeClass}">${eq.magnitude}</td>
                     <td>${eq.depth}km</td>
                     <td>${eq.maxIntensity}</td>

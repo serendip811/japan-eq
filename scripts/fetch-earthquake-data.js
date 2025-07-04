@@ -4,12 +4,17 @@ const path = require('path');
 const moment = require('moment');
 
 const JMA_API_URL = 'https://www.jma.go.jp/bosai/quake/data/list.json';
+const EPI_DICT_URL = 'https://www.data.jma.go.jp/multi/data/dictionary/epi.json';
 const DATA_DIR = path.join(__dirname, '../data');
 const MONTHLY_DIR = path.join(DATA_DIR, 'monthly');
+const EPI_DICT_PATH = path.join(DATA_DIR, 'epi-dictionary.json');
 
 async function fetchEarthquakeData() {
   try {
     console.log('지진 데이터 수집 시작...');
+    
+    // 진앙지 사전 업데이트
+    await fetchEpicenters();
     
     // JMA API에서 지진 목록 가져오기
     const response = await axios.get(JMA_API_URL);
@@ -19,6 +24,7 @@ async function fetchEarthquakeData() {
       eventID: earthquake.eid,
       dateTime: moment(earthquake.at).format('YYYY-MM-DD HH:mm:ss'),
       epicenter: earthquake.en_anm || earthquake.anm,
+      epicenterKr: getKoreanEpicenter(earthquake.en_anm || earthquake.anm),
       magnitude: earthquake.mag,
       depth: earthquake.dep ? `${earthquake.dep}km` : '',
       maxIntensity: earthquake.maxi,
@@ -190,9 +196,63 @@ async function mergeAllMonthlyData() {
   };
 }
 
+// 진앙지 사전 가져오기 함수
+async function fetchEpicenters() {
+  try {
+    // 이미 최신 사전이 있는지 확인 (1일 캐시)
+    if (fs.existsSync(EPI_DICT_PATH)) {
+      const stats = fs.statSync(EPI_DICT_PATH);
+      const ageInHours = (Date.now() - stats.mtime.getTime()) / (1000 * 60 * 60);
+      if (ageInHours < 24) {
+        console.log('진앙지 사전이 최신입니다.');
+        return;
+      }
+    }
+    
+    console.log('진앙지 사전 업데이트 중...');
+    const response = await axios.get(EPI_DICT_URL);
+    fs.writeFileSync(EPI_DICT_PATH, JSON.stringify(response.data, null, 2));
+    console.log('진앙지 사전 업데이트 완료');
+  } catch (error) {
+    console.error('진앙지 사전 업데이트 실패:', error);
+  }
+}
+
+// 영어 진앙지명을 한국어로 변환하는 함수
+function getKoreanEpicenter(englishName) {
+  try {
+    if (!fs.existsSync(EPI_DICT_PATH)) {
+      return englishName;
+    }
+    
+    const epiDict = JSON.parse(fs.readFileSync(EPI_DICT_PATH, 'utf8'));
+    
+    // 정확히 일치하는 항목 찾기
+    for (const [code, location] of Object.entries(epiDict)) {
+      if (location.english === englishName) {
+        return location.korean || englishName;
+      }
+    }
+    
+    // 부분 일치 검색 (키워드 포함)
+    for (const [code, location] of Object.entries(epiDict)) {
+      if (location.english && englishName.includes(location.english)) {
+        return location.korean || englishName;
+      }
+    }
+    
+    return englishName;
+  } catch (error) {
+    console.error('진앙지 변환 실패:', error);
+    return englishName;
+  }
+}
+
 module.exports = {
   fetchEarthquakeData,
   fetchDetailData,
   saveMonthlyData,
-  mergeAllMonthlyData
+  mergeAllMonthlyData,
+  fetchEpicenters,
+  getKoreanEpicenter
 };
