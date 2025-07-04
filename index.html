@@ -117,6 +117,7 @@
             color: #7f8c8d;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -139,28 +140,28 @@
             <div class="chart-section">
                 <h2 class="chart-title">📊 규모별 지진 발생 횟수</h2>
                 <div class="chart-container">
-                    <iframe id="magnitudeChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                    <div id="magnitudeChart"></div>
                 </div>
             </div>
             
             <div class="chart-section">
                 <h2 class="chart-title">⏰ 시간대별 지진 발생 분포</h2>
                 <div class="chart-container">
-                    <iframe id="timeChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                    <div id="timeChart"></div>
                 </div>
             </div>
             
             <div class="chart-section">
                 <h2 class="chart-title">🗾 지역별 지진 발생 횟수</h2>
                 <div class="chart-container">
-                    <iframe id="regionChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                    <div id="regionChart"></div>
                 </div>
             </div>
             
             <div class="chart-section">
                 <h2 class="chart-title">🔍 깊이별 지진 분포</h2>
                 <div class="chart-container">
-                    <iframe id="depthChart" width="100%" height="400" frameborder="0" style="border: none;"></iframe>
+                    <div id="depthChart"></div>
                 </div>
             </div>
             
@@ -201,7 +202,7 @@
                     `마지막 업데이트: ${new Date(data.fetchedAt).toLocaleString('ko-KR')}`;
                 
                 // 차트 로드
-                loadCharts();
+                await loadCharts();
                 
                 // 테이블 생성
                 createEarthquakeTable(data.earthquakes);
@@ -216,13 +217,137 @@
             }
         }
         
-        function loadCharts() {
-            // Mermaid 차트를 iframe으로 로드
-            const charts = ['magnitude', 'time', 'region', 'depth'];
+        async function loadCharts() {
+            try {
+                // Mermaid 초기화
+                mermaid.initialize({ startOnLoad: false });
+                
+                // 차트 데이터 로드
+                const response = await fetch('./data/latest.json');
+                const data = await response.json();
+                
+                // 각 차트 생성
+                createMagnitudeChart(data.earthquakes);
+                createTimeChart(data.earthquakes);
+                createRegionChart(data.earthquakes);
+                createDepthChart(data.earthquakes);
+                
+            } catch (error) {
+                console.error('차트 로드 실패:', error);
+            }
+        }
+        
+        function createMagnitudeChart(earthquakes) {
+            const magnitudeRanges = {
+                '1.0-2.9': 0,
+                '3.0-3.9': 0,
+                '4.0-4.9': 0,
+                '5.0-5.9': 0,
+                '6.0-6.9': 0,
+                '7.0+': 0
+            };
             
-            charts.forEach(chart => {
-                const iframe = document.getElementById(chart + 'Chart');
-                iframe.src = `./charts/${chart}-chart.md`;
+            earthquakes.forEach(eq => {
+                const mag = parseFloat(eq.magnitude) || 0;
+                if (mag >= 7.0) magnitudeRanges['7.0+']++;
+                else if (mag >= 6.0) magnitudeRanges['6.0-6.9']++;
+                else if (mag >= 5.0) magnitudeRanges['5.0-5.9']++;
+                else if (mag >= 4.0) magnitudeRanges['4.0-4.9']++;
+                else if (mag >= 3.0) magnitudeRanges['3.0-3.9']++;
+                else magnitudeRanges['1.0-2.9']++;
+            });
+            
+            const chartDef = `
+                xychart-beta
+                title "규모별 지진 발생 횟수"
+                x-axis [${Object.keys(magnitudeRanges).map(k => `"${k}"`).join(', ')}]
+                y-axis "발생 횟수"
+                bar [${Object.values(magnitudeRanges).join(', ')}]
+            `;
+            
+            const element = document.getElementById('magnitudeChart');
+            mermaid.render('magnitudeChart-svg', chartDef).then(result => {
+                element.innerHTML = result.svg;
+            });
+        }
+        
+        function createTimeChart(earthquakes) {
+            const hourCounts = new Array(24).fill(0);
+            
+            earthquakes.forEach(eq => {
+                const hour = new Date(eq.dateTime).getHours();
+                hourCounts[hour]++;
+            });
+            
+            const chartDef = `
+                xychart-beta
+                title "시간대별 지진 발생 분포"
+                x-axis [${Array.from({length: 24}, (_, i) => `"${i}시"`).join(', ')}]
+                y-axis "발생 횟수"
+                line [${hourCounts.join(', ')}]
+            `;
+            
+            const element = document.getElementById('timeChart');
+            mermaid.render('timeChart-svg', chartDef).then(result => {
+                element.innerHTML = result.svg;
+            });
+        }
+        
+        function createRegionChart(earthquakes) {
+            const regionCounts = {};
+            
+            earthquakes.forEach(eq => {
+                const region = eq.epicenter || '기타';
+                regionCounts[region] = (regionCounts[region] || 0) + 1;
+            });
+            
+            const sortedRegions = Object.entries(regionCounts)
+                .sort(([,a], [,b]) => b - a)
+                .slice(0, 10);
+            
+            const chartDef = `
+                xychart-beta
+                title "지역별 지진 발생 횟수 (Top 10)"
+                x-axis [${sortedRegions.map(([region]) => `"${region}"`).join(', ')}]
+                y-axis "발생 횟수"
+                bar [${sortedRegions.map(([,count]) => count).join(', ')}]
+            `;
+            
+            const element = document.getElementById('regionChart');
+            mermaid.render('regionChart-svg', chartDef).then(result => {
+                element.innerHTML = result.svg;
+            });
+        }
+        
+        function createDepthChart(earthquakes) {
+            const depthRanges = {
+                '0-10km': 0,
+                '11-50km': 0,
+                '51-100km': 0,
+                '101-200km': 0,
+                '201km+': 0
+            };
+            
+            earthquakes.forEach(eq => {
+                const depth = parseInt(eq.depth) || 0;
+                if (depth > 200) depthRanges['201km+']++;
+                else if (depth > 100) depthRanges['101-200km']++;
+                else if (depth > 50) depthRanges['51-100km']++;
+                else if (depth > 10) depthRanges['11-50km']++;
+                else depthRanges['0-10km']++;
+            });
+            
+            const chartDef = `
+                xychart-beta
+                title "깊이별 지진 분포"
+                x-axis [${Object.keys(depthRanges).map(k => `"${k}"`).join(', ')}]
+                y-axis "발생 횟수"
+                bar [${Object.values(depthRanges).join(', ')}]
+            `;
+            
+            const element = document.getElementById('depthChart');
+            mermaid.render('depthChart-svg', chartDef).then(result => {
+                element.innerHTML = result.svg;
             });
         }
         
