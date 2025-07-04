@@ -117,7 +117,6 @@
             color: #7f8c8d;
         }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
@@ -141,28 +140,21 @@
             <div class="chart-section">
                 <h2 class="chart-title">📊 규모별 지진 발생 횟수</h2>
                 <div class="chart-container">
-                    <div id="magnitudeChart"></div>
-                </div>
-            </div>
-            
-            <div class="chart-section">
-                <h2 class="chart-title">⏰ 시간대별 지진 발생 분포</h2>
-                <div class="chart-container">
-                    <div id="timeChart"></div>
+                    <div id="magnitudeChart" style="height: 400px;"></div>
                 </div>
             </div>
             
             <div class="chart-section">
                 <h2 class="chart-title">🗾 지역별 지진 발생 횟수</h2>
                 <div class="chart-container">
-                    <div id="regionChart"></div>
+                    <div id="regionChart" style="height: 400px;"></div>
                 </div>
             </div>
             
             <div class="chart-section">
                 <h2 class="chart-title">🔍 깊이별 지진 분포</h2>
                 <div class="chart-container">
-                    <div id="depthChart"></div>
+                    <div id="depthChart" style="height: 400px;"></div>
                 </div>
             </div>
             
@@ -188,7 +180,7 @@
             </div>
             
             <div class="chart-section">
-                <h2 class="chart-title">🔥 지진 발생 히트맵</h2>
+                <h2 class="chart-title">🔥 월별 지진 발생 히트맵</h2>
                 <div class="chart-container">
                     <div id="heatmapChart" style="height: 400px;"></div>
                 </div>
@@ -248,16 +240,12 @@
         
         async function loadCharts() {
             try {
-                // Mermaid 초기화
-                mermaid.initialize({ startOnLoad: false });
-                
                 // 차트 데이터 로드
                 const response = await fetch('./data/latest.json');
                 const data = await response.json();
                 
                 // 각 차트 생성
                 createMagnitudeChart(data.earthquakes);
-                createTimeChart(data.earthquakes);
                 createRegionChart(data.earthquakes);
                 createDepthChart(data.earthquakes);
                 
@@ -292,40 +280,25 @@
                 else magnitudeRanges['1.0-2.9']++;
             });
             
-            const chartDef = `
-                xychart-beta
-                title "규모별 지진 발생 횟수"
-                x-axis [${Object.keys(magnitudeRanges).map(k => `"${k}"`).join(', ')}]
-                y-axis "발생 횟수"
-                bar [${Object.values(magnitudeRanges).join(', ')}]
-            `;
+            const trace = {
+                x: Object.keys(magnitudeRanges),
+                y: Object.values(magnitudeRanges),
+                type: 'bar',
+                marker: {
+                    color: ['#2ecc71', '#3498db', '#f1c40f', '#e67e22', '#e74c3c', '#8e44ad']
+                }
+            };
             
-            const element = document.getElementById('magnitudeChart');
-            mermaid.render('magnitudeChart-svg', chartDef).then(result => {
-                element.innerHTML = result.svg;
-            });
-        }
-        
-        function createTimeChart(earthquakes) {
-            const hourCounts = new Array(24).fill(0);
+            const layout = {
+                title: '규모별 지진 발생 횟수',
+                xaxis: { title: '지진 규모' },
+                yaxis: { title: '발생 횟수' },
+                showlegend: false,
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)'
+            };
             
-            earthquakes.forEach(eq => {
-                const hour = new Date(eq.dateTime).getHours();
-                hourCounts[hour]++;
-            });
-            
-            const chartDef = `
-                xychart-beta
-                title "시간대별 지진 발생 분포"
-                x-axis [${Array.from({length: 24}, (_, i) => `"${i}시"`).join(', ')}]
-                y-axis "발생 횟수"
-                line [${hourCounts.join(', ')}]
-            `;
-            
-            const element = document.getElementById('timeChart');
-            mermaid.render('timeChart-svg', chartDef).then(result => {
-                element.innerHTML = result.svg;
-            });
+            Plotly.newPlot('magnitudeChart', [trace], layout, {responsive: true});
         }
         
         function createRegionChart(earthquakes) {
@@ -340,18 +313,25 @@
                 .sort(([,a], [,b]) => b - a)
                 .slice(0, 10);
             
-            const chartDef = `
-                xychart-beta
-                title "지역별 지진 발생 횟수 (Top 10)"
-                x-axis [${sortedRegions.map(([region]) => `"${region}"`).join(', ')}]
-                y-axis "발생 횟수"
-                bar [${sortedRegions.map(([,count]) => count).join(', ')}]
-            `;
+            const trace = {
+                x: sortedRegions.map(([region]) => region),
+                y: sortedRegions.map(([,count]) => count),
+                type: 'bar',
+                marker: {
+                    color: '#3498db'
+                }
+            };
             
-            const element = document.getElementById('regionChart');
-            mermaid.render('regionChart-svg', chartDef).then(result => {
-                element.innerHTML = result.svg;
-            });
+            const layout = {
+                title: '지역별 지진 발생 횟수 (Top 10)',
+                xaxis: { title: '지역' },
+                yaxis: { title: '발생 횟수' },
+                showlegend: false,
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)'
+            };
+            
+            Plotly.newPlot('regionChart', [trace], layout, {responsive: true});
         }
         
         function createDepthChart(earthquakes) {
@@ -372,18 +352,25 @@
                 else depthRanges['0-10km']++;
             });
             
-            const chartDef = `
-                xychart-beta
-                title "깊이별 지진 분포"
-                x-axis [${Object.keys(depthRanges).map(k => `"${k}"`).join(', ')}]
-                y-axis "발생 횟수"
-                bar [${Object.values(depthRanges).join(', ')}]
-            `;
+            const trace = {
+                x: Object.keys(depthRanges),
+                y: Object.values(depthRanges),
+                type: 'bar',
+                marker: {
+                    color: '#e67e22'
+                }
+            };
             
-            const element = document.getElementById('depthChart');
-            mermaid.render('depthChart-svg', chartDef).then(result => {
-                element.innerHTML = result.svg;
-            });
+            const layout = {
+                title: '깊이별 지진 분포',
+                xaxis: { title: '깊이 범위' },
+                yaxis: { title: '발생 횟수' },
+                showlegend: false,
+                paper_bgcolor: 'rgba(0,0,0,0)',
+                plot_bgcolor: 'rgba(0,0,0,0)'
+            };
+            
+            Plotly.newPlot('depthChart', [trace], layout, {responsive: true});
         }
         
         // 일자별 지진 발생 빈도 차트
@@ -532,22 +519,43 @@
             Plotly.newPlot('map3dChart', [trace], layout, {responsive: true});
         }
         
-        // 지진 발생 히트맵 (요일 vs 시간)
+        // 월별 지진 발생 히트맵 (월 vs 규모)
         function createHeatmapChart(earthquakes) {
-            const heatmapData = Array(7).fill().map(() => Array(24).fill(0));
-            const dayNames = ['일', '월', '화', '수', '목', '금', '토'];
+            const monthlyData = {};
+            const magnitudeRanges = ['1.0-2.9', '3.0-3.9', '4.0-4.9', '5.0-5.9', '6.0-6.9', '7.0+'];
             
+            // 월별로 데이터 초기화
             earthquakes.forEach(eq => {
-                const date = new Date(eq.dateTime);
-                const day = date.getDay();
-                const hour = date.getHours();
-                heatmapData[day][hour]++;
+                const month = eq.dateTime.substring(0, 7); // YYYY-MM 형태
+                if (!monthlyData[month]) {
+                    monthlyData[month] = {
+                        '1.0-2.9': 0,
+                        '3.0-3.9': 0,
+                        '4.0-4.9': 0,
+                        '5.0-5.9': 0,
+                        '6.0-6.9': 0,
+                        '7.0+': 0
+                    };
+                }
+                
+                const mag = parseFloat(eq.magnitude) || 0;
+                if (mag >= 7.0) monthlyData[month]['7.0+']++;
+                else if (mag >= 6.0) monthlyData[month]['6.0-6.9']++;
+                else if (mag >= 5.0) monthlyData[month]['5.0-5.9']++;
+                else if (mag >= 4.0) monthlyData[month]['4.0-4.9']++;
+                else if (mag >= 3.0) monthlyData[month]['3.0-3.9']++;
+                else monthlyData[month]['1.0-2.9']++;
             });
             
+            const months = Object.keys(monthlyData).sort();
+            const heatmapZ = magnitudeRanges.map(range => 
+                months.map(month => monthlyData[month][range])
+            );
+            
             const trace = {
-                z: heatmapData,
-                x: Array.from({length: 24}, (_, i) => `${i}시`),
-                y: dayNames,
+                z: heatmapZ,
+                x: months,
+                y: magnitudeRanges,
                 type: 'heatmap',
                 colorscale: [
                     [0, '#ecf0f1'],
@@ -564,9 +572,12 @@
             };
             
             const layout = {
-                title: '요일별 시간대별 지진 발생 패턴',
-                xaxis: { title: '시간' },
-                yaxis: { title: '요일' },
+                title: '월별 규모별 지진 발생 패턴',
+                xaxis: { 
+                    title: '월',
+                    tickangle: -45
+                },
+                yaxis: { title: '지진 규모' },
                 paper_bgcolor: 'rgba(0,0,0,0)',
                 plot_bgcolor: 'rgba(0,0,0,0)'
             };
