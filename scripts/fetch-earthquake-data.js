@@ -22,11 +22,18 @@ async function fetchEarthquakeData() {
     
     const earthquakes = earthquakeList.map(earthquake => {
       // coordinates에서 깊이 정보 추출 (예: "+29.4+129.3-20000/" -> 20)
-      let depthFromCoords = null;
-      if (earthquake.cod && earthquake.cod.includes('-')) {
-        const coordMatch = earthquake.cod.match(/([+-]\d+\.\d+)([+-]\d+\.\d+)([+-]\d+)/);
-        if (coordMatch && coordMatch[3]) {
-          depthFromCoords = Math.abs(parseInt(coordMatch[3])) / 1000; // -20000 -> 20
+      let lat = null;
+      let lon = null;
+      let depth = earthquake.dep ? parseFloat(earthquake.dep) : null;
+
+      if (earthquake.cod) {
+        const coordParts = earthquake.cod.replace(/\//g, '').match(/([+-]\d+\.\d+)|([+-]\d+)/g);
+        if (coordParts && coordParts.length >= 2) {
+          lat = parseFloat(coordParts[0]);
+          lon = parseFloat(coordParts[1]);
+          if (coordParts.length >= 3 && depth === null) {
+            depth = Math.abs(parseInt(coordParts[2])) / 1000;
+          }
         }
       }
       
@@ -36,7 +43,9 @@ async function fetchEarthquakeData() {
         epicenter: earthquake.en_anm || earthquake.anm,
         epicenterKr: getKoreanEpicenter(earthquake.en_anm || earthquake.anm),
         magnitude: earthquake.mag,
-        depth: earthquake.dep ? parseFloat(earthquake.dep) : depthFromCoords,
+        depth: depth,
+        lat: lat,
+        lon: lon,
         maxIntensity: earthquake.maxi,
         reportedDateTime: earthquake.rdt,
         title: earthquake.en_ttl || earthquake.ttl,

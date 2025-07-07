@@ -698,33 +698,13 @@
         
         // 3D 지진 분포 지도
         function create3DMapChart(earthquakes) {
-            const validEqs = earthquakes.filter(eq => eq.coordinates && eq.coordinates.includes('+'));
+            const validEqs = earthquakes.filter(eq => eq.lat && eq.lon);
             
-            const lats = [];
-            const lons = [];
-            const magnitudes = [];
-            const depths = [];
-            const texts = [];
-            
-            validEqs.forEach(eq => {
-                try {
-                    const coords = eq.coordinates.split('/')[0];
-                    const latMatch = coords.match(/([+-]\d+\.\d+)/g);
-                    if (latMatch && latMatch.length >= 2) {
-                        const lat = parseFloat(latMatch[0]);
-                        const lon = parseFloat(latMatch[1]);
-                        const depth = parseInt(eq.depth) || 0;
-                        
-                        lats.push(lat);
-                        lons.push(lon);
-                        magnitudes.push(parseFloat(eq.magnitude) || 0);
-                        depths.push(depth);
-                        texts.push(`${eq.epicenterKr || eq.epicenter}<br>규모: ${eq.magnitude}<br>깊이: ${eq.depth}<br>${eq.dateTime}`);
-                    }
-                } catch (error) {
-                    console.warn('좌표 파싱 실패:', eq.coordinates);
-                }
-            });
+            const lats = validEqs.map(eq => eq.lat);
+            const lons = validEqs.map(eq => eq.lon);
+            const magnitudes = validEqs.map(eq => parseFloat(eq.magnitude) || 0);
+            const depths = validEqs.map(eq => parseInt(eq.depth) || 0);
+            const texts = validEqs.map(eq => `${eq.epicenterKr || eq.epicenter}<br>규모: ${eq.magnitude}<br>깊이: ${eq.depth}km<br>${eq.dateTime}`);
             
             const trace = {
                 type: 'scatter3d',
