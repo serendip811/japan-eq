@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-10T01:32:09.814Z",
-  "count": 1017,
+  "fetchedAt": "2025-07-10T02:37:21.737Z",
+  "count": 1019,
   "earthquakes": [
+    {
+      "eventID": "20250710112105",
+      "dateTime": "2025-07-10 02:21:00",
+      "epicenter": "Suruga Bay",
+      "epicenterKr": "스루가만",
+      "magnitude": "2.5",
+      "depth": 20,
+      "lat": 35.1,
+      "lon": 138.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-10T11:24:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.1+138.6-20000/",
+      "areaCode": "485",
+      "jsonFile": "20250710112421_20250710112105_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250710110024",
+      "dateTime": "2025-07-10 02:00:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.1",
+      "depth": 20,
+      "lat": 29.3,
+      "lon": 129.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-10T11:03:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.3+129.3-20000/",
+      "areaCode": "798",
+      "jsonFile": "20250710110324_20250710110024_VXSE5k_1.json"
+    },
     {
       "eventID": "20250710093634",
       "dateTime": "2025-07-10 00:36:00",
