@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-11T14:04:22.028Z",
-  "count": 1147,
+  "fetchedAt": "2025-07-11T16:04:30.258Z",
+  "count": 1149,
   "earthquakes": [
+    {
+      "eventID": "20250712005905",
+      "dateTime": "2025-07-11 15:59:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "4.2",
+      "depth": 30,
+      "lat": 37.3,
+      "lon": 141.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-12T01:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.3+141.9-30000/",
+      "areaCode": "289",
+      "jsonFile": "20250712010223_20250712005905_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250712003050",
+      "dateTime": "2025-07-11 15:30:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.7",
+      "depth": 30,
+      "lat": 29.2,
+      "lon": 129.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-12T00:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.2+129.1-30000/",
+      "areaCode": "798",
+      "jsonFile": "20250712003441_20250712003050_VXSE5k_1.json"
+    },
     {
       "eventID": "20250711224550",
       "dateTime": "2025-07-11 13:45:00",
