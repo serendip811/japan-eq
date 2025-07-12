@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-12T11:03:26.790Z",
-  "count": 1184,
+  "fetchedAt": "2025-07-12T12:05:46.860Z",
+  "count": 1186,
   "earthquakes": [
+    {
+      "eventID": "20250712203341",
+      "dateTime": "2025-07-12 11:33:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.5",
+      "depth": 20,
+      "lat": 29.4,
+      "lon": 129.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-12T20:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.5-20000/",
+      "areaCode": "798",
+      "jsonFile": "20250712203643_20250712203341_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250712201223",
+      "dateTime": "2025-07-12 11:12:00",
+      "epicenter": "Adjacent Sea of Niijima Island, Kozushima Island",
+      "epicenterKr": "니지마, 고즈 섬 근해",
+      "magnitude": "3.4",
+      "depth": 20,
+      "lat": 34.5,
+      "lon": 139.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-12T20:15:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.5+139.4-20000/",
+      "areaCode": "483",
+      "jsonFile": "20250712201503_20250712201223_VXSE5k_1.json"
+    },
     {
       "eventID": "20250712194619",
       "dateTime": "2025-07-12 10:46:00",
