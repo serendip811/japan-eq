@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-14T21:04:09.450Z",
-  "count": 1320,
+  "fetchedAt": "2025-07-14T22:04:06.837Z",
+  "count": 1322,
   "earthquakes": [
+    {
+      "eventID": "20250715063914",
+      "dateTime": "2025-07-14 21:39:00",
+      "epicenter": "Kurile Islands",
+      "epicenterKr": "쿠릴 열도",
+      "magnitude": "5.7",
+      "depth": 10,
+      "lat": 46,
+      "lon": 151.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-15T06:44:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+46.0+151.4-10000/",
+      "areaCode": "912",
+      "jsonFile": "20250715064413_20250715063914_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250715061854",
+      "dateTime": "2025-07-14 21:18:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 29.4,
+      "lon": 129.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-15T06:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.5-10000/",
+      "areaCode": "798",
+      "jsonFile": "20250715062236_20250715061854_VXSE5k_1.json"
+    },
     {
       "eventID": "20250715051633",
       "dateTime": "2025-07-14 20:16:00",
