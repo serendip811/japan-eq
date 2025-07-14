@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-14T13:15:05.157Z",
-  "count": 1314,
+  "fetchedAt": "2025-07-14T17:05:03.686Z",
+  "count": 1316,
   "earthquakes": [
+    {
+      "eventID": "20250715014401",
+      "dateTime": "2025-07-14 16:44:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "3.1",
+      "depth": 20,
+      "lat": 29.4,
+      "lon": 129.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-15T01:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.4-20000/",
+      "areaCode": "798",
+      "jsonFile": "20250715014635_20250715014401_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250715011600",
+      "dateTime": "2025-07-14 16:15:00",
+      "epicenter": "Off the east Coast of Chiba Prefecture",
+      "epicenterKr": "치바현 동방 바다",
+      "magnitude": "3.6",
+      "depth": 30,
+      "lat": 35.5,
+      "lon": 140.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-15T01:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.5+140.9-30000/",
+      "areaCode": "473",
+      "jsonFile": "20250715011833_20250715011600_VXSE5k_1.json"
+    },
     {
       "eventID": "20250714220521",
       "dateTime": "2025-07-14 13:05:00",
