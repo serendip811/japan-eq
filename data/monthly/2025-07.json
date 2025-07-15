@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-15T11:04:09.836Z",
-  "count": 1346,
+  "fetchedAt": "2025-07-15T12:06:58.436Z",
+  "count": 1348,
   "earthquakes": [
+    {
+      "eventID": "20250715205527",
+      "dateTime": "2025-07-15 11:55:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 29.4,
+      "lon": 129.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-15T20:58:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.5-10000/",
+      "areaCode": "798",
+      "jsonFile": "20250715205813_20250715205527_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250715201027",
+      "dateTime": "2025-07-15 11:10:00",
+      "epicenter": "Southern Inland of Akita Prefecture",
+      "epicenterKr": "아키타 현 내륙 남부",
+      "magnitude": "2.5",
+      "depth": 0,
+      "lat": 39,
+      "lon": 140.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-15T20:13:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.0+140.6+0/",
+      "areaCode": "233",
+      "jsonFile": "20250715201333_20250715201027_VXSE5k_1.json"
+    },
     {
       "eventID": "20250715193649",
       "dateTime": "2025-07-15 10:36:00",
