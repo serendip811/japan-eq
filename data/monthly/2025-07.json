@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-15T13:15:14.066Z",
-  "count": 1352,
+  "fetchedAt": "2025-07-15T14:04:45.444Z",
+  "count": 1353,
   "earthquakes": [
+    {
+      "eventID": "20250715222521",
+      "dateTime": "2025-07-15 13:25:00",
+      "epicenter": "Southern Nagano Prefecture",
+      "epicenterKr": "Southern Nagano Prefecture",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 35.3,
+      "lon": 137.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-15T22:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.3+137.9-10000/",
+      "areaCode": "422",
+      "jsonFile": "20250715222816_20250715222521_VXSE5k_1.json"
+    },
     {
       "eventID": "20250715220847",
       "dateTime": "2025-07-15 13:08:00",
