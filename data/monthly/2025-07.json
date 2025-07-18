@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-18T19:04:26.189Z",
-  "count": 1461,
+  "fetchedAt": "2025-07-18T23:04:09.925Z",
+  "count": 1462,
   "earthquakes": [
+    {
+      "eventID": "20250719073521",
+      "dateTime": "2025-07-18 22:35:00",
+      "epicenter": "Central and northern Rumoi Region, Hokkaido",
+      "epicenterKr": "루모이 지방 중북부",
+      "magnitude": "3.8",
+      "depth": 20,
+      "lat": 44.9,
+      "lon": 141.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-19T07:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.9+141.8-20000/",
+      "areaCode": "130",
+      "jsonFile": "20250719073924_20250719073521_VXSE5k_1.json"
+    },
     {
       "eventID": "20250719031801",
       "dateTime": "2025-07-18 18:18:00",
