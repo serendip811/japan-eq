@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-18T06:05:57.186Z",
-  "count": 1452,
+  "fetchedAt": "2025-07-18T10:04:25.651Z",
+  "count": 1454,
   "earthquakes": [
+    {
+      "eventID": "20250718185846",
+      "dateTime": "2025-07-18 09:58:00",
+      "epicenter": "Central Oita Prefecture",
+      "epicenterKr": "오이타 현 중부",
+      "magnitude": "3.7",
+      "depth": 100,
+      "lat": 33.1,
+      "lon": 131.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-18T19:01:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.1+131.5-100000/",
+      "areaCode": "751",
+      "jsonFile": "20250718190157_20250718185846_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250718182045",
+      "dateTime": "2025-07-18 09:20:00",
+      "epicenter": "Off the west Coast of Ogasawara Islands",
+      "epicenterKr": "오가사와라 제도 서방 바다",
+      "magnitude": "5.6",
+      "depth": 500,
+      "lat": 28,
+      "lon": 140,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-18T18:25:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+28.0+140.0-500000/",
+      "areaCode": "916",
+      "jsonFile": "20250718182524_20250718182045_VXSE5k_1.json"
+    },
     {
       "eventID": "20250718143002",
       "dateTime": "2025-07-18 05:29:00",
