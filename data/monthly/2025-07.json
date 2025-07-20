@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-20T15:03:46.958Z",
-  "count": 1489,
+  "fetchedAt": "2025-07-20T16:04:20.197Z",
+  "count": 1490,
   "earthquakes": [
+    {
+      "eventID": "20250721003458",
+      "dateTime": "2025-07-20 15:34:00",
+      "epicenter": "Chuetsu, Niigata Prefecture",
+      "epicenterKr": "니가타 현 주에쓰 지방",
+      "magnitude": "3.3",
+      "depth": 0,
+      "lat": 37.3,
+      "lon": 139.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-21T00:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.3+139.1+0/",
+      "areaCode": "371",
+      "jsonFile": "20250721003732_20250721003458_VXSE5k_1.json"
+    },
     {
       "eventID": "20250720232817",
       "dateTime": "2025-07-20 14:28:00",
