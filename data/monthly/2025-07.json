@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-20T02:47:09.322Z",
-  "count": 1483,
+  "fetchedAt": "2025-07-20T07:04:01.870Z",
+  "count": 1485,
   "earthquakes": [
+    {
+      "eventID": "20250720153112",
+      "dateTime": "2025-07-20 06:31:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 29.6,
+      "lon": 129.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-20T15:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.6+129.7-10000/",
+      "areaCode": "798",
+      "jsonFile": "20250720153427_20250720153112_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250720153140",
+      "dateTime": "2025-07-20 06:28:00",
+      "epicenter": "Adjacent Kamchatka Peninsula",
+      "epicenterKr": "캄차카 반도",
+      "magnitude": "7.0",
+      "depth": null,
+      "lat": 52.6,
+      "lon": 160.6,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-07-20T15:54:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "+52.6+160.6/",
+      "areaCode": "941",
+      "jsonFile": "20250720155404_20250720153140_VXSE5e_1.json"
+    },
     {
       "eventID": "20250720103425",
       "dateTime": "2025-07-20 01:34:00",
