@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-21T14:05:16.521Z",
-  "count": 1505,
+  "fetchedAt": "2025-07-21T20:04:27.648Z",
+  "count": 1506,
   "earthquakes": [
+    {
+      "eventID": "20250722040527",
+      "dateTime": "2025-07-21 19:05:00",
+      "epicenter": "Adjacent Sado",
+      "epicenterKr": "사도 부근",
+      "magnitude": "3.9",
+      "depth": 10,
+      "lat": 37.8,
+      "lon": 137.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-22T04:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.8+137.7-10000/",
+      "areaCode": "498",
+      "jsonFile": "20250722040928_20250722040527_VXSE5k_1.json"
+    },
     {
       "eventID": "20250721223330",
       "dateTime": "2025-07-21 13:33:00",
