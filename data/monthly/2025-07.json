@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-22T22:04:03.160Z",
-  "count": 1511,
+  "fetchedAt": "2025-07-23T01:32:34.925Z",
+  "count": 1512,
   "earthquakes": [
+    {
+      "eventID": "20250723102124",
+      "dateTime": "2025-07-23 01:21:00",
+      "epicenter": "Southern Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 남부",
+      "magnitude": "3.3",
+      "depth": 70,
+      "lat": 36,
+      "lon": 140.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-23T10:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.0+140.1-70000/",
+      "areaCode": "301",
+      "jsonFile": "20250723102340_20250723102124_VXSE5k_1.json"
+    },
     {
       "eventID": "20250723060051",
       "dateTime": "2025-07-22 21:00:00",
