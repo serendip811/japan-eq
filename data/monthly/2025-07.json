@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-23T06:06:13.355Z",
-  "count": 1515,
+  "fetchedAt": "2025-07-23T13:15:56.232Z",
+  "count": 1517,
   "earthquakes": [
+    {
+      "eventID": "20250723214948",
+      "dateTime": "2025-07-23 12:49:00",
+      "epicenter": "Western Kanagawa Prefecture",
+      "epicenterKr": "카나강 현 서부",
+      "magnitude": "3.7",
+      "depth": 0,
+      "lat": 35.2,
+      "lon": 139,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-23T21:53:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.2+139.0+0/",
+      "areaCode": "361",
+      "jsonFile": "20250723215311_20250723214948_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250723213426",
+      "dateTime": "2025-07-23 12:34:00",
+      "epicenter": "Central Hidaka Region, Hokkaido",
+      "epicenterKr": "히다카 지방 중부",
+      "magnitude": "3.2",
+      "depth": 40,
+      "lat": 42.6,
+      "lon": 142.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-23T21:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.6+142.8-40000/",
+      "areaCode": "151",
+      "jsonFile": "20250723213721_20250723213426_VXSE5k_1.json"
+    },
     {
       "eventID": "20250723142903",
       "dateTime": "2025-07-23 05:29:00",
