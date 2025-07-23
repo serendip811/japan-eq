@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-23T13:15:56.232Z",
-  "count": 1517,
+  "fetchedAt": "2025-07-23T16:04:54.110Z",
+  "count": 1518,
   "earthquakes": [
+    {
+      "eventID": "20250724001616",
+      "dateTime": "2025-07-23 15:16:00",
+      "epicenter": "Adjacent Etorofu Island",
+      "epicenterKr": "이투 루프 섬 부근",
+      "magnitude": "4.2",
+      "depth": 130,
+      "lat": 44.3,
+      "lon": 146.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-24T00:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.3+146.7-130000/",
+      "areaCode": "187",
+      "jsonFile": "20250724001926_20250724001616_VXSE5k_1.json"
+    },
     {
       "eventID": "20250723214948",
       "dateTime": "2025-07-23 12:49:00",
