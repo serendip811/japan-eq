@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-24T00:17:40.362Z",
-  "count": 1522,
+  "fetchedAt": "2025-07-24T02:41:27.709Z",
+  "count": 1523,
   "earthquakes": [
+    {
+      "eventID": "20250724104136",
+      "dateTime": "2025-07-24 01:41:00",
+      "epicenter": "Western Shimane Prefecture",
+      "epicenterKr": "Western Shimane Prefecture",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 35,
+      "lon": 132.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-24T10:43:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+132.6-10000/",
+      "areaCode": "571",
+      "jsonFile": "20250724104353_20250724104136_VXSE5k_1.json"
+    },
     {
       "eventID": "20250724080058",
       "dateTime": "2025-07-23 23:01:00",
