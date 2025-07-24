@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-24T09:06:46.845Z",
-  "count": 1525,
+  "fetchedAt": "2025-07-24T12:06:51.006Z",
+  "count": 1527,
   "earthquakes": [
+    {
+      "eventID": "20250724204447",
+      "dateTime": "2025-07-24 11:44:00",
+      "epicenter": "Western Shimane Prefecture",
+      "epicenterKr": "Western Shimane Prefecture",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 35,
+      "lon": 132.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-24T20:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+132.6-10000/",
+      "areaCode": "571",
+      "jsonFile": "20250724204657_20250724204447_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250724202433",
+      "dateTime": "2025-07-24 11:24:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "4.0",
+      "depth": 70,
+      "lat": 43,
+      "lon": 145.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-24T20:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.0+145.6-70000/",
+      "areaCode": "189",
+      "jsonFile": "20250724202728_20250724202433_VXSE5k_1.json"
+    },
     {
       "eventID": "20250724174743",
       "dateTime": "2025-07-24 08:47:00",
