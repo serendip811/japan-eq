@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-27T01:32:52.977Z",
-  "count": 1555,
+  "fetchedAt": "2025-07-27T02:47:46.231Z",
+  "count": 1556,
   "earthquakes": [
+    {
+      "eventID": "20250727104349",
+      "dateTime": "2025-07-27 01:43:00",
+      "epicenter": "Southern Coast of Iwate Prefecture",
+      "epicenterKr": "Southern Coast of Iwate Prefecture",
+      "magnitude": "3.3",
+      "depth": 70,
+      "lat": 39,
+      "lon": 141.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-27T10:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.0+141.7-70000/",
+      "areaCode": "211",
+      "jsonFile": "20250727104615_20250727104349_VXSE5k_1.json"
+    },
     {
       "eventID": "20250727093214",
       "dateTime": "2025-07-27 00:32:00",
