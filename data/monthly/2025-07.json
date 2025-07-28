@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-28T19:05:26.428Z",
-  "count": 1575,
+  "fetchedAt": "2025-07-28T23:04:15.299Z",
+  "count": 1576,
   "earthquakes": [
+    {
+      "eventID": "20250729072245",
+      "dateTime": "2025-07-28 22:11:00",
+      "epicenter": "Adjacent Australia",
+      "epicenterKr": "호주 부근",
+      "magnitude": "7.0",
+      "depth": null,
+      "lat": -57.8,
+      "lon": 157.2,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-07-29T07:36:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-57.8+157.2/",
+      "areaCode": "957",
+      "jsonFile": "20250729073605_20250729072245_VXSE5e_1.json"
+    },
     {
       "eventID": "20250729032445",
       "dateTime": "2025-07-28 18:24:00",
