@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-29T12:07:20.783Z",
-  "count": 1580,
+  "fetchedAt": "2025-07-29T13:16:57.833Z",
+  "count": 1581,
   "earthquakes": [
+    {
+      "eventID": "20250729211230",
+      "dateTime": "2025-07-29 12:12:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.0",
+      "depth": 30,
+      "lat": 29.3,
+      "lon": 129.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-29T21:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.3+129.5-30000/",
+      "areaCode": "798",
+      "jsonFile": "20250729211602_20250729211230_VXSE5k_1.json"
+    },
     {
       "eventID": "20250729205222",
       "dateTime": "2025-07-29 11:52:00",
