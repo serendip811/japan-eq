@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-29T10:04:27.455Z",
-  "count": 1579,
+  "fetchedAt": "2025-07-29T12:07:20.783Z",
+  "count": 1580,
   "earthquakes": [
+    {
+      "eventID": "20250729205222",
+      "dateTime": "2025-07-29 11:52:00",
+      "epicenter": "Off the east Coast of Hokkaido",
+      "epicenterKr": "Off the east Coast of Hokkaido",
+      "magnitude": "4.8",
+      "depth": 0,
+      "lat": 44,
+      "lon": 147.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-29T20:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.0+147.2+0/",
+      "areaCode": "188",
+      "jsonFile": "20250729205557_20250729205222_VXSE5k_1.json"
+    },
     {
       "eventID": "20250729183002",
       "dateTime": "2025-07-29 09:30:00",
