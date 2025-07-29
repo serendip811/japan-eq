@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-29T13:16:57.833Z",
-  "count": 1581,
+  "fetchedAt": "2025-07-29T16:05:29.807Z",
+  "count": 1582,
   "earthquakes": [
+    {
+      "eventID": "20250730002956",
+      "dateTime": "2025-07-29 15:29:00",
+      "epicenter": "Southern Ishikari Region, Hokkaido",
+      "epicenterKr": "이시카리 지방 남부",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 43,
+      "lon": 141.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-07-30T00:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.0+141.5-10000/",
+      "areaCode": "102",
+      "jsonFile": "20250730003210_20250730002956_VXSE5k_1.json"
+    },
     {
       "eventID": "20250729211230",
       "dateTime": "2025-07-29 12:12:00",
