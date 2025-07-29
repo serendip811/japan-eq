@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-29T00:19:12.897Z",
-  "count": 1577,
+  "fetchedAt": "2025-07-29T09:07:25.431Z",
+  "count": 1578,
   "earthquakes": [
+    {
+      "eventID": "20250729172556",
+      "dateTime": "2025-07-29 08:25:00",
+      "epicenter": "Central Mie Prefecture",
+      "epicenterKr": "Central Mie Prefecture",
+      "magnitude": "3.0",
+      "depth": 20,
+      "lat": 34.7,
+      "lon": 136.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-07-29T17:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.7+136.5-20000/",
+      "areaCode": "461",
+      "jsonFile": "20250729172810_20250729172556_VXSE5k_1.json"
+    },
     {
       "eventID": "20250729090048",
       "dateTime": "2025-07-29 00:00:00",
