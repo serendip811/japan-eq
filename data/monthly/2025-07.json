@@ -1,8 +1,40 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-31T17:06:07.434Z",
-  "count": 1604,
+  "fetchedAt": "2025-07-31T19:05:37.550Z",
+  "count": 1606,
   "earthquakes": [
+    {
+      "eventID": "20250801031632",
+      "dateTime": "2025-07-31 18:16:00",
+      "epicenter": "Noto, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 노토 지방",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 37.3,
+      "lon": 136.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-01T03:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.3+136.8-10000/",
+      "areaCode": "390",
+      "jsonFile": "20250801031939_20250801031632_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250801031225",
+      "dateTime": "2025-07-31 18:12:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "3.6",
+      "depth": 50,
+      "lat": 24.5,
+      "lon": 125.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-01T03:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.5+125.4-50000/",
+      "areaCode": "853",
+      "jsonFile": "20250801031609_20250801031225_VXSE5k_1.json"
+    },
     {
       "eventID": "20250801014939",
       "dateTime": "2025-07-31 16:49:00",
