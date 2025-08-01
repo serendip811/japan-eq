@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-01T07:08:05.031Z",
-  "count": 1,
+  "fetchedAt": "2025-08-01T14:05:23.482Z",
+  "count": 2,
   "earthquakes": [
+    {
+      "eventID": "20250801225858",
+      "dateTime": "2025-08-01 13:58:00",
+      "epicenter": "Southern Gunma Prefecture",
+      "epicenterKr": "군마 현 남부",
+      "magnitude": "4.1",
+      "depth": 100,
+      "lat": 36.2,
+      "lon": 139.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-01T23:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+139.5-100000/",
+      "areaCode": "321",
+      "jsonFile": "20250801230247_20250801225858_VXSE5k_1.json"
+    },
     {
       "eventID": "20250801153101",
       "dateTime": "2025-08-01 06:31:00",
