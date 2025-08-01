@@ -1,0 +1,23 @@
+{
+  "month": "2025-08",
+  "fetchedAt": "2025-08-01T07:08:05.031Z",
+  "count": 1,
+  "earthquakes": [
+    {
+      "eventID": "20250801153101",
+      "dateTime": "2025-08-01 06:31:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "3.9",
+      "depth": 50,
+      "lat": 37.6,
+      "lon": 141.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-01T15:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.6+141.5-50000/",
+      "areaCode": "289",
+      "jsonFile": "20250801153432_20250801153101_VXSE5k_1.json"
+    }
+  ]
+}
