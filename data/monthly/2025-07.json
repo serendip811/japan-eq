@@ -1,8 +1,24 @@
 {
   "month": "2025-07",
-  "fetchedAt": "2025-07-31T19:05:37.550Z",
-  "count": 1606,
+  "fetchedAt": "2025-08-01T00:20:20.941Z",
+  "count": 1607,
   "earthquakes": [
+    {
+      "eventID": "20250801082459",
+      "dateTime": "2025-07-31 23:24:00",
+      "epicenter": "Enshunada Sea",
+      "epicenterKr": "엔슈 나다",
+      "magnitude": "4.6",
+      "depth": 340,
+      "lat": 34.5,
+      "lon": 136.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-01T08:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.5+136.9-340000/",
+      "areaCode": "487",
+      "jsonFile": "20250801083113_20250801082459_VXSE5k_1.json"
+    },
     {
       "eventID": "20250801031632",
       "dateTime": "2025-07-31 18:16:00",
