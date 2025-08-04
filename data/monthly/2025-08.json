@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-04T03:39:22.451Z",
-  "count": 29,
+  "fetchedAt": "2025-08-04T05:15:46.944Z",
+  "count": 30,
   "earthquakes": [
+    {
+      "eventID": "20250804140505",
+      "dateTime": "2025-08-04 05:05:00",
+      "epicenter": "Suruga Bay",
+      "epicenterKr": "스루가만",
+      "magnitude": "2.9",
+      "depth": 30,
+      "lat": 34.9,
+      "lon": 138.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-04T14:07:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+138.4-30000/",
+      "areaCode": "485",
+      "jsonFile": "20250804140752_20250804140505_VXSE5k_1.json"
+    },
     {
       "eventID": "20250804121456",
       "dateTime": "2025-08-04 03:15:00",
