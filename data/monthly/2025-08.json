@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-04T15:04:37.621Z",
-  "count": 32,
+  "fetchedAt": "2025-08-04T17:07:20.702Z",
+  "count": 33,
   "earthquakes": [
+    {
+      "eventID": "20250805014219",
+      "dateTime": "2025-08-04 16:42:00",
+      "epicenter": "Off the Coast of Akita Prefecture",
+      "epicenterKr": "아키타 현 바다",
+      "magnitude": "3.8",
+      "depth": 10,
+      "lat": 40.1,
+      "lon": 139.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-05T01:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.1+139.3-10000/",
+      "areaCode": "282",
+      "jsonFile": "20250805014517_20250805014219_VXSE5k_1.json"
+    },
     {
       "eventID": "20250804234055",
       "dateTime": "2025-08-04 14:40:00",
