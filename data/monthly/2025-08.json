@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-04T22:04:09.031Z",
-  "count": 35,
+  "fetchedAt": "2025-08-05T05:11:14.482Z",
+  "count": 36,
   "earthquakes": [
+    {
+      "eventID": "20250805134358",
+      "dateTime": "2025-08-05 04:43:00",
+      "epicenter": "Kiisuido Strait",
+      "epicenterKr": "기이수도",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 34.2,
+      "lon": 135.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-05T13:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+135.1-10000/",
+      "areaCode": "674",
+      "jsonFile": "20250805134624_20250805134358_VXSE5k_1.json"
+    },
     {
       "eventID": "20250805065925",
       "dateTime": "2025-08-04 21:59:00",
