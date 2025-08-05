@@ -1,8 +1,40 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-05T18:05:42.785Z",
-  "count": 44,
+  "fetchedAt": "2025-08-05T20:04:34.391Z",
+  "count": 46,
   "earthquakes": [
+    {
+      "eventID": "20250806042702",
+      "dateTime": "2025-08-05 19:27:00",
+      "epicenter": "Northeastern Chiba Prefecture",
+      "epicenterKr": "Northeastern Chiba Prefecture",
+      "magnitude": "3.3",
+      "depth": 40,
+      "lat": 35.9,
+      "lon": 140.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-06T04:30:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.9+140.6-40000/",
+      "areaCode": "340",
+      "jsonFile": "20250806043011_20250806042702_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250806041911",
+      "dateTime": "2025-08-05 19:19:00",
+      "epicenter": "Northeastern Chiba Prefecture",
+      "epicenterKr": "Northeastern Chiba Prefecture",
+      "magnitude": "3.5",
+      "depth": 40,
+      "lat": 35.9,
+      "lon": 140.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-06T04:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.9+140.6-40000/",
+      "areaCode": "340",
+      "jsonFile": "20250806042220_20250806041911_VXSE5k_1.json"
+    },
     {
       "eventID": "20250806025351",
       "dateTime": "2025-08-05 17:53:00",
