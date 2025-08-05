@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-05T13:17:39.600Z",
-  "count": 39,
+  "fetchedAt": "2025-08-05T14:07:22.296Z",
+  "count": 40,
   "earthquakes": [
+    {
+      "eventID": "20250805222021",
+      "dateTime": "2025-08-05 13:20:00",
+      "epicenter": "Northern Shiga Prefecture",
+      "epicenterKr": "시가 현 북부",
+      "magnitude": "2.7",
+      "depth": 40,
+      "lat": 35.6,
+      "lon": 136.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-05T22:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.6+136.3-40000/",
+      "areaCode": "500",
+      "jsonFile": "20250805222314_20250805222021_VXSE5k_1.json"
+    },
     {
       "eventID": "20250805221052",
       "dateTime": "2025-08-05 13:10:00",

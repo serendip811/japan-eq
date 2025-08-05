@@ -3,9 +3,9 @@
 ```mermaid
 xychart-beta
     title "지역별 지진 발생 횟수"
-    x-axis ["Adjacent", "Off", "Southern", "Northern", "Central", "Noto,", "Kiisuido", "미분류", "Western", "Hyuganada"]
+    x-axis ["Adjacent", "Off", "Northern", "Southern", "Central", "Noto,", "Kiisuido", "미분류", "Western", "Hyuganada"]
     y-axis "발생 횟수" 0 --> 2051
-    bar [2049, 89, 21, 20, 13, 13, 8, 6, 5, 5]
+    bar [2049, 89, 21, 21, 13, 13, 8, 6, 5, 5]
 ```
 
-업데이트 시간: 2025-08-05 13:17:39
+업데이트 시간: 2025-08-05 14:07:22
