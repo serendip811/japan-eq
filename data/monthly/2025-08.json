@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-07T05:10:46.403Z",
-  "count": 58,
+  "fetchedAt": "2025-08-07T06:06:48.190Z",
+  "count": 59,
   "earthquakes": [
+    {
+      "eventID": "20250807141630",
+      "dateTime": "2025-08-07 05:16:00",
+      "epicenter": "Off the Coast of Noto Peninsula",
+      "epicenterKr": "노토 반도",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 37.4,
+      "lon": 136.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-07T14:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.4+136.8-10000/",
+      "areaCode": "495",
+      "jsonFile": "20250807141903_20250807141630_VXSE5k_1.json"
+    },
     {
       "eventID": "20250807133959",
       "dateTime": "2025-08-07 04:39:00",
