@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-11T00:18:41.804Z",
-  "count": 88,
+  "fetchedAt": "2025-08-11T01:32:58.249Z",
+  "count": 89,
   "earthquakes": [
+    {
+      "eventID": "20250811091543",
+      "dateTime": "2025-08-11 00:15:00",
+      "epicenter": "Off the west Coast of Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 서방 바다",
+      "magnitude": "3.6",
+      "depth": 10,
+      "lat": 36.9,
+      "lon": 136.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-11T09:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.9+136.4-10000/",
+      "areaCode": "494",
+      "jsonFile": "20250811091822_20250811091543_VXSE5k_1.json"
+    },
     {
       "eventID": "20250811081518",
       "dateTime": "2025-08-10 23:15:00",
