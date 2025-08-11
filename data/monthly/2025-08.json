@@ -1,8 +1,40 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-11T18:05:23.129Z",
-  "count": 93,
+  "fetchedAt": "2025-08-11T22:03:50.259Z",
+  "count": 95,
   "earthquakes": [
+    {
+      "eventID": "20250812063430",
+      "dateTime": "2025-08-11 21:34:00",
+      "epicenter": "Chuyo, Ehime Prefecture",
+      "epicenterKr": "Chuyo, Ehime Prefecture",
+      "magnitude": "3.8",
+      "depth": 40,
+      "lat": 33.8,
+      "lon": 132.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-12T06:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.8+132.8-40000/",
+      "areaCode": "621",
+      "jsonFile": "20250812063724_20250812063430_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250812063236",
+      "dateTime": "2025-08-11 21:32:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.2",
+      "depth": 20,
+      "lat": 29.4,
+      "lon": 129.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-12T06:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.6-20000/",
+      "areaCode": "798",
+      "jsonFile": "20250812063613_20250812063236_VXSE5k_1.json"
+    },
     {
       "eventID": "20250812022705",
       "dateTime": "2025-08-11 17:27:00",
