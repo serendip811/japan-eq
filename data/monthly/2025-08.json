@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-12T19:04:05.358Z",
-  "count": 110,
+  "fetchedAt": "2025-08-12T20:04:25.951Z",
+  "count": 111,
   "earthquakes": [
+    {
+      "eventID": "20250813041051",
+      "dateTime": "2025-08-12 19:10:00",
+      "epicenter": "Western Oita Prefecture",
+      "epicenterKr": "오이타 현 서부",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 33.2,
+      "lon": 131.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-13T04:13:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.2+131.2-10000/",
+      "areaCode": "753",
+      "jsonFile": "20250813041336_20250813041051_VXSE5k_1.json"
+    },
     {
       "eventID": "20250813030535",
       "dateTime": "2025-08-12 18:05:00",
