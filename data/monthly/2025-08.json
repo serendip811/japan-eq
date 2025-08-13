@@ -1,8 +1,40 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-12T23:03:51.182Z",
-  "count": 113,
+  "fetchedAt": "2025-08-13T05:05:20.105Z",
+  "count": 115,
   "earthquakes": [
+    {
+      "eventID": "20250813133422",
+      "dateTime": "2025-08-13 04:34:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "4.0",
+      "depth": 60,
+      "lat": 37.9,
+      "lon": 141.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-13T13:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.9+141.7-60000/",
+      "areaCode": "287",
+      "jsonFile": "20250813133722_20250813133422_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250813131238",
+      "dateTime": "2025-08-13 04:12:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "3.2",
+      "depth": 20,
+      "lat": 29.3,
+      "lon": 129.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-13T13:15:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.3+129.4-20000/",
+      "areaCode": "798",
+      "jsonFile": "20250813131521_20250813131238_VXSE5k_1.json"
+    },
     {
       "eventID": "20250813075035",
       "dateTime": "2025-08-12 22:50:00",
