@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-14T03:28:08.116Z",
-  "count": 125,
+  "fetchedAt": "2025-08-14T04:10:42.075Z",
+  "count": 126,
   "earthquakes": [
+    {
+      "eventID": "20250814124904",
+      "dateTime": "2025-08-14 03:49:00",
+      "epicenter": "Sanpachi-Kamikita Region, Aomori Prefecture",
+      "epicenterKr": "Sanpachi-Kamikita Region, Aomori Prefecture",
+      "magnitude": "3.8",
+      "depth": 90,
+      "lat": 40.6,
+      "lon": 141.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-14T12:52:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.6+141.4-90000/",
+      "areaCode": "202",
+      "jsonFile": "20250814125203_20250814124904_VXSE5k_1.json"
+    },
     {
       "eventID": "20250814122128",
       "dateTime": "2025-08-14 03:21:00",
