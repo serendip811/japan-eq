@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-14T04:10:42.075Z",
-  "count": 126,
+  "fetchedAt": "2025-08-14T08:05:42.047Z",
+  "count": 127,
   "earthquakes": [
+    {
+      "eventID": "20250814163151",
+      "dateTime": "2025-08-14 07:31:00",
+      "epicenter": "Central Hidaka Region, Hokkaido",
+      "epicenterKr": "히다카 지방 중부",
+      "magnitude": "3.8",
+      "depth": 130,
+      "lat": 42.7,
+      "lon": 142.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-14T16:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.7+142.6-130000/",
+      "areaCode": "151",
+      "jsonFile": "20250814163533_20250814163151_VXSE5k_1.json"
+    },
     {
       "eventID": "20250814124904",
       "dateTime": "2025-08-14 03:49:00",
