@@ -1,8 +1,40 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-15T14:04:05.173Z",
-  "count": 150,
+  "fetchedAt": "2025-08-15T19:03:21.750Z",
+  "count": 152,
   "earthquakes": [
+    {
+      "eventID": "20250816032522",
+      "dateTime": "2025-08-15 18:25:00",
+      "epicenter": "Nakadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 나카도리",
+      "magnitude": "3.3",
+      "depth": 20,
+      "lat": 36.9,
+      "lon": 140.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-16T03:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.9+140.5-20000/",
+      "areaCode": "250",
+      "jsonFile": "20250816032813_20250816032522_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250816031945",
+      "dateTime": "2025-08-15 18:19:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "1.8",
+      "depth": 10,
+      "lat": 29.4,
+      "lon": 129.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-16T03:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.5-10000/",
+      "areaCode": "798",
+      "jsonFile": "20250816032249_20250816031945_VXSE5k_1.json"
+    },
     {
       "eventID": "20250815224320",
       "dateTime": "2025-08-15 13:43:00",
