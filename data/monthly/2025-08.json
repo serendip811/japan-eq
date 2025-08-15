@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-15T19:03:21.750Z",
-  "count": 152,
+  "fetchedAt": "2025-08-15T21:03:35.344Z",
+  "count": 153,
   "earthquakes": [
+    {
+      "eventID": "20250816052050",
+      "dateTime": "2025-08-15 20:20:00",
+      "epicenter": "Off the Coast of Urakawa",
+      "epicenterKr": "우라카와 오키",
+      "magnitude": "3.8",
+      "depth": 70,
+      "lat": 42,
+      "lon": 142.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-16T05:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.0+142.7-70000/",
+      "areaCode": "192",
+      "jsonFile": "20250816052351_20250816052050_VXSE5k_1.json"
+    },
     {
       "eventID": "20250816032522",
       "dateTime": "2025-08-15 18:25:00",
