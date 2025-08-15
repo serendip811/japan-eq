@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-15T00:17:29.902Z",
-  "count": 144,
+  "fetchedAt": "2025-08-15T03:28:54.185Z",
+  "count": 145,
   "earthquakes": [
+    {
+      "eventID": "20250815114436",
+      "dateTime": "2025-08-15 02:44:00",
+      "epicenter": "Tachibana Bay",
+      "epicenterKr": "타치바나완",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 32.6,
+      "lon": 129.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-15T11:47:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.6+129.9-10000/",
+      "areaCode": "786",
+      "jsonFile": "20250815114741_20250815114436_VXSE5k_1.json"
+    },
     {
       "eventID": "20250815085054",
       "dateTime": "2025-08-14 23:50:00",
