@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-18T15:04:13.285Z",
-  "count": 173,
+  "fetchedAt": "2025-08-18T18:05:31.767Z",
+  "count": 174,
   "earthquakes": [
+    {
+      "eventID": "20250819023300",
+      "dateTime": "2025-08-18 17:32:00",
+      "epicenter": "Central and eastern Iburi Region, Hokkaido",
+      "epicenterKr": "이부리 지방 중동부",
+      "magnitude": "2.4",
+      "depth": 20,
+      "lat": 42.7,
+      "lon": 141.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-19T02:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.7+141.8-20000/",
+      "areaCode": "146",
+      "jsonFile": "20250819023519_20250819023300_VXSE5k_1.json"
+    },
     {
       "eventID": "20250818231207",
       "dateTime": "2025-08-18 14:12:00",
