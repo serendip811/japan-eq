@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-18T09:06:23.447Z",
-  "count": 170,
+  "fetchedAt": "2025-08-18T13:15:13.244Z",
+  "count": 171,
   "earthquakes": [
+    {
+      "eventID": "20250818215720",
+      "dateTime": "2025-08-18 12:57:00",
+      "epicenter": "Western Aichi Prefecture",
+      "epicenterKr": "Western Aichi Prefecture",
+      "magnitude": "3.9",
+      "depth": 40,
+      "lat": 34.9,
+      "lon": 137.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-18T22:00:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+137.4-40000/",
+      "areaCode": "451",
+      "jsonFile": "20250818220016_20250818215720_VXSE5k_1.json"
+    },
     {
       "eventID": "20250818170409",
       "dateTime": "2025-08-18 08:04:00",
