@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-19T03:21:34.169Z",
-  "count": 181,
+  "fetchedAt": "2025-08-19T05:04:30.674Z",
+  "count": 182,
   "earthquakes": [
+    {
+      "eventID": "20250819130157",
+      "dateTime": "2025-08-19 04:01:00",
+      "epicenter": "Northern Osaka Prefecture",
+      "epicenterKr": "Northern Osaka Prefecture",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 35,
+      "lon": 135.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-19T13:04:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+135.4-10000/",
+      "areaCode": "520",
+      "jsonFile": "20250819130419_20250819130157_VXSE5k_1.json"
+    },
     {
       "eventID": "20250819114906",
       "dateTime": "2025-08-19 02:49:00",
