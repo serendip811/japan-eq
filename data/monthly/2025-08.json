@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-21T16:04:44.918Z",
-  "count": 198,
+  "fetchedAt": "2025-08-21T17:08:59.061Z",
+  "count": 199,
   "earthquakes": [
+    {
+      "eventID": "20250822013006",
+      "dateTime": "2025-08-21 16:30:00",
+      "epicenter": "Southern Kyoto Prefecture",
+      "epicenterKr": "Southern Kyoto Prefecture",
+      "magnitude": "3.4",
+      "depth": 10,
+      "lat": 35,
+      "lon": 135.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-22T01:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+135.6-10000/",
+      "areaCode": "511",
+      "jsonFile": "20250822013255_20250822013006_VXSE5k_1.json"
+    },
     {
       "eventID": "20250822001844",
       "dateTime": "2025-08-21 15:18:00",
