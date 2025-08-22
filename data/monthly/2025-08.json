@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-22T01:31:52.182Z",
-  "count": 206,
+  "fetchedAt": "2025-08-22T03:20:33.135Z",
+  "count": 207,
   "earthquakes": [
+    {
+      "eventID": "20250822111612",
+      "dateTime": "2025-08-22 02:16:00",
+      "epicenter": "Central South America",
+      "epicenterKr": "남미 중부",
+      "magnitude": "7.5",
+      "depth": null,
+      "lat": -60.2,
+      "lon": -61.8,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-08-22T11:46:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-60.2-061.8/",
+      "areaCode": "947",
+      "jsonFile": "20250822114627_20250822111612_VXSE5e_1.json"
+    },
     {
       "eventID": "20250822100740",
       "dateTime": "2025-08-22 01:07:00",
