@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-23T09:03:47.726Z",
-  "count": 213,
+  "fetchedAt": "2025-08-23T10:03:47.684Z",
+  "count": 214,
   "earthquakes": [
+    {
+      "eventID": "20250823183701",
+      "dateTime": "2025-08-23 09:36:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "4.2",
+      "depth": 20,
+      "lat": 42.9,
+      "lon": 146.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-23T18:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.9+146.6-20000/",
+      "areaCode": "189",
+      "jsonFile": "20250823183959_20250823183701_VXSE5k_1.json"
+    },
     {
       "eventID": "20250823173305",
       "dateTime": "2025-08-23 08:33:00",
