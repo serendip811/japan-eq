@@ -1,8 +1,40 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-22T09:04:20.725Z",
-  "count": 208,
+  "fetchedAt": "2025-08-23T00:15:42.012Z",
+  "count": 210,
   "earthquakes": [
+    {
+      "eventID": "20250823085029",
+      "dateTime": "2025-08-22 23:50:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.0",
+      "depth": 10,
+      "lat": 29.6,
+      "lon": 129.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-23T08:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.6+129.7-10000/",
+      "areaCode": "798",
+      "jsonFile": "20250823085429_20250823085029_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250823084418",
+      "dateTime": "2025-08-22 23:44:00",
+      "epicenter": "Southern Tokushima Prefecture",
+      "epicenterKr": "도쿠시마 현 남부",
+      "magnitude": "3.0",
+      "depth": 20,
+      "lat": 33.7,
+      "lon": 134.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-23T08:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.7+134.3-20000/",
+      "areaCode": "601",
+      "jsonFile": "20250823084806_20250823084418_VXSE5k_1.json"
+    },
     {
       "eventID": "20250822170549",
       "dateTime": "2025-08-22 08:05:00",
