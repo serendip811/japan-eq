@@ -1,8 +1,40 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-23T08:04:43.875Z",
-  "count": 211,
+  "fetchedAt": "2025-08-23T09:03:47.726Z",
+  "count": 213,
   "earthquakes": [
+    {
+      "eventID": "20250823173305",
+      "dateTime": "2025-08-23 08:33:00",
+      "epicenter": "Nakadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 나카도리",
+      "magnitude": "3.7",
+      "depth": 120,
+      "lat": 37.1,
+      "lon": 140.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-23T17:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.1+140.2-120000/",
+      "areaCode": "250",
+      "jsonFile": "20250823173603_20250823173305_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250823170714",
+      "dateTime": "2025-08-23 08:07:00",
+      "epicenter": "Eastern Shimane Prefecture",
+      "epicenterKr": "Eastern Shimane Prefecture",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 35.4,
+      "lon": 133.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-23T17:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.4+133.3-10000/",
+      "areaCode": "570",
+      "jsonFile": "20250823170949_20250823170714_VXSE5k_1.json"
+    },
     {
       "eventID": "20250823160654",
       "dateTime": "2025-08-23 07:06:00",
