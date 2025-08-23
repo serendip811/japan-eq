@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-23T10:03:47.684Z",
-  "count": 214,
+  "fetchedAt": "2025-08-23T11:03:26.111Z",
+  "count": 215,
   "earthquakes": [
+    {
+      "eventID": "20250823192229",
+      "dateTime": "2025-08-23 10:22:00",
+      "epicenter": "Northern Saitama Prefecture",
+      "epicenterKr": "Northern Saitama Prefecture",
+      "magnitude": "3.8",
+      "depth": 130,
+      "lat": 36.1,
+      "lon": 139,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-08-23T19:25:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.1+139.0-130000/",
+      "areaCode": "330",
+      "jsonFile": "20250823192550_20250823192229_VXSE5k_1.json"
+    },
     {
       "eventID": "20250823183701",
       "dateTime": "2025-08-23 09:36:00",
