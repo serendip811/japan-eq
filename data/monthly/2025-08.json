@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-27T13:10:49.965Z",
-  "count": 237,
+  "fetchedAt": "2025-08-27T14:04:13.887Z",
+  "count": 238,
   "earthquakes": [
+    {
+      "eventID": "20250827221122",
+      "dateTime": "2025-08-27 13:11:00",
+      "epicenter": "the vicinity of Taiwan",
+      "epicenterKr": "대만 부근",
+      "magnitude": "5.3",
+      "depth": 110,
+      "lat": 24.9,
+      "lon": 121.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-27T22:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.9+121.9-110000/",
+      "areaCode": "900",
+      "jsonFile": "20250827221456_20250827221122_VXSE5k_1.json"
+    },
     {
       "eventID": "20250827215008",
       "dateTime": "2025-08-27 12:50:00",
