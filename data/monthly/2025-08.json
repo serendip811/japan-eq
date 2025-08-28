@@ -1,8 +1,24 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-28T15:04:25.647Z",
-  "count": 250,
+  "fetchedAt": "2025-08-28T19:03:42.275Z",
+  "count": 251,
   "earthquakes": [
+    {
+      "eventID": "20250829033936",
+      "dateTime": "2025-08-28 18:39:00",
+      "epicenter": "Sagami Bay",
+      "epicenterKr": "사가미만",
+      "magnitude": "2.8",
+      "depth": 0,
+      "lat": 35.1,
+      "lon": 139.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-29T03:41:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.1+139.1+0/",
+      "areaCode": "478",
+      "jsonFile": "20250829034154_20250829033936_VXSE5k_1.json"
+    },
     {
       "eventID": "20250828233521",
       "dateTime": "2025-08-28 14:35:00",
