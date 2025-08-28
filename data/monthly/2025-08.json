@@ -1,8 +1,40 @@
 {
   "month": "2025-08",
-  "fetchedAt": "2025-08-28T04:04:24.119Z",
-  "count": 247,
+  "fetchedAt": "2025-08-28T10:04:37.526Z",
+  "count": 249,
   "earthquakes": [
+    {
+      "eventID": "20250828185015",
+      "dateTime": "2025-08-28 09:50:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "4.6",
+      "depth": 20,
+      "lat": 42.9,
+      "lon": 146,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-28T18:53:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.9+146.0-20000/",
+      "areaCode": "189",
+      "jsonFile": "20250828185312_20250828185015_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250828183115",
+      "dateTime": "2025-08-28 09:31:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "4.0",
+      "depth": 50,
+      "lat": 38.3,
+      "lon": 141.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-08-28T18:33:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.3+141.8-50000/",
+      "areaCode": "287",
+      "jsonFile": "20250828183343_20250828183115_VXSE5k_1.json"
+    },
     {
       "eventID": "20250828121300",
       "dateTime": "2025-08-28 03:12:00",
