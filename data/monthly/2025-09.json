@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-01T15:04:11.538Z",
-  "count": 5,
+  "fetchedAt": "2025-09-01T18:05:12.676Z",
+  "count": 6,
   "earthquakes": [
+    {
+      "eventID": "20250902025914",
+      "dateTime": "2025-09-01 17:59:00",
+      "epicenter": "Adjacent Sea of Okinawa Main Island",
+      "epicenterKr": "오키나와 본섬 근해",
+      "magnitude": "2.8",
+      "depth": 40,
+      "lat": 27.4,
+      "lon": 128.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-02T03:01:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.4+128.6-40000/",
+      "areaCode": "850",
+      "jsonFile": "20250902030151_20250902025914_VXSE5k_1.json"
+    },
     {
       "eventID": "20250901234316",
       "dateTime": "2025-09-01 14:43:00",
