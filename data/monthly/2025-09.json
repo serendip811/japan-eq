@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-05T05:04:33.334Z",
-  "count": 23,
+  "fetchedAt": "2025-09-05T08:05:08.402Z",
+  "count": 24,
   "earthquakes": [
+    {
+      "eventID": "20250905170000",
+      "dateTime": "2025-09-05 08:00:00",
+      "epicenter": "",
+      "epicenterKr": "",
+      "magnitude": "",
+      "depth": null,
+      "lat": null,
+      "lon": null,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-09-05T17:00:00+09:00",
+      "title": "南海トラフ地震関連解説情報",
+      "coordinates": "",
+      "areaCode": "",
+      "jsonFile": "20250905170011_20250905170000_VYSE52_0.json"
+    },
     {
       "eventID": "20250905130158",
       "dateTime": "2025-09-05 04:01:00",
