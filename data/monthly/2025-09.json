@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-07T07:03:48.449Z",
-  "count": 41,
+  "fetchedAt": "2025-09-07T13:06:41.646Z",
+  "count": 42,
   "earthquakes": [
+    {
+      "eventID": "20250907210527",
+      "dateTime": "2025-09-07 12:05:00",
+      "epicenter": "Central Tokachi Region, Hokkaido",
+      "epicenterKr": "도카치 지방 중부",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 43.1,
+      "lon": 143.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-09-07T21:07:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.1+143.6-10000/",
+      "areaCode": "156",
+      "jsonFile": "20250907210751_20250907210527_VXSE5k_1.json"
+    },
     {
       "eventID": "20250907155131",
       "dateTime": "2025-09-07 06:51:00",
