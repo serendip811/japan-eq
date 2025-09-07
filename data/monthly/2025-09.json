@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-07T04:04:42.354Z",
-  "count": 40,
+  "fetchedAt": "2025-09-07T07:03:48.449Z",
+  "count": 41,
   "earthquakes": [
+    {
+      "eventID": "20250907155131",
+      "dateTime": "2025-09-07 06:51:00",
+      "epicenter": "Off the west Coast of Ogasawara Islands",
+      "epicenterKr": "오가사와라 제도 서방 바다",
+      "magnitude": "4.7",
+      "depth": 30,
+      "lat": 26.4,
+      "lon": 140.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-07T15:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+26.4+140.8-30000/",
+      "areaCode": "916",
+      "jsonFile": "20250907155553_20250907155131_VXSE5k_1.json"
+    },
     {
       "eventID": "20250907124928",
       "dateTime": "2025-09-07 03:49:00",
