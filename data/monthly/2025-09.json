@@ -1,8 +1,40 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-09T18:05:13.068Z",
-  "count": 59,
+  "fetchedAt": "2025-09-09T21:03:58.178Z",
+  "count": 61,
   "earthquakes": [
+    {
+      "eventID": "20250910055631",
+      "dateTime": "2025-09-09 20:56:00",
+      "epicenter": "Off the northeast Coast of Amami-Oshima Island",
+      "epicenterKr": "아마미 오시마 동북 해역",
+      "magnitude": "4.6",
+      "depth": 20,
+      "lat": 29.4,
+      "lon": 130.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-10T05:59:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+130.7-20000/",
+      "areaCode": "823",
+      "jsonFile": "20250910055929_20250910055631_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250910050229",
+      "dateTime": "2025-09-09 20:02:00",
+      "epicenter": "Adjacent Sea of Miyakejima Island",
+      "epicenterKr": "미야케 섬 근해",
+      "magnitude": "3.9",
+      "depth": 20,
+      "lat": 33.7,
+      "lon": 139.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-10T05:05:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.7+139.5-20000/",
+      "areaCode": "482",
+      "jsonFile": "20250910050501_20250910050229_VXSE5k_1.json"
+    },
     {
       "eventID": "20250910022805",
       "dateTime": "2025-09-09 17:28:00",
