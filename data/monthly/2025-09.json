@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-10T05:04:11.664Z",
-  "count": 62,
+  "fetchedAt": "2025-09-10T07:04:11.428Z",
+  "count": 63,
   "earthquakes": [
+    {
+      "eventID": "20250910152644",
+      "dateTime": "2025-09-10 06:26:00",
+      "epicenter": "Southern Inland of Akita Prefecture",
+      "epicenterKr": "아키타 현 내륙 남부",
+      "magnitude": "2.0",
+      "depth": 0,
+      "lat": 39.2,
+      "lon": 140.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-10T15:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.2+140.6+0/",
+      "areaCode": "233",
+      "jsonFile": "20250910153248_20250910152644_VXSE5k_1.json"
+    },
     {
       "eventID": "20250910131347",
       "dateTime": "2025-09-10 04:13:00",
