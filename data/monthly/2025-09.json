@@ -1,8 +1,40 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-11T06:05:46.750Z",
-  "count": 68,
+  "fetchedAt": "2025-09-11T07:04:43.069Z",
+  "count": 70,
   "earthquakes": [
+    {
+      "eventID": "20250911150709",
+      "dateTime": "2025-09-11 06:07:00",
+      "epicenter": "Hida, Gifu Prefecture",
+      "epicenterKr": "기후 현 히다 지방",
+      "magnitude": "2.5",
+      "depth": 0,
+      "lat": 36.1,
+      "lon": 137.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-11T15:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.1+137.5+0/",
+      "areaCode": "430",
+      "jsonFile": "20250911151020_20250911150709_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250911150348",
+      "dateTime": "2025-09-11 06:03:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "3.7",
+      "depth": 50,
+      "lat": 24.8,
+      "lon": 125.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-11T15:07:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.8+125.3-50000/",
+      "areaCode": "853",
+      "jsonFile": "20250911150705_20250911150348_VXSE5k_1.json"
+    },
     {
       "eventID": "20250911141259",
       "dateTime": "2025-09-11 05:12:00",
