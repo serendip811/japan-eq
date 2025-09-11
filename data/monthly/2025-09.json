@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-11T07:04:43.069Z",
-  "count": 70,
+  "fetchedAt": "2025-09-11T11:03:48.232Z",
+  "count": 71,
   "earthquakes": [
+    {
+      "eventID": "20250911191122",
+      "dateTime": "2025-09-11 10:11:00",
+      "epicenter": "Noto, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 노토 지방",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 37.5,
+      "lon": 137.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-11T19:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.5+137.3-10000/",
+      "areaCode": "390",
+      "jsonFile": "20250911191405_20250911191122_VXSE5k_1.json"
+    },
     {
       "eventID": "20250911150709",
       "dateTime": "2025-09-11 06:07:00",
