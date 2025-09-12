@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-12T19:03:45.761Z",
-  "count": 81,
+  "fetchedAt": "2025-09-12T21:03:49.066Z",
+  "count": 82,
   "earthquakes": [
+    {
+      "eventID": "20250913050324",
+      "dateTime": "2025-09-12 20:03:00",
+      "epicenter": "Adjacent Sea of ​​Izu-Oshima Island",
+      "epicenterKr": "이즈오 섬 근해",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 34.7,
+      "lon": 139.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-13T05:05:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.7+139.3-10000/",
+      "areaCode": "480",
+      "jsonFile": "20250913050543_20250913050324_VXSE5k_1.json"
+    },
     {
       "eventID": "20250913030912",
       "dateTime": "2025-09-12 18:09:00",
