@@ -1,8 +1,40 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-12T11:04:16.986Z",
-  "count": 78,
+  "fetchedAt": "2025-09-12T16:04:22.740Z",
+  "count": 80,
   "earthquakes": [
+    {
+      "eventID": "20250913005758",
+      "dateTime": "2025-09-12 15:57:00",
+      "epicenter": "Off the east Coast of Hokkaido",
+      "epicenterKr": "Off the east Coast of Hokkaido",
+      "magnitude": "4.7",
+      "depth": 30,
+      "lat": 43.2,
+      "lon": 146.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-09-13T01:00:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.2+146.8-30000/",
+      "areaCode": "188",
+      "jsonFile": "20250913010057_20250913005758_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250913004845",
+      "dateTime": "2025-09-12 15:48:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.7",
+      "depth": 40,
+      "lat": 38.5,
+      "lon": 142.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-13T00:51:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.5+142.2-40000/",
+      "areaCode": "287",
+      "jsonFile": "20250913005122_20250913004845_VXSE5k_1.json"
+    },
     {
       "eventID": "20250912195729",
       "dateTime": "2025-09-12 10:57:00",
