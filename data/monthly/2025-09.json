@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-13T07:03:55.185Z",
-  "count": 85,
+  "fetchedAt": "2025-09-13T10:03:57.798Z",
+  "count": 86,
   "earthquakes": [
+    {
+      "eventID": "20250913183404",
+      "dateTime": "2025-09-13 09:34:00",
+      "epicenter": "Southwestern Nagasaki Prefecture",
+      "epicenterKr": "Southwestern Nagasaki Prefecture",
+      "magnitude": "1.9",
+      "depth": 0,
+      "lat": 32.7,
+      "lon": 129.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-13T18:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.7+129.9+0/",
+      "areaCode": "731",
+      "jsonFile": "20250913183744_20250913183404_VXSE5k_1.json"
+    },
     {
       "eventID": "20250913154012",
       "dateTime": "2025-09-13 06:40:00",
