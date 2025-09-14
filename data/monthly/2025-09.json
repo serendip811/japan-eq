@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-14T00:16:35.301Z",
-  "count": 93,
+  "fetchedAt": "2025-09-14T12:05:37.671Z",
+  "count": 94,
   "earthquakes": [
+    {
+      "eventID": "20250914205311",
+      "dateTime": "2025-09-14 11:53:00",
+      "epicenter": "Southeastern Hyogo Prefecture",
+      "epicenterKr": "효고 현 남동부",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 35.1,
+      "lon": 135.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-14T20:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.1+135.2-10000/",
+      "areaCode": "531",
+      "jsonFile": "20250914205549_20250914205311_VXSE5k_1.json"
+    },
     {
       "eventID": "20250914090831",
       "dateTime": "2025-09-14 00:08:00",
