@@ -1,8 +1,40 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-18T10:04:26.083Z",
-  "count": 162,
+  "fetchedAt": "2025-09-18T11:03:48.605Z",
+  "count": 164,
   "earthquakes": [
+    {
+      "eventID": "20250918193403",
+      "dateTime": "2025-09-18 10:34:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.0",
+      "depth": 20,
+      "lat": 29.5,
+      "lon": 129.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-18T19:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.5+129.5-20000/",
+      "areaCode": "798",
+      "jsonFile": "20250918193738_20250918193403_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250918190655",
+      "dateTime": "2025-09-18 10:06:00",
+      "epicenter": "Hyuganada Sea",
+      "epicenterKr": "히나타 나다",
+      "magnitude": "4.1",
+      "depth": 30,
+      "lat": 32,
+      "lon": 131.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-09-18T19:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+131.9-30000/",
+      "areaCode": "791",
+      "jsonFile": "20250918190948_20250918190655_VXSE5k_1.json"
+    },
     {
       "eventID": "20250918183643",
       "dateTime": "2025-09-18 09:36:00",
