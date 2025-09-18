@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-18T19:03:57.570Z",
-  "count": 170,
+  "fetchedAt": "2025-09-18T20:04:32.153Z",
+  "count": 171,
   "earthquakes": [
+    {
+      "eventID": "20250919040133",
+      "dateTime": "2025-09-18 18:58:00",
+      "epicenter": "Adjacent Kamchatka Peninsula",
+      "epicenterKr": "캄차카 반도",
+      "magnitude": "7.8",
+      "depth": null,
+      "lat": 53,
+      "lon": 160.8,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-09-19T04:26:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "+53.0+160.8/",
+      "areaCode": "941",
+      "jsonFile": "20250919042604_20250919040133_VXSE5e_1.json"
+    },
     {
       "eventID": "20250919033927",
       "dateTime": "2025-09-18 18:39:00",
