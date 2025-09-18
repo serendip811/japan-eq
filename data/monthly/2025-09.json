@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-18T11:03:48.605Z",
-  "count": 164,
+  "fetchedAt": "2025-09-18T16:04:41.615Z",
+  "count": 165,
   "earthquakes": [
+    {
+      "eventID": "20250919002403",
+      "dateTime": "2025-09-18 15:24:00",
+      "epicenter": "Eastern Kanagawa Prefecture",
+      "epicenterKr": "카나강 현 동부",
+      "magnitude": "3.3",
+      "depth": 70,
+      "lat": 35.5,
+      "lon": 139.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-19T00:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.5+139.6-70000/",
+      "areaCode": "360",
+      "jsonFile": "20250919002655_20250919002403_VXSE5k_1.json"
+    },
     {
       "eventID": "20250918193403",
       "dateTime": "2025-09-18 10:34:00",
