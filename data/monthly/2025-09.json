@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-19T12:07:09.516Z",
-  "count": 196,
+  "fetchedAt": "2025-09-19T15:04:16.931Z",
+  "count": 197,
   "earthquakes": [
+    {
+      "eventID": "20250919230123",
+      "dateTime": "2025-09-19 14:01:00",
+      "epicenter": "Off the west Coast of Satsuma Peninsula",
+      "epicenterKr": "사쓰마 반도 서방 바다",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 31.3,
+      "lon": 129.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-19T23:03:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.3+129.9-10000/",
+      "areaCode": "797",
+      "jsonFile": "20250919230359_20250919230123_VXSE5k_1.json"
+    },
     {
       "eventID": "20250919200602",
       "dateTime": "2025-09-19 11:06:00",
