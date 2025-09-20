@@ -1,8 +1,40 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-20T21:03:42.388Z",
-  "count": 227,
+  "fetchedAt": "2025-09-20T22:03:43.453Z",
+  "count": 229,
   "earthquakes": [
+    {
+      "eventID": "20250921064909",
+      "dateTime": "2025-09-20 21:49:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "1.7",
+      "depth": 10,
+      "lat": 29.5,
+      "lon": 129.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-21T06:53:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.5+129.7-10000/",
+      "areaCode": "798",
+      "jsonFile": "20250921065304_20250921064909_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250921064723",
+      "dateTime": "2025-09-20 21:47:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "4.0",
+      "depth": 20,
+      "lat": 40.1,
+      "lon": 141.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-09-21T06:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.1+141.9-20000/",
+      "areaCode": "286",
+      "jsonFile": "20250921064956_20250921064723_VXSE5k_1.json"
+    },
     {
       "eventID": "20250921053418",
       "dateTime": "2025-09-20 20:34:00",
