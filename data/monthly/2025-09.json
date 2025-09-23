@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-23T08:05:54.326Z",
-  "count": 244,
+  "fetchedAt": "2025-09-23T09:04:43.236Z",
+  "count": 245,
   "earthquakes": [
+    {
+      "eventID": "20250923174601",
+      "dateTime": "2025-09-23 08:46:00",
+      "epicenter": "Central Nagano Prefecture",
+      "epicenterKr": "Central Nagano Prefecture",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 36.3,
+      "lon": 138,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-23T17:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.3+138.0-10000/",
+      "areaCode": "421",
+      "jsonFile": "20250923174841_20250923174601_VXSE5k_1.json"
+    },
     {
       "eventID": "20250923163807",
       "dateTime": "2025-09-23 07:38:00",
