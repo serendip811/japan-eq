@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-24T10:04:23.366Z",
-  "count": 254,
+  "fetchedAt": "2025-09-24T13:11:12.885Z",
+  "count": 255,
   "earthquakes": [
+    {
+      "eventID": "20250924211741",
+      "dateTime": "2025-09-24 12:17:00",
+      "epicenter": "23 wards, Tokyo",
+      "epicenterKr": "도쿄도 23구",
+      "magnitude": "3.5",
+      "depth": 70,
+      "lat": 35.7,
+      "lon": 139.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-24T21:21:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.7+139.8-70000/",
+      "areaCode": "350",
+      "jsonFile": "20250924212101_20250924211741_VXSE5k_1.json"
+    },
     {
       "eventID": "20250924185358",
       "dateTime": "2025-09-24 09:53:00",
