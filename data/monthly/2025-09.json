@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-26T06:05:53.131Z",
-  "count": 267,
+  "fetchedAt": "2025-09-26T07:04:30.642Z",
+  "count": 268,
   "earthquakes": [
+    {
+      "eventID": "20250926155234",
+      "dateTime": "2025-09-26 06:52:00",
+      "epicenter": "Ariake Sea",
+      "epicenterKr": "아리아케 카이",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 32.8,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-26T15:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.8+130.6-10000/",
+      "areaCode": "785",
+      "jsonFile": "20250926155452_20250926155234_VXSE5k_1.json"
+    },
     {
       "eventID": "20250926143354",
       "dateTime": "2025-09-26 05:33:00",
