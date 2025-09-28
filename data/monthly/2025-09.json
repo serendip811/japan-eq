@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-28T21:03:48.656Z",
-  "count": 282,
+  "fetchedAt": "2025-09-28T22:03:46.199Z",
+  "count": 283,
   "earthquakes": [
+    {
+      "eventID": "20250929062402",
+      "dateTime": "2025-09-28 21:24:00",
+      "epicenter": "Adjacent Sea of Yonagunijima Island",
+      "epicenterKr": "요나 구니 섬 근해",
+      "magnitude": "4.5",
+      "depth": 50,
+      "lat": 24.4,
+      "lon": 123.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-29T06:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.4+123.3-50000/",
+      "areaCode": "857",
+      "jsonFile": "20250929062758_20250929062402_VXSE5k_1.json"
+    },
     {
       "eventID": "20250929053917",
       "dateTime": "2025-09-28 20:39:00",
