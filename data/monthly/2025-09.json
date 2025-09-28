@@ -1,8 +1,24 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-28T03:20:40.268Z",
-  "count": 273,
+  "fetchedAt": "2025-09-28T04:04:47.580Z",
+  "count": 274,
   "earthquakes": [
+    {
+      "eventID": "20250928125138",
+      "dateTime": "2025-09-28 03:51:00",
+      "epicenter": "Off the northwest Coast of Hokkaido",
+      "epicenterKr": "홋카이도 서북쪽 바다",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 44.4,
+      "lon": 141.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-28T12:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.4+141.5-10000/",
+      "areaCode": "183",
+      "jsonFile": "20250928125439_20250928125138_VXSE5k_1.json"
+    },
     {
       "eventID": "20250928121153",
       "dateTime": "2025-09-28 03:11:00",
