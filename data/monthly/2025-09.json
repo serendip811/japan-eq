@@ -1,8 +1,40 @@
 {
   "month": "2025-09",
-  "fetchedAt": "2025-09-28T02:32:54.787Z",
-  "count": 271,
+  "fetchedAt": "2025-09-28T03:20:40.268Z",
+  "count": 273,
   "earthquakes": [
+    {
+      "eventID": "20250928121153",
+      "dateTime": "2025-09-28 03:11:00",
+      "epicenter": "Off the Coast of Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 바다",
+      "magnitude": "3.2",
+      "depth": 50,
+      "lat": 36.6,
+      "lon": 140.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-28T12:15:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+140.9-50000/",
+      "areaCode": "471",
+      "jsonFile": "20250928121555_20250928121153_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20250928114548",
+      "dateTime": "2025-09-28 02:45:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "3.7",
+      "depth": 50,
+      "lat": 41.4,
+      "lon": 142.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-09-28T11:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.4+142.2-50000/",
+      "areaCode": "285",
+      "jsonFile": "20250928114835_20250928114548_VXSE5k_1.json"
+    },
     {
       "eventID": "20250928104230",
       "dateTime": "2025-09-28 01:42:00",
