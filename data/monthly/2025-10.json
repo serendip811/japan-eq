@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-02T05:04:29.777Z",
-  "count": 9,
+  "fetchedAt": "2025-10-02T12:06:42.793Z",
+  "count": 10,
   "earthquakes": [
+    {
+      "eventID": "20251002204155",
+      "dateTime": "2025-10-02 11:41:00",
+      "epicenter": "Iyonada Sea",
+      "epicenterKr": "이요 나다",
+      "magnitude": "3.5",
+      "depth": 40,
+      "lat": 33.7,
+      "lon": 132.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-02T20:44:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.7+132.5-40000/",
+      "areaCode": "680",
+      "jsonFile": "20251002204436_20251002204155_VXSE5k_1.json"
+    },
     {
       "eventID": "20251002135133",
       "dateTime": "2025-10-02 04:51:00",
