@@ -1,8 +1,40 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-03T00:15:40.922Z",
-  "count": 14,
+  "fetchedAt": "2025-10-03T04:04:57.615Z",
+  "count": 16,
   "earthquakes": [
+    {
+      "eventID": "20251003124818",
+      "dateTime": "2025-10-03 03:48:00",
+      "epicenter": "Tokyo Bay",
+      "epicenterKr": "도쿄 만",
+      "magnitude": "4.1",
+      "depth": 110,
+      "lat": 35.5,
+      "lon": 139.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-03T12:51:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.5+139.9-110000/",
+      "areaCode": "477",
+      "jsonFile": "20251003125147_20251003124818_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251003123716",
+      "dateTime": "2025-10-03 03:37:00",
+      "epicenter": "Off the southeast Coast of Chiba Prefecture",
+      "epicenterKr": "지바 현 남동쪽 바다",
+      "magnitude": "4.3",
+      "depth": 60,
+      "lat": 34.9,
+      "lon": 140.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-03T12:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+140.1-60000/",
+      "areaCode": "309",
+      "jsonFile": "20251003124035_20251003123716_VXSE5k_1.json"
+    },
     {
       "eventID": "20251003081833",
       "dateTime": "2025-10-02 23:18:00",
