@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-04T03:10:13.512Z",
-  "count": 21,
+  "fetchedAt": "2025-10-04T06:05:27.234Z",
+  "count": 22,
   "earthquakes": [
+    {
+      "eventID": "20251004142927",
+      "dateTime": "2025-10-04 05:29:00",
+      "epicenter": "Joetsu, Niigata Prefecture",
+      "epicenterKr": "Joetsu, Niigata Prefecture",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 37,
+      "lon": 138.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-04T14:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.0+138.1-10000/",
+      "areaCode": "370",
+      "jsonFile": "20251004143211_20251004142927_VXSE5k_1.json"
+    },
     {
       "eventID": "20251004114644",
       "dateTime": "2025-10-04 02:46:00",
