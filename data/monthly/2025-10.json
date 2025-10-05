@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-05T15:03:46.971Z",
-  "count": 35,
+  "fetchedAt": "2025-10-05T16:04:11.699Z",
+  "count": 36,
   "earthquakes": [
+    {
+      "eventID": "20251006003554",
+      "dateTime": "2025-10-05 15:35:00",
+      "epicenter": "Central and southern Kushiro Region, Hokkaido",
+      "epicenterKr": "쿠시로 지방 중남부",
+      "magnitude": "4.0",
+      "depth": 110,
+      "lat": 43,
+      "lon": 144.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-06T00:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.0+144.7-110000/",
+      "areaCode": "161",
+      "jsonFile": "20251006003836_20251006003554_VXSE5k_1.json"
+    },
     {
       "eventID": "20251005233532",
       "dateTime": "2025-10-05 14:35:00",
