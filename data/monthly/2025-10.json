@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-08T00:16:08.629Z",
-  "count": 56,
+  "fetchedAt": "2025-10-08T07:04:21.478Z",
+  "count": 57,
   "earthquakes": [
+    {
+      "eventID": "20251008152934",
+      "dateTime": "2025-10-08 06:29:00",
+      "epicenter": "Northern Okayama Prefecture",
+      "epicenterKr": "Northern Okayama Prefecture",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 35,
+      "lon": 134.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-08T15:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+134.1-10000/",
+      "areaCode": "580",
+      "jsonFile": "20251008153226_20251008152934_VXSE5k_1.json"
+    },
     {
       "eventID": "20251008081402",
       "dateTime": "2025-10-07 23:13:00",
