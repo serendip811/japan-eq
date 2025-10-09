@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-09T01:31:26.681Z",
-  "count": 62,
+  "fetchedAt": "2025-10-09T09:04:38.455Z",
+  "count": 63,
   "earthquakes": [
+    {
+      "eventID": "20251009175909",
+      "dateTime": "2025-10-09 08:59:00",
+      "epicenter": "Eastern Oshima Region, Hokkaido",
+      "epicenterKr": "오시마 지방 동부",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 42,
+      "lon": 140.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-09T18:01:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.0+140.8-10000/",
+      "areaCode": "106",
+      "jsonFile": "20251009180132_20251009175909_VXSE5k_1.json"
+    },
     {
       "eventID": "20251009100152",
       "dateTime": "2025-10-09 01:01:00",
