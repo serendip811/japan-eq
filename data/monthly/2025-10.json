@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-10T15:04:15.909Z",
-  "count": 68,
+  "fetchedAt": "2025-10-10T21:04:18.206Z",
+  "count": 69,
   "earthquakes": [
+    {
+      "eventID": "20251011055636",
+      "dateTime": "2025-10-10 20:56:00",
+      "epicenter": "Southeastern Hiroshima Prefecture",
+      "epicenterKr": "히로시마 현 남동부",
+      "magnitude": "2.7",
+      "depth": 20,
+      "lat": 34.6,
+      "lon": 133.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-11T05:59:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.6+133.1-20000/",
+      "areaCode": "591",
+      "jsonFile": "20251011055946_20251011055636_VXSE5k_1.json"
+    },
     {
       "eventID": "20251010234008",
       "dateTime": "2025-10-10 14:40:00",
