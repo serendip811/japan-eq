@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-09T09:04:38.455Z",
-  "count": 63,
+  "fetchedAt": "2025-10-10T02:30:08.225Z",
+  "count": 64,
   "earthquakes": [
+    {
+      "eventID": "20251010104755",
+      "dateTime": "2025-10-10 01:44:00",
+      "epicenter": "Adjacent Philippines",
+      "epicenterKr": "필리핀 근처",
+      "magnitude": "7.4",
+      "depth": null,
+      "lat": 7.4,
+      "lon": 126.9,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-10-10T11:09:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "+07.4+126.9/",
+      "areaCode": "952",
+      "jsonFile": "20251010110959_20251010104755_VXSE5e_1.json"
+    },
     {
       "eventID": "20251009175909",
       "dateTime": "2025-10-09 08:59:00",
