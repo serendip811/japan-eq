@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-10T21:04:18.206Z",
-  "count": 69,
+  "fetchedAt": "2025-10-10T22:04:05.201Z",
+  "count": 71,
   "earthquakes": [
+    {
+      "eventID": "20251011063954",
+      "dateTime": "2025-10-10 21:39:00",
+      "epicenter": "Hamadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 하마 도리",
+      "magnitude": "3.6",
+      "depth": 100,
+      "lat": 37.2,
+      "lon": 141,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-11T06:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.2+141.0-100000/",
+      "areaCode": "251",
+      "jsonFile": "20251011064241_20251011063954_VXSE5k_1.json"
+    },
     {
       "eventID": "20251011055636",
       "dateTime": "2025-10-10 20:56:00",
@@ -18,6 +34,22 @@
       "coordinates": "+34.6+133.1-20000/",
       "areaCode": "591",
       "jsonFile": "20251011055946_20251011055636_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251011053820",
+      "dateTime": "2025-10-10 20:29:00",
+      "epicenter": "Central South America",
+      "epicenterKr": "남미 중부",
+      "magnitude": "7.8",
+      "depth": null,
+      "lat": -60.3,
+      "lon": -61.9,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-10-11T06:06:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-60.3-061.9/",
+      "areaCode": "947",
+      "jsonFile": "20251011060652_20251011053820_VXSE5e_1.json"
     },
     {
       "eventID": "20251010234008",
