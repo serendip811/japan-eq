@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-11T00:15:00.570Z",
-  "count": 73,
+  "fetchedAt": "2025-10-11T01:31:16.052Z",
+  "count": 74,
   "earthquakes": [
+    {
+      "eventID": "20251011101424",
+      "dateTime": "2025-10-11 01:14:00",
+      "epicenter": "Western Aichi Prefecture",
+      "epicenterKr": "Western Aichi Prefecture",
+      "magnitude": "2.8",
+      "depth": 40,
+      "lat": 34.9,
+      "lon": 137.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-11T10:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+137.4-40000/",
+      "areaCode": "451",
+      "jsonFile": "20251011101647_20251011101424_VXSE5k_1.json"
+    },
     {
       "eventID": "20251011082326",
       "dateTime": "2025-10-10 23:23:00",
