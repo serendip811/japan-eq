@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-14T07:04:41.220Z",
-  "count": 90,
+  "fetchedAt": "2025-10-14T13:12:57.030Z",
+  "count": 91,
   "earthquakes": [
+    {
+      "eventID": "20251014213456",
+      "dateTime": "2025-10-14 12:34:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 24.7,
+      "lon": 125.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-14T21:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.7+125.3-50000/",
+      "areaCode": "853",
+      "jsonFile": "20251014213730_20251014213456_VXSE5k_1.json"
+    },
     {
       "eventID": "20251014151045",
       "dateTime": "2025-10-14 06:10:00",
