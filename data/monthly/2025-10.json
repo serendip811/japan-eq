@@ -1,8 +1,40 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-14T13:12:57.030Z",
-  "count": 91,
+  "fetchedAt": "2025-10-14T15:04:43.554Z",
+  "count": 93,
   "earthquakes": [
+    {
+      "eventID": "20251014232821",
+      "dateTime": "2025-10-14 14:28:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 34.2,
+      "lon": 135.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-14T23:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+135.2-10000/",
+      "areaCode": "550",
+      "jsonFile": "20251014233133_20251014232821_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251014232350",
+      "dateTime": "2025-10-14 14:23:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "3.2",
+      "depth": 20,
+      "lat": 29.4,
+      "lon": 129.5,
+      "maxIntensity": "3",
+      "reportedDateTime": "2025-10-14T23:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.5-20000/",
+      "areaCode": "798",
+      "jsonFile": "20251014232629_20251014232350_VXSE5k_1.json"
+    },
     {
       "eventID": "20251014213456",
       "dateTime": "2025-10-14 12:34:00",
