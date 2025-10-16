@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-15T19:04:06.041Z",
-  "count": 96,
+  "fetchedAt": "2025-10-16T02:31:25.969Z",
+  "count": 97,
   "earthquakes": [
+    {
+      "eventID": "20251016105130",
+      "dateTime": "2025-10-16 01:51:00",
+      "epicenter": "Eastern Yamaguchi Prefecture",
+      "epicenterKr": "야마구치 현 동부",
+      "magnitude": "3.3",
+      "depth": 60,
+      "lat": 33.9,
+      "lon": 132.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-16T10:53:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.9+132.1-60000/",
+      "areaCode": "703",
+      "jsonFile": "20251016105351_20251016105130_VXSE5k_1.json"
+    },
     {
       "eventID": "20251016035723",
       "dateTime": "2025-10-15 18:57:00",
