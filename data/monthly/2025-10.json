@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-17T13:11:06.831Z",
-  "count": 99,
+  "fetchedAt": "2025-10-18T01:31:13.538Z",
+  "count": 100,
   "earthquakes": [
+    {
+      "eventID": "20251018095342",
+      "dateTime": "2025-10-18 00:53:00",
+      "epicenter": "Northern Shiribeshi Region, Hokkaido",
+      "epicenterKr": "시리베시 지방 북부",
+      "magnitude": "2.4",
+      "depth": 0,
+      "lat": 43.1,
+      "lon": 141,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-18T09:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.1+141.0+0/",
+      "areaCode": "115",
+      "jsonFile": "20251018095624_20251018095342_VXSE5k_1.json"
+    },
     {
       "eventID": "20251017213101",
       "dateTime": "2025-10-17 12:31:00",
