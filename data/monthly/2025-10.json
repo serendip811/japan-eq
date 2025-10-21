@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-21T08:06:13.180Z",
-  "count": 114,
+  "fetchedAt": "2025-10-21T09:04:43.969Z",
+  "count": 115,
   "earthquakes": [
+    {
+      "eventID": "20251021172329",
+      "dateTime": "2025-10-21 08:23:00",
+      "epicenter": "Off the Coast of Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 바다",
+      "magnitude": "3.1",
+      "depth": 20,
+      "lat": 36.7,
+      "lon": 141.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-21T17:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.7+141.1-20000/",
+      "areaCode": "471",
+      "jsonFile": "20251021172610_20251021172329_VXSE5k_1.json"
+    },
     {
       "eventID": "20251021164145",
       "dateTime": "2025-10-21 07:41:00",
