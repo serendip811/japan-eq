@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-23T13:13:22.701Z",
-  "count": 124,
+  "fetchedAt": "2025-10-23T15:04:48.465Z",
+  "count": 125,
   "earthquakes": [
+    {
+      "eventID": "20251023233612",
+      "dateTime": "2025-10-23 14:36:00",
+      "epicenter": "Adjacent Sea of Tanegashima Island",
+      "epicenterKr": "다네가 섬 근해",
+      "magnitude": "3.5",
+      "depth": 10,
+      "lat": 30.6,
+      "lon": 131.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-23T23:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+30.6+131.2-10000/",
+      "areaCode": "790",
+      "jsonFile": "20251023233854_20251023233612_VXSE5k_1.json"
+    },
     {
       "eventID": "20251023213300",
       "dateTime": "2025-10-23 12:33:00",
