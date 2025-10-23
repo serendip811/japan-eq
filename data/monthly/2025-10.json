@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-23T05:04:36.222Z",
-  "count": 123,
+  "fetchedAt": "2025-10-23T13:13:22.701Z",
+  "count": 124,
   "earthquakes": [
+    {
+      "eventID": "20251023213300",
+      "dateTime": "2025-10-23 12:33:00",
+      "epicenter": "Western Shizuoka Prefecture",
+      "epicenterKr": "시즈오카 현 서부",
+      "magnitude": "3.4",
+      "depth": 20,
+      "lat": 34.9,
+      "lon": 137.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-23T21:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+137.8-20000/",
+      "areaCode": "443",
+      "jsonFile": "20251023213546_20251023213300_VXSE5k_1.json"
+    },
     {
       "eventID": "20251023133311",
       "dateTime": "2025-10-23 04:33:00",
