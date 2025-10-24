@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-24T02:30:09.290Z",
-  "count": 132,
+  "fetchedAt": "2025-10-24T07:04:22.751Z",
+  "count": 133,
   "earthquakes": [
+    {
+      "eventID": "20251024154734",
+      "dateTime": "2025-10-24 06:47:00",
+      "epicenter": "Northwestern Chiba Prefecture",
+      "epicenterKr": "Northwestern Chiba Prefecture",
+      "magnitude": "4.0",
+      "depth": 70,
+      "lat": 35.8,
+      "lon": 140.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-24T15:50:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.8+140.1-70000/",
+      "areaCode": "341",
+      "jsonFile": "20251024155039_20251024154734_VXSE5k_1.json"
+    },
     {
       "eventID": "20251024104303",
       "dateTime": "2025-10-24 01:43:00",
