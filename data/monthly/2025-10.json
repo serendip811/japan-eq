@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-25T16:04:20.645Z",
-  "count": 141,
+  "fetchedAt": "2025-10-25T17:04:15.534Z",
+  "count": 142,
   "earthquakes": [
+    {
+      "eventID": "20251026010959",
+      "dateTime": "2025-10-25 16:09:00",
+      "epicenter": "Nakadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 나카도리",
+      "magnitude": "3.5",
+      "depth": 10,
+      "lat": 36.9,
+      "lon": 140.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-26T01:12:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.9+140.5-10000/",
+      "areaCode": "250",
+      "jsonFile": "20251026011247_20251026010959_VXSE5k_1.json"
+    },
     {
       "eventID": "20251026003440",
       "dateTime": "2025-10-25 15:34:00",
