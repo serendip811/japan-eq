@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-26T03:21:44.854Z",
-  "count": 147,
+  "fetchedAt": "2025-10-26T07:04:14.395Z",
+  "count": 148,
   "earthquakes": [
+    {
+      "eventID": "20251026155428",
+      "dateTime": "2025-10-26 06:54:00",
+      "epicenter": "Nara Prefecture",
+      "epicenterKr": "나라현",
+      "magnitude": "3.5",
+      "depth": 10,
+      "lat": 34.4,
+      "lon": 136,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-26T15:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.4+136.0-10000/",
+      "areaCode": "540",
+      "jsonFile": "20251026155647_20251026155428_VXSE5k_1.json"
+    },
     {
       "eventID": "20251026120742",
       "dateTime": "2025-10-26 03:07:00",
