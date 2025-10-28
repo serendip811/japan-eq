@@ -1,8 +1,40 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-28T09:04:42.930Z",
-  "count": 154,
+  "fetchedAt": "2025-10-28T11:03:57.732Z",
+  "count": 156,
   "earthquakes": [
+    {
+      "eventID": "20251028191458",
+      "dateTime": "2025-10-28 10:15:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "1.8",
+      "depth": 10,
+      "lat": 34,
+      "lon": 135.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-28T19:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.0+135.2-10000/",
+      "areaCode": "550",
+      "jsonFile": "20251028191752_20251028191458_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251028190513",
+      "dateTime": "2025-10-28 10:05:00",
+      "epicenter": "Off the Coast of Tomakomai",
+      "epicenterKr": "토마코마이 바다",
+      "magnitude": "3.8",
+      "depth": 50,
+      "lat": 41.6,
+      "lon": 141.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-28T19:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.6+141.9-50000/",
+      "areaCode": "193",
+      "jsonFile": "20251028190815_20251028190513_VXSE5k_1.json"
+    },
     {
       "eventID": "20251028171202",
       "dateTime": "2025-10-28 08:12:00",
