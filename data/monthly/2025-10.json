@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-28T11:03:57.732Z",
-  "count": 156,
+  "fetchedAt": "2025-10-28T21:04:07.880Z",
+  "count": 157,
   "earthquakes": [
+    {
+      "eventID": "20251029051929",
+      "dateTime": "2025-10-28 20:19:00",
+      "epicenter": "Southern Kamikawa Region, Hokkaido",
+      "epicenterKr": "카미카와 지방 남부",
+      "magnitude": "2.3",
+      "depth": 0,
+      "lat": 43.4,
+      "lon": 142.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-29T05:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.4+142.6+0/",
+      "areaCode": "127",
+      "jsonFile": "20251029052244_20251029051929_VXSE5k_1.json"
+    },
     {
       "eventID": "20251028191458",
       "dateTime": "2025-10-28 10:15:00",
