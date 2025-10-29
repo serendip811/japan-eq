@@ -1,8 +1,40 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-29T12:07:31.462Z",
-  "count": 159,
+  "fetchedAt": "2025-10-29T21:04:27.664Z",
+  "count": 161,
   "earthquakes": [
+    {
+      "eventID": "20251030050746",
+      "dateTime": "2025-10-29 20:08:00",
+      "epicenter": "Tsugaru Strait",
+      "epicenterKr": "쓰가루 해협",
+      "magnitude": "2.2",
+      "depth": 0,
+      "lat": 41.7,
+      "lon": 140.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-30T05:12:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.7+140.8+0/",
+      "areaCode": "280",
+      "jsonFile": "20251030051231_20251030050746_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251030050631",
+      "dateTime": "2025-10-29 20:06:00",
+      "epicenter": "Tsugaru Strait",
+      "epicenterKr": "쓰가루 해협",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 41.7,
+      "lon": 140.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-10-30T05:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.7+140.8-10000/",
+      "areaCode": "280",
+      "jsonFile": "20251030050916_20251030050631_VXSE5k_1.json"
+    },
     {
       "eventID": "20251029201205",
       "dateTime": "2025-10-29 11:12:00",
