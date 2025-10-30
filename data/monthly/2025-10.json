@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-30T02:33:50.838Z",
-  "count": 162,
+  "fetchedAt": "2025-10-30T06:05:48.119Z",
+  "count": 163,
   "earthquakes": [
+    {
+      "eventID": "20251030140928",
+      "dateTime": "2025-10-30 05:09:00",
+      "epicenter": "Southwestern Hyogo Prefecture",
+      "epicenterKr": "효고 현 남서부",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 34.9,
+      "lon": 134.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-30T14:12:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+134.7-10000/",
+      "areaCode": "532",
+      "jsonFile": "20251030141217_20251030140928_VXSE5k_1.json"
+    },
     {
       "eventID": "20251030110545",
       "dateTime": "2025-10-30 02:05:00",
