@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-30T16:05:20.152Z",
-  "count": 168,
+  "fetchedAt": "2025-10-30T17:04:37.258Z",
+  "count": 169,
   "earthquakes": [
+    {
+      "eventID": "20251031014009",
+      "dateTime": "2025-10-30 16:40:00",
+      "epicenter": "Eastern Toyama Prefecture",
+      "epicenterKr": "Eastern Toyama Prefecture",
+      "magnitude": "2.8",
+      "depth": 0,
+      "lat": 36.6,
+      "lon": 137.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-31T01:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+137.6+0/",
+      "areaCode": "380",
+      "jsonFile": "20251031014256_20251031014009_VXSE5k_1.json"
+    },
     {
       "eventID": "20251031004607",
       "dateTime": "2025-10-30 15:46:00",
