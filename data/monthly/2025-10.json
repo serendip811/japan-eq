@@ -1,8 +1,24 @@
 {
   "month": "2025-10",
-  "fetchedAt": "2025-10-30T08:05:48.961Z",
-  "count": 167,
+  "fetchedAt": "2025-10-30T16:05:20.152Z",
+  "count": 168,
   "earthquakes": [
+    {
+      "eventID": "20251031004607",
+      "dateTime": "2025-10-30 15:46:00",
+      "epicenter": "Northern Tokushima Prefecture",
+      "epicenterKr": "도쿠시마 현 북부",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 34.1,
+      "lon": 134.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-10-31T00:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.1+134.4-10000/",
+      "areaCode": "600",
+      "jsonFile": "20251031004854_20251031004607_VXSE5k_1.json"
+    },
     {
       "eventID": "20251030170054",
       "dateTime": "2025-10-30 08:00:00",
