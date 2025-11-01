@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-01T02:33:57.524Z",
-  "count": 1,
+  "fetchedAt": "2025-11-01T07:04:09.995Z",
+  "count": 2,
   "earthquakes": [
+    {
+      "eventID": "20251101153202",
+      "dateTime": "2025-11-01 06:32:00",
+      "epicenter": "Wakasa Bay",
+      "epicenterKr": "와카사 만",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 35.6,
+      "lon": 135.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-01T15:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.6+135.3-10000/",
+      "areaCode": "492",
+      "jsonFile": "20251101153450_20251101153202_VXSE5k_1.json"
+    },
     {
       "eventID": "20251101111755",
       "dateTime": "2025-11-01 02:17:00",
