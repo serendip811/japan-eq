@@ -1,0 +1,23 @@
+{
+  "month": "2025-11",
+  "fetchedAt": "2025-11-01T02:33:57.524Z",
+  "count": 1,
+  "earthquakes": [
+    {
+      "eventID": "20251101111755",
+      "dateTime": "2025-11-01 02:17:00",
+      "epicenter": "Western Oita Prefecture",
+      "epicenterKr": "오이타 현 서부",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 33.1,
+      "lon": 131.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-01T11:21:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.1+131.2-10000/",
+      "areaCode": "753",
+      "jsonFile": "20251101112117_20251101111755_VXSE5k_1.json"
+    }
+  ]
+}
