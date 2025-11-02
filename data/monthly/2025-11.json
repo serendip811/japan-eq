@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-02T09:04:01.968Z",
-  "count": 9,
+  "fetchedAt": "2025-11-02T10:04:15.391Z",
+  "count": 10,
   "earthquakes": [
+    {
+      "eventID": "20251102184344",
+      "dateTime": "2025-11-02 09:43:00",
+      "epicenter": "Tosa Bay",
+      "epicenterKr": "토사만",
+      "magnitude": "2.7",
+      "depth": 30,
+      "lat": 33.4,
+      "lon": 134,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-02T18:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.4+134.0-30000/",
+      "areaCode": "673",
+      "jsonFile": "20251102184617_20251102184344_VXSE5k_1.json"
+    },
     {
       "eventID": "20251102172441",
       "dateTime": "2025-11-02 08:24:00",
