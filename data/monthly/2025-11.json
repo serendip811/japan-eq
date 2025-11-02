@@ -1,8 +1,40 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-02T10:04:15.391Z",
-  "count": 10,
+  "fetchedAt": "2025-11-02T12:05:59.676Z",
+  "count": 12,
   "earthquakes": [
+    {
+      "eventID": "20251102204319",
+      "dateTime": "2025-11-02 11:43:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.8",
+      "depth": 60,
+      "lat": 38,
+      "lon": 141.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-02T20:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.0+141.8-60000/",
+      "areaCode": "287",
+      "jsonFile": "20251102204605_20251102204319_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251102203952",
+      "dateTime": "2025-11-02 11:39:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "1.2",
+      "depth": 0,
+      "lat": 31.8,
+      "lon": 130.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-02T20:43:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.8+130.7+0/",
+      "areaCode": "770",
+      "jsonFile": "20251102204301_20251102203952_VXSE5k_1.json"
+    },
     {
       "eventID": "20251102184344",
       "dateTime": "2025-11-02 09:43:00",
