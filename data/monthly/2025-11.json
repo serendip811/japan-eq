@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-04T23:04:25.920Z",
-  "count": 41,
+  "fetchedAt": "2025-11-05T09:05:04.255Z",
+  "count": 42,
   "earthquakes": [
+    {
+      "eventID": "20251105175515",
+      "dateTime": "2025-11-05 08:55:00",
+      "epicenter": "Adjacent Sea of​ Chichijima Island",
+      "epicenterKr": "부도 근해",
+      "magnitude": "4.8",
+      "depth": 10,
+      "lat": 27.5,
+      "lon": 143.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-05T17:59:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.5+143.1-10000/",
+      "areaCode": "911",
+      "jsonFile": "20251105175929_20251105175515_VXSE5k_1.json"
+    },
     {
       "eventID": "20251105071738",
       "dateTime": "2025-11-04 22:17:00",
