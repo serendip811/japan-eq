@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-07T03:23:20.371Z",
-  "count": 60,
+  "fetchedAt": "2025-11-07T09:04:50.295Z",
+  "count": 61,
   "earthquakes": [
+    {
+      "eventID": "20251107172653",
+      "dateTime": "2025-11-07 08:26:00",
+      "epicenter": "Southern Tochigi Prefecture",
+      "epicenterKr": "도치기 현 남부",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 36.6,
+      "lon": 139.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-07T17:29:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+139.5-10000/",
+      "areaCode": "311",
+      "jsonFile": "20251107172929_20251107172653_VXSE5k_1.json"
+    },
     {
       "eventID": "20251107120759",
       "dateTime": "2025-11-07 03:07:00",
