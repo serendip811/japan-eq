@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-10T10:05:40.356Z",
-  "count": 120,
+  "fetchedAt": "2025-11-10T11:04:03.006Z",
+  "count": 121,
   "earthquakes": [
+    {
+      "eventID": "20251110193603",
+      "dateTime": "2025-11-10 10:36:00",
+      "epicenter": "Adjacent Sea of Amami-Oshima Island",
+      "epicenterKr": "아마미오 섬 근해",
+      "magnitude": "2.7",
+      "depth": 20,
+      "lat": 28.1,
+      "lon": 129.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-10T19:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+28.1+129.2-20000/",
+      "areaCode": "793",
+      "jsonFile": "20251110193922_20251110193603_VXSE5k_1.json"
+    },
     {
       "eventID": "20251110185905",
       "dateTime": "2025-11-10 09:59:00",
