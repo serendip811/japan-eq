@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-12T13:14:07.910Z",
-  "count": 133,
+  "fetchedAt": "2025-11-12T15:04:50.926Z",
+  "count": 134,
   "earthquakes": [
+    {
+      "eventID": "20251112235622",
+      "dateTime": "2025-11-12 14:56:00",
+      "epicenter": "Southern Sorachi Region, Hokkaido",
+      "epicenterKr": "소라 지방 남부",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 43.3,
+      "lon": 141.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-12T23:59:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.3+141.7-10000/",
+      "areaCode": "122",
+      "jsonFile": "20251112235904_20251112235622_VXSE5k_1.json"
+    },
     {
       "eventID": "20251112212705",
       "dateTime": "2025-11-12 12:27:00",
