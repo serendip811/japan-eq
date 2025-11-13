@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-13T01:32:11.871Z",
-  "count": 136,
+  "fetchedAt": "2025-11-13T02:34:51.734Z",
+  "count": 137,
   "earthquakes": [
+    {
+      "eventID": "20251113103855",
+      "dateTime": "2025-11-13 01:38:00",
+      "epicenter": "Off the Coast of Kushiro",
+      "epicenterKr": "구시로 오키",
+      "magnitude": "3.9",
+      "depth": 40,
+      "lat": 42.9,
+      "lon": 145.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-13T10:41:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.9+145.5-40000/",
+      "areaCode": "190",
+      "jsonFile": "20251113104150_20251113103855_VXSE5k_1.json"
+    },
     {
       "eventID": "20251113095442",
       "dateTime": "2025-11-13 00:54:00",
