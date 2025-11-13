@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-13T20:04:49.223Z",
-  "count": 141,
+  "fetchedAt": "2025-11-13T21:04:46.449Z",
+  "count": 142,
   "earthquakes": [
+    {
+      "eventID": "20251114053217",
+      "dateTime": "2025-11-13 20:32:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "2.0",
+      "depth": 0,
+      "lat": 32.1,
+      "lon": 130.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-14T05:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.1+130.4+0/",
+      "areaCode": "770",
+      "jsonFile": "20251114053629_20251114053217_VXSE5k_1.json"
+    },
     {
       "eventID": "20251114045810",
       "dateTime": "2025-11-13 19:58:00",
