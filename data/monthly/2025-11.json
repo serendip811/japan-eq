@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-13T15:04:58.797Z",
-  "count": 140,
+  "fetchedAt": "2025-11-13T20:04:49.223Z",
+  "count": 141,
   "earthquakes": [
+    {
+      "eventID": "20251114045810",
+      "dateTime": "2025-11-13 19:58:00",
+      "epicenter": "Off the Coast of Sanriku",
+      "epicenterKr": "산리 쿠바다",
+      "magnitude": "5.2",
+      "depth": 10,
+      "lat": 39.3,
+      "lon": 143.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-14T05:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.3+143.6-10000/",
+      "areaCode": "288",
+      "jsonFile": "20251114050218_20251114045810_VXSE5k_1.json"
+    },
     {
       "eventID": "20251113230140",
       "dateTime": "2025-11-13 14:01:00",
