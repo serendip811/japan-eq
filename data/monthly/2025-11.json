@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-14T17:04:26.411Z",
-  "count": 148,
+  "fetchedAt": "2025-11-14T18:05:51.259Z",
+  "count": 149,
   "earthquakes": [
+    {
+      "eventID": "20251115023501",
+      "dateTime": "2025-11-14 17:35:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "4.2",
+      "depth": 30,
+      "lat": 37.3,
+      "lon": 141.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-15T02:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.3+141.9-30000/",
+      "areaCode": "289",
+      "jsonFile": "20251115023753_20251115023501_VXSE5k_1.json"
+    },
     {
       "eventID": "20251115011030",
       "dateTime": "2025-11-14 16:10:00",
