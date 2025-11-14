@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-13T22:04:25.638Z",
-  "count": 143,
+  "fetchedAt": "2025-11-14T00:16:50.313Z",
+  "count": 144,
   "earthquakes": [
+    {
+      "eventID": "20251114080533",
+      "dateTime": "2025-11-13 23:05:00",
+      "epicenter": "Northern Inland of Iwate Prefecture",
+      "epicenterKr": "Northern Inland of Iwate Prefecture",
+      "magnitude": "3.7",
+      "depth": 80,
+      "lat": 39.6,
+      "lon": 141.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-14T08:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.6+141.4-80000/",
+      "areaCode": "212",
+      "jsonFile": "20251114080815_20251114080533_VXSE5k_1.json"
+    },
     {
       "eventID": "20251114063634",
       "dateTime": "2025-11-13 21:36:00",
