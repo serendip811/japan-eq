@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-20T02:33:45.458Z",
-  "count": 185,
+  "fetchedAt": "2025-11-20T19:04:05.403Z",
+  "count": 186,
   "earthquakes": [
+    {
+      "eventID": "20251121035154",
+      "dateTime": "2025-11-20 18:51:00",
+      "epicenter": "Hida, Gifu Prefecture",
+      "epicenterKr": "기후 현 히다 지방",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 36.1,
+      "lon": 137.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-21T03:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.1+137.5-10000/",
+      "areaCode": "430",
+      "jsonFile": "20251121035446_20251121035154_VXSE5k_1.json"
+    },
     {
       "eventID": "20251120103519",
       "dateTime": "2025-11-20 01:35:00",
