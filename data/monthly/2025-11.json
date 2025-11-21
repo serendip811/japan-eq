@@ -1,8 +1,40 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-20T22:04:23.653Z",
-  "count": 187,
+  "fetchedAt": "2025-11-21T00:16:55.538Z",
+  "count": 189,
   "earthquakes": [
+    {
+      "eventID": "20251121084635",
+      "dateTime": "2025-11-20 23:46:00",
+      "epicenter": "Northern Kamikawa Region, Hokkaido",
+      "epicenterKr": "카미카와 지방 북부",
+      "magnitude": "1.7",
+      "depth": 10,
+      "lat": 44.3,
+      "lon": 142.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-21T08:50:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.3+142.2-10000/",
+      "areaCode": "125",
+      "jsonFile": "20251121085017_20251121084635_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251121083629",
+      "dateTime": "2025-11-20 23:36:00",
+      "epicenter": "Off the northwest Coast of Miyakojima Island",
+      "epicenterKr": "미야코 섬 북서쪽 바다",
+      "magnitude": "5.0",
+      "depth": 110,
+      "lat": 25.7,
+      "lon": 124.7,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-21T08:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+25.7+124.7-110000/",
+      "areaCode": "859",
+      "jsonFile": "20251121083954_20251121083629_VXSE5k_1.json"
+    },
     {
       "eventID": "20251121060951",
       "dateTime": "2025-11-20 21:09:00",
