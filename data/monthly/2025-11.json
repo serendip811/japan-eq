@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-21T03:23:07.832Z",
-  "count": 190,
+  "fetchedAt": "2025-11-21T04:05:19.547Z",
+  "count": 191,
   "earthquakes": [
+    {
+      "eventID": "20251121122413",
+      "dateTime": "2025-11-21 03:24:00",
+      "epicenter": "Tokyo Bay",
+      "epicenterKr": "도쿄 만",
+      "magnitude": "4.0",
+      "depth": 40,
+      "lat": 35.6,
+      "lon": 139.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-21T12:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.6+139.9-40000/",
+      "areaCode": "477",
+      "jsonFile": "20251121122748_20251121122413_VXSE5k_1.json"
+    },
     {
       "eventID": "20251121121729",
       "dateTime": "2025-11-21 03:17:00",
