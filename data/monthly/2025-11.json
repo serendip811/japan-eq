@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-21T00:16:55.538Z",
-  "count": 189,
+  "fetchedAt": "2025-11-21T03:23:07.832Z",
+  "count": 190,
   "earthquakes": [
+    {
+      "eventID": "20251121121729",
+      "dateTime": "2025-11-21 03:17:00",
+      "epicenter": "Adjacent Kunashiri Island",
+      "epicenterKr": "쿠나 시르 섬 부근",
+      "magnitude": "4.4",
+      "depth": 80,
+      "lat": 44,
+      "lon": 146.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-21T12:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.0+146.8-80000/",
+      "areaCode": "186",
+      "jsonFile": "20251121122019_20251121121729_VXSE5k_1.json"
+    },
     {
       "eventID": "20251121084635",
       "dateTime": "2025-11-20 23:46:00",
