@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-23T01:32:57.401Z",
-  "count": 195,
+  "fetchedAt": "2025-11-23T04:14:13.923Z",
+  "count": 196,
   "earthquakes": [
+    {
+      "eventID": "20251123123751",
+      "dateTime": "2025-11-23 03:37:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "4.2",
+      "depth": 30,
+      "lat": 39.5,
+      "lon": 142.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-23T12:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.5+142.6-30000/",
+      "areaCode": "286",
+      "jsonFile": "20251123124050_20251123123751_VXSE5k_1.json"
+    },
     {
       "eventID": "20251123102429",
       "dateTime": "2025-11-23 01:24:00",
