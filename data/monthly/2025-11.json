@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-22T11:03:37.595Z",
-  "count": 193,
+  "fetchedAt": "2025-11-23T00:19:37.921Z",
+  "count": 194,
   "earthquakes": [
+    {
+      "eventID": "20251123090333",
+      "dateTime": "2025-11-23 00:03:00",
+      "epicenter": "Abashiri Region, Hokkaido",
+      "epicenterKr": "아바시리 지방",
+      "magnitude": "2.7",
+      "depth": 0,
+      "lat": 43.5,
+      "lon": 144,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-23T09:06:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.5+144.0+0/",
+      "areaCode": "140",
+      "jsonFile": "20251123090614_20251123090333_VXSE5k_1.json"
+    },
     {
       "eventID": "20251122191141",
       "dateTime": "2025-11-22 10:11:00",
