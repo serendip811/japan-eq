@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-23T17:03:56.804Z",
-  "count": 199,
+  "fetchedAt": "2025-11-24T07:05:17.234Z",
+  "count": 200,
   "earthquakes": [
+    {
+      "eventID": "20251124155423",
+      "dateTime": "2025-11-24 06:54:00",
+      "epicenter": "Off the Coast of Tomakomai",
+      "epicenterKr": "토마코마이 바다",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 42.6,
+      "lon": 141.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-24T15:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.6+141.8-10000/",
+      "areaCode": "193",
+      "jsonFile": "20251124155656_20251124155423_VXSE5k_1.json"
+    },
     {
       "eventID": "20251124011611",
       "dateTime": "2025-11-23 16:16:00",
