@@ -1,8 +1,40 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-24T11:04:14.637Z",
-  "count": 201,
+  "fetchedAt": "2025-11-25T02:34:35.351Z",
+  "count": 203,
   "earthquakes": [
+    {
+      "eventID": "20251125110820",
+      "dateTime": "2025-11-25 02:08:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "3.4",
+      "depth": 10,
+      "lat": 39.9,
+      "lon": 142.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-11-25T11:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.9+142.1-10000/",
+      "areaCode": "286",
+      "jsonFile": "20251125111043_20251125110820_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251125104432",
+      "dateTime": "2025-11-25 01:44:00",
+      "epicenter": "Adjacent Sea of Okinawa Main Island",
+      "epicenterKr": "오키나와 본섬 근해",
+      "magnitude": "3.5",
+      "depth": 60,
+      "lat": 26.2,
+      "lon": 127,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-25T10:47:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+26.2+127.0-60000/",
+      "areaCode": "850",
+      "jsonFile": "20251125104729_20251125104432_VXSE5k_1.json"
+    },
     {
       "eventID": "20251124191000",
       "dateTime": "2025-11-24 10:10:00",
