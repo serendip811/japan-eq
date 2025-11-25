@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-25T02:34:35.351Z",
-  "count": 203,
+  "fetchedAt": "2025-11-25T03:25:41.313Z",
+  "count": 204,
   "earthquakes": [
+    {
+      "eventID": "20251125121807",
+      "dateTime": "2025-11-25 03:18:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.7",
+      "depth": 50,
+      "lat": 38.6,
+      "lon": 141.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-25T12:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.6+141.9-50000/",
+      "areaCode": "287",
+      "jsonFile": "20251125122034_20251125121807_VXSE5k_1.json"
+    },
     {
       "eventID": "20251125110820",
       "dateTime": "2025-11-25 02:08:00",
