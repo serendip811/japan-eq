@@ -1,8 +1,24 @@
 {
   "month": "2025-11",
-  "fetchedAt": "2025-11-26T13:15:35.768Z",
-  "count": 253,
+  "fetchedAt": "2025-11-26T14:04:49.085Z",
+  "count": 254,
   "earthquakes": [
+    {
+      "eventID": "20251126221207",
+      "dateTime": "2025-11-26 13:12:00",
+      "epicenter": "Aso Region, Kumamoto Prefecture",
+      "epicenterKr": "구마모토 현 아소 지방",
+      "magnitude": "2.4",
+      "depth": 0,
+      "lat": 33,
+      "lon": 131.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-11-26T22:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+131.1+0/",
+      "areaCode": "740",
+      "jsonFile": "20251126221435_20251126221207_VXSE5k_1.json"
+    },
     {
       "eventID": "20251126215934",
       "dateTime": "2025-11-26 12:59:00",
