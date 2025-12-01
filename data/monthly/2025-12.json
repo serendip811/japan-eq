@@ -1,0 +1,55 @@
+{
+  "month": "2025-12",
+  "fetchedAt": "2025-12-01T01:34:06.881Z",
+  "count": 3,
+  "earthquakes": [
+    {
+      "eventID": "20251201094810",
+      "dateTime": "2025-12-01 00:48:00",
+      "epicenter": "Off the Coast of Urakawa",
+      "epicenterKr": "우라카와 오키",
+      "magnitude": "4.5",
+      "depth": 50,
+      "lat": 42.1,
+      "lon": 142.6,
+      "maxIntensity": "3",
+      "reportedDateTime": "2025-12-01T09:52:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.1+142.6-50000/",
+      "areaCode": "192",
+      "jsonFile": "20251201095201_20251201094810_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251201094810",
+      "dateTime": "2025-12-01 00:48:00",
+      "epicenter": "Off the Coast of Urakawa",
+      "epicenterKr": "우라카와 오키",
+      "magnitude": "4.5",
+      "depth": 50,
+      "lat": 42.1,
+      "lon": 142.6,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-12-01T09:50:00+09:00",
+      "title": "Earthquake Information",
+      "coordinates": "+42.1+142.6-50000/",
+      "areaCode": "192",
+      "jsonFile": "20251201095044_20251201094810_VXSE52_0.json"
+    },
+    {
+      "eventID": "20251201094810",
+      "dateTime": "2025-12-01 00:48:00",
+      "epicenter": "",
+      "epicenterKr": "",
+      "magnitude": "",
+      "depth": null,
+      "lat": null,
+      "lon": null,
+      "maxIntensity": "3",
+      "reportedDateTime": "2025-12-01T09:49:00+09:00",
+      "title": "Seismic Intensity Information",
+      "coordinates": "",
+      "areaCode": "",
+      "jsonFile": "20251201094940_20251201094810_VXSE51_0.json"
+    }
+  ]
+}
