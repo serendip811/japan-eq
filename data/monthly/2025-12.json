@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-03T01:32:30.814Z",
-  "count": 16,
+  "fetchedAt": "2025-12-03T07:05:57.558Z",
+  "count": 17,
   "earthquakes": [
+    {
+      "eventID": "20251203152036",
+      "dateTime": "2025-12-03 06:20:00",
+      "epicenter": "Off the Coast of Tokachi",
+      "epicenterKr": "도카치 오키",
+      "magnitude": "4.0",
+      "depth": 40,
+      "lat": 42.4,
+      "lon": 144,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-03T15:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.4+144.0-40000/",
+      "areaCode": "191",
+      "jsonFile": "20251203152355_20251203152036_VXSE5k_1.json"
+    },
     {
       "eventID": "20251203093939",
       "dateTime": "2025-12-03 00:39:00",
