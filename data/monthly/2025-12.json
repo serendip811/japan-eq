@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-03T07:05:57.558Z",
-  "count": 17,
+  "fetchedAt": "2025-12-03T14:05:08.019Z",
+  "count": 19,
   "earthquakes": [
+    {
+      "eventID": "20251203221912",
+      "dateTime": "2025-12-03 13:19:00",
+      "epicenter": "Noto, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 노토 지방",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 37.5,
+      "lon": 137.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-03T22:21:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.5+137.2-10000/",
+      "areaCode": "390",
+      "jsonFile": "20251203222133_20251203221912_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251203221729",
+      "dateTime": "2025-12-03 13:17:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.3",
+      "depth": 60,
+      "lat": 38.4,
+      "lon": 141.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-03T22:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.4+141.7-60000/",
+      "areaCode": "287",
+      "jsonFile": "20251203221949_20251203221729_VXSE5k_1.json"
+    },
     {
       "eventID": "20251203152036",
       "dateTime": "2025-12-03 06:20:00",
