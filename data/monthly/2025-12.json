@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-02T21:04:34.614Z",
-  "count": 15,
+  "fetchedAt": "2025-12-03T01:32:30.814Z",
+  "count": 16,
   "earthquakes": [
+    {
+      "eventID": "20251203093939",
+      "dateTime": "2025-12-03 00:39:00",
+      "epicenter": "Western Kanagawa Prefecture",
+      "epicenterKr": "카나강 현 서부",
+      "magnitude": "3.4",
+      "depth": 110,
+      "lat": 35.5,
+      "lon": 139.3,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-03T09:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.5+139.3-110000/",
+      "areaCode": "361",
+      "jsonFile": "20251203094223_20251203093939_VXSE5k_1.json"
+    },
     {
       "eventID": "20251203050316",
       "dateTime": "2025-12-02 20:03:00",
