@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-03T15:05:38.673Z",
-  "count": 20,
+  "fetchedAt": "2025-12-04T00:17:45.728Z",
+  "count": 21,
   "earthquakes": [
+    {
+      "eventID": "20251204083748",
+      "dateTime": "2025-12-03 23:37:00",
+      "epicenter": "Hamadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 하마 도리",
+      "magnitude": "3.8",
+      "depth": 10,
+      "lat": 37.1,
+      "lon": 140.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-04T08:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.1+140.8-10000/",
+      "areaCode": "251",
+      "jsonFile": "20251204084017_20251204083748_VXSE5k_1.json"
+    },
     {
       "eventID": "20251203234109",
       "dateTime": "2025-12-03 14:41:00",
