@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-04T10:05:33.239Z",
-  "count": 22,
+  "fetchedAt": "2025-12-04T13:15:55.585Z",
+  "count": 23,
   "earthquakes": [
+    {
+      "eventID": "20251204211142",
+      "dateTime": "2025-12-04 12:11:00",
+      "epicenter": "Hyuganada Sea",
+      "epicenterKr": "히나타 나다",
+      "magnitude": "3.5",
+      "depth": 20,
+      "lat": 32,
+      "lon": 132,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-04T21:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+132.0-20000/",
+      "areaCode": "791",
+      "jsonFile": "20251204211434_20251204211142_VXSE5k_1.json"
+    },
     {
       "eventID": "20251204180400",
       "dateTime": "2025-12-04 09:04:00",
