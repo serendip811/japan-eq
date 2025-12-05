@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-05T03:28:44.699Z",
-  "count": 30,
+  "fetchedAt": "2025-12-05T07:05:34.242Z",
+  "count": 31,
   "earthquakes": [
+    {
+      "eventID": "20251205150949",
+      "dateTime": "2025-12-05 06:09:00",
+      "epicenter": "Northern Nagano Prefecture",
+      "epicenterKr": "Northern Nagano Prefecture",
+      "magnitude": "2.3",
+      "depth": 0,
+      "lat": 36.7,
+      "lon": 138.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-05T15:12:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.7+138.2+0/",
+      "areaCode": "420",
+      "jsonFile": "20251205151224_20251205150949_VXSE5k_1.json"
+    },
     {
       "eventID": "20251205121126",
       "dateTime": "2025-12-05 03:11:00",
