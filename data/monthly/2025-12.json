@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-06T12:06:50.995Z",
-  "count": 38,
+  "fetchedAt": "2025-12-06T17:04:09.068Z",
+  "count": 39,
   "earthquakes": [
+    {
+      "eventID": "20251207015237",
+      "dateTime": "2025-12-06 16:52:00",
+      "epicenter": "Central and western Mino, Gifu Prefecture",
+      "epicenterKr": "기후 현 미노 중서부",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 35.6,
+      "lon": 136.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-07T01:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.6+136.4-10000/",
+      "areaCode": "432",
+      "jsonFile": "20251207015506_20251207015237_VXSE5k_1.json"
+    },
     {
       "eventID": "20251206205207",
       "dateTime": "2025-12-06 11:52:00",
