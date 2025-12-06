@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-06T17:04:09.068Z",
-  "count": 39,
+  "fetchedAt": "2025-12-06T21:04:04.860Z",
+  "count": 40,
   "earthquakes": [
+    {
+      "eventID": "20251207053000",
+      "dateTime": "2025-12-06 20:30:00",
+      "epicenter": "Central Kochi Prefecture",
+      "epicenterKr": "Central Kochi Prefecture",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 33.6,
+      "lon": 133.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-07T05:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.6+133.6-10000/",
+      "areaCode": "631",
+      "jsonFile": "20251207053237_20251207053000_VXSE5k_1.json"
+    },
     {
       "eventID": "20251207015237",
       "dateTime": "2025-12-06 16:52:00",
