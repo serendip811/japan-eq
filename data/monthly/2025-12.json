@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-06T04:05:05.406Z",
-  "count": 36,
+  "fetchedAt": "2025-12-06T09:04:28.556Z",
+  "count": 37,
   "earthquakes": [
+    {
+      "eventID": "20251206171506",
+      "dateTime": "2025-12-06 08:15:00",
+      "epicenter": "Off the east Coast of Osumi Peninsula",
+      "epicenterKr": "오스미 반도 동쪽 앞바다",
+      "magnitude": "3.2",
+      "depth": 40,
+      "lat": 31.2,
+      "lon": 131.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-06T17:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.2+131.5-40000/",
+      "areaCode": "820",
+      "jsonFile": "20251206171737_20251206171506_VXSE5k_1.json"
+    },
     {
       "eventID": "20251206122616",
       "dateTime": "2025-12-06 03:26:00",
