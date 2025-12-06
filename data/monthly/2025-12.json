@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-06T21:04:04.860Z",
-  "count": 40,
+  "fetchedAt": "2025-12-06T22:04:13.988Z",
+  "count": 41,
   "earthquakes": [
+    {
+      "eventID": "20251207054100",
+      "dateTime": "2025-12-06 20:42:00",
+      "epicenter": "Western North America",
+      "epicenterKr": "북미 서부",
+      "magnitude": "7.0",
+      "depth": null,
+      "lat": 60.4,
+      "lon": -139.5,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-12-07T06:15:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "+60.4-139.5/",
+      "areaCode": "942",
+      "jsonFile": "20251207061543_20251207054100_VXSE5e_1.json"
+    },
     {
       "eventID": "20251207053000",
       "dateTime": "2025-12-06 20:30:00",
