@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-06T22:04:13.988Z",
-  "count": 41,
+  "fetchedAt": "2025-12-07T01:32:51.097Z",
+  "count": 43,
   "earthquakes": [
+    {
+      "eventID": "20251207093149",
+      "dateTime": "2025-12-07 00:31:00",
+      "epicenter": "Hyuganada Sea",
+      "epicenterKr": "히나타 나다",
+      "magnitude": "4.3",
+      "depth": 40,
+      "lat": 31.7,
+      "lon": 132.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-07T09:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.7+132.2-40000/",
+      "areaCode": "791",
+      "jsonFile": "20251207093505_20251207093149_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251207091650",
+      "dateTime": "2025-12-07 00:16:00",
+      "epicenter": "Off the Coast of Sanriku",
+      "epicenterKr": "산리 쿠바다",
+      "magnitude": "4.8",
+      "depth": 10,
+      "lat": 39.5,
+      "lon": 143.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-07T09:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.5+143.4-10000/",
+      "areaCode": "288",
+      "jsonFile": "20251207092018_20251207091650_VXSE5k_1.json"
+    },
     {
       "eventID": "20251207054100",
       "dateTime": "2025-12-06 20:42:00",
