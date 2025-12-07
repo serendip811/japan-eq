@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-07T10:04:21.703Z",
-  "count": 44,
+  "fetchedAt": "2025-12-07T12:06:38.053Z",
+  "count": 45,
   "earthquakes": [
+    {
+      "eventID": "20251207210140",
+      "dateTime": "2025-12-07 12:01:00",
+      "epicenter": "Shimokita Region, Aomori Prefecture",
+      "epicenterKr": "Shimokita Region, Aomori Prefecture",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 41.2,
+      "lon": 141.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-07T21:04:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.2+141.3-10000/",
+      "areaCode": "203",
+      "jsonFile": "20251207210415_20251207210140_VXSE5k_1.json"
+    },
     {
       "eventID": "20251207183310",
       "dateTime": "2025-12-07 09:33:00",
