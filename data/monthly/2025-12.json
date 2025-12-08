@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-08T16:05:38.482Z",
-  "count": 62,
+  "fetchedAt": "2025-12-08T17:06:06.034Z",
+  "count": 64,
   "earthquakes": [
+    {
+      "eventID": "20251209020000",
+      "dateTime": "2025-12-08 17:00:00",
+      "epicenter": "",
+      "epicenterKr": "",
+      "magnitude": "",
+      "depth": null,
+      "lat": null,
+      "lon": null,
+      "maxIntensity": "",
+      "reportedDateTime": "2025-12-09T02:00:00+09:00",
+      "title": "Off the Coast of Hokkaido and Sanriku Subsequent Earthquake Advisory",
+      "coordinates": "",
+      "areaCode": "",
+      "jsonFile": "20251209020024_20251209020000_VYSE60_0.json"
+    },
+    {
+      "eventID": "20251209010819",
+      "dateTime": "2025-12-08 16:08:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "3.8",
+      "depth": 50,
+      "lat": 41,
+      "lon": 142.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-09T01:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.0+142.1-50000/",
+      "areaCode": "285",
+      "jsonFile": "20251209011051_20251209010819_VXSE5k_1.json"
+    },
     {
       "eventID": "20251209005800",
       "dateTime": "2025-12-08 15:58:00",
