@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-09T14:04:58.860Z",
-  "count": 88,
+  "fetchedAt": "2025-12-09T15:05:08.704Z",
+  "count": 89,
   "earthquakes": [
+    {
+      "eventID": "20251209230943",
+      "dateTime": "2025-12-09 14:09:00",
+      "epicenter": "Adjacent Sea of Niijima Island, Kozushima Island",
+      "epicenterKr": "니지마, 고즈 섬 근해",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 34.2,
+      "lon": 139.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-09T23:12:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+139.3-10000/",
+      "areaCode": "483",
+      "jsonFile": "20251209231220_20251209230943_VXSE5k_1.json"
+    },
     {
       "eventID": "20251209225807",
       "dateTime": "2025-12-09 13:58:00",
