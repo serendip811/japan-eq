@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-10T07:06:23.496Z",
-  "count": 94,
+  "fetchedAt": "2025-12-10T09:06:27.885Z",
+  "count": 95,
   "earthquakes": [
+    {
+      "eventID": "20251210174515",
+      "dateTime": "2025-12-10 08:45:00",
+      "epicenter": "Ise Bay",
+      "epicenterKr": "이세완",
+      "magnitude": "2.7",
+      "depth": 20,
+      "lat": 34.7,
+      "lon": 136.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-10T17:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.7+136.6-20000/",
+      "areaCode": "490",
+      "jsonFile": "20251210174804_20251210174515_VXSE5k_1.json"
+    },
     {
       "eventID": "20251210152354",
       "dateTime": "2025-12-10 06:23:00",
