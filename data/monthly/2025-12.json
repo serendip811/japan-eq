@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-10T00:17:57.715Z",
-  "count": 92,
+  "fetchedAt": "2025-12-10T03:31:13.257Z",
+  "count": 93,
   "earthquakes": [
+    {
+      "eventID": "20251210121520",
+      "dateTime": "2025-12-10 03:15:00",
+      "epicenter": "Adjacent Sea of Miyakejima Island",
+      "epicenterKr": "미야케 섬 근해",
+      "magnitude": "3.8",
+      "depth": 20,
+      "lat": 33.7,
+      "lon": 139.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-10T12:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.7+139.5-20000/",
+      "areaCode": "482",
+      "jsonFile": "20251210121739_20251210121520_VXSE5k_1.json"
+    },
     {
       "eventID": "20251210080445",
       "dateTime": "2025-12-09 23:04:00",
