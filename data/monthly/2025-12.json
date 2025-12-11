@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-11T19:05:26.252Z",
-  "count": 109,
+  "fetchedAt": "2025-12-11T23:04:38.491Z",
+  "count": 111,
   "earthquakes": [
+    {
+      "eventID": "20251212072730",
+      "dateTime": "2025-12-11 22:27:00",
+      "epicenter": "Off the east Coast of Chiba Prefecture",
+      "epicenterKr": "치바현 동방 바다",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 35.7,
+      "lon": 140.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-12T07:29:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.7+140.9-10000/",
+      "areaCode": "473",
+      "jsonFile": "20251212072953_20251212072730_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251212070921",
+      "dateTime": "2025-12-11 22:09:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "5.0",
+      "depth": 0,
+      "lat": 40.9,
+      "lon": 143.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-12T07:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.9+143.1+0/",
+      "areaCode": "285",
+      "jsonFile": "20251212071636_20251212070921_VXSE5k_1.json"
+    },
     {
       "eventID": "20251212035942",
       "dateTime": "2025-12-11 18:59:00",
