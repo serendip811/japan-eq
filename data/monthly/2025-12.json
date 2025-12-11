@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-11T11:04:36.264Z",
-  "count": 107,
+  "fetchedAt": "2025-12-11T19:05:26.252Z",
+  "count": 109,
   "earthquakes": [
+    {
+      "eventID": "20251212035942",
+      "dateTime": "2025-12-11 18:59:00",
+      "epicenter": "Northern Ishikari Region, Hokkaido",
+      "epicenterKr": "이시카리 지방 북부",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 43.4,
+      "lon": 141.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-12T04:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.4+141.6-10000/",
+      "areaCode": "100",
+      "jsonFile": "20251212040203_20251212035942_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251212031112",
+      "dateTime": "2025-12-11 18:11:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "4.4",
+      "depth": 30,
+      "lat": 41.3,
+      "lon": 142.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-12T03:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.3+142.8-30000/",
+      "areaCode": "285",
+      "jsonFile": "20251212031400_20251212031112_VXSE5k_1.json"
+    },
     {
       "eventID": "20251211191223",
       "dateTime": "2025-12-11 10:12:00",
