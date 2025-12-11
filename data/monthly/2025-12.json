@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-10T19:04:45.785Z",
-  "count": 105,
+  "fetchedAt": "2025-12-11T04:14:26.360Z",
+  "count": 106,
   "earthquakes": [
+    {
+      "eventID": "20251211124300",
+      "dateTime": "2025-12-11 03:43:00",
+      "epicenter": "Off the east Coast of Chiba Prefecture",
+      "epicenterKr": "치바현 동방 바다",
+      "magnitude": "3.9",
+      "depth": 10,
+      "lat": 35.8,
+      "lon": 141,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-11T12:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.8+141.0-10000/",
+      "areaCode": "473",
+      "jsonFile": "20251211124648_20251211124300_VXSE5k_1.json"
+    },
     {
       "eventID": "20251211040022",
       "dateTime": "2025-12-10 19:00:00",
