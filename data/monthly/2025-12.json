@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-12T03:32:04.424Z",
-  "count": 121,
+  "fetchedAt": "2025-12-12T05:05:32.559Z",
+  "count": 122,
   "earthquakes": [
+    {
+      "eventID": "20251212135829",
+      "dateTime": "2025-12-12 04:58:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "4.3",
+      "depth": 20,
+      "lat": 41,
+      "lon": 143,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-12T14:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.0+143.0-20000/",
+      "areaCode": "285",
+      "jsonFile": "20251212140227_20251212135829_VXSE5k_1.json"
+    },
     {
       "eventID": "20251212122615",
       "dateTime": "2025-12-12 03:26:00",
