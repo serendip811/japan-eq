@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-12T17:04:35.119Z",
-  "count": 131,
+  "fetchedAt": "2025-12-12T20:05:21.569Z",
+  "count": 132,
   "earthquakes": [
+    {
+      "eventID": "20251213040402",
+      "dateTime": "2025-12-12 19:04:00",
+      "epicenter": "Off the south Coast of Tokaido",
+      "epicenterKr": "도카이도남쪽 바다",
+      "magnitude": "5.3",
+      "depth": 380,
+      "lat": 32.4,
+      "lon": 137.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-13T04:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.4+137.6-380000/",
+      "areaCode": "499",
+      "jsonFile": "20251213040838_20251213040402_VXSE5k_1.json"
+    },
     {
       "eventID": "20251213011902",
       "dateTime": "2025-12-12 16:19:00",
