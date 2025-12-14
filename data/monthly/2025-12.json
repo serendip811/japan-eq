@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-13T23:04:22.943Z",
-  "count": 135,
+  "fetchedAt": "2025-12-14T05:05:03.909Z",
+  "count": 136,
   "earthquakes": [
+    {
+      "eventID": "20251214135705",
+      "dateTime": "2025-12-14 04:57:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "2.3",
+      "depth": 0,
+      "lat": 34.1,
+      "lon": 135.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-14T14:00:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.1+135.3+0/",
+      "areaCode": "550",
+      "jsonFile": "20251214140021_20251214135705_VXSE5k_1.json"
+    },
     {
       "eventID": "20251214075303",
       "dateTime": "2025-12-13 22:53:00",
