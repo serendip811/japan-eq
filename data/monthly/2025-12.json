@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-15T21:04:38.866Z",
-  "count": 155,
+  "fetchedAt": "2025-12-15T22:04:29.905Z",
+  "count": 157,
   "earthquakes": [
+    {
+      "eventID": "20251216064451",
+      "dateTime": "2025-12-15 21:44:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "4.2",
+      "depth": 10,
+      "lat": 40.9,
+      "lon": 143.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-16T06:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.9+143.1-10000/",
+      "areaCode": "285",
+      "jsonFile": "20251216064820_20251216064451_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251216060636",
+      "dateTime": "2025-12-15 21:06:00",
+      "epicenter": "Northern Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 북부",
+      "magnitude": "3.8",
+      "depth": 60,
+      "lat": 36.4,
+      "lon": 140.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-16T06:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+140.6-60000/",
+      "areaCode": "300",
+      "jsonFile": "20251216060942_20251216060636_VXSE5k_1.json"
+    },
     {
       "eventID": "20251216054747",
       "dateTime": "2025-12-15 20:47:00",
