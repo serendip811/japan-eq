@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-16T06:07:07.902Z",
-  "count": 167,
+  "fetchedAt": "2025-12-16T09:07:19.843Z",
+  "count": 168,
   "earthquakes": [
+    {
+      "eventID": "20251216170534",
+      "dateTime": "2025-12-16 08:05:00",
+      "epicenter": "Reihoku,  Fukui Prefecture",
+      "epicenterKr": "Reihoku,  Fukui Prefecture",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 35.9,
+      "lon": 136.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-16T17:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.9+136.8-10000/",
+      "areaCode": "400",
+      "jsonFile": "20251216170809_20251216170534_VXSE5k_1.json"
+    },
     {
       "eventID": "20251216143855",
       "dateTime": "2025-12-16 05:38:00",
