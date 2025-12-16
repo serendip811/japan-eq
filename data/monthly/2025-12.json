@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-16T09:07:19.843Z",
-  "count": 168,
+  "fetchedAt": "2025-12-16T15:06:01.839Z",
+  "count": 170,
   "earthquakes": [
+    {
+      "eventID": "20251216233935",
+      "dateTime": "2025-12-16 14:39:00",
+      "epicenter": "Off the Coast of Noto Peninsula",
+      "epicenterKr": "노토 반도",
+      "magnitude": "3.3",
+      "depth": 10,
+      "lat": 37.1,
+      "lon": 136.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-16T23:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.1+136.6-10000/",
+      "areaCode": "495",
+      "jsonFile": "20251216234215_20251216233935_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251216231308",
+      "dateTime": "2025-12-16 14:13:00",
+      "epicenter": "Aso Region, Kumamoto Prefecture",
+      "epicenterKr": "구마모토 현 아소 지방",
+      "magnitude": "3.3",
+      "depth": 10,
+      "lat": 33,
+      "lon": 131.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-16T23:15:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+131.1-10000/",
+      "areaCode": "740",
+      "jsonFile": "20251216231535_20251216231308_VXSE5k_1.json"
+    },
     {
       "eventID": "20251216170534",
       "dateTime": "2025-12-16 08:05:00",
