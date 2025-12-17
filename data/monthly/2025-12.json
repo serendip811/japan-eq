@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-16T23:04:25.424Z",
-  "count": 172,
+  "fetchedAt": "2025-12-17T02:36:00.843Z",
+  "count": 173,
   "earthquakes": [
+    {
+      "eventID": "20251217104443",
+      "dateTime": "2025-12-17 01:44:00",
+      "epicenter": "Off the southeast Coast of Etorofu Island",
+      "epicenterKr": "이투 루프 섬 남동쪽 바다",
+      "magnitude": "5.4",
+      "depth": 10,
+      "lat": 43.8,
+      "lon": 149.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-17T10:50:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.8+149.2-10000/",
+      "areaCode": "197",
+      "jsonFile": "20251217105001_20251217104443_VXSE5k_1.json"
+    },
     {
       "eventID": "20251217072846",
       "dateTime": "2025-12-16 22:28:00",
