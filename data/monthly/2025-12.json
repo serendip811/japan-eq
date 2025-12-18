@@ -1,8 +1,40 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-18T05:06:31.272Z",
-  "count": 177,
+  "fetchedAt": "2025-12-18T06:07:02.831Z",
+  "count": 179,
   "earthquakes": [
+    {
+      "eventID": "20251218142011",
+      "dateTime": "2025-12-18 05:20:00",
+      "epicenter": "Off the Coast of Sanriku",
+      "epicenterKr": "산리 쿠바다",
+      "magnitude": "4.6",
+      "depth": 10,
+      "lat": 39.7,
+      "lon": 143.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-18T14:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.7+143.2-10000/",
+      "areaCode": "288",
+      "jsonFile": "20251218142312_20251218142011_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20251218140727",
+      "dateTime": "2025-12-18 05:07:00",
+      "epicenter": "Aso Region, Kumamoto Prefecture",
+      "epicenterKr": "구마모토 현 아소 지방",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 33,
+      "lon": 131.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-18T14:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+131.1-10000/",
+      "areaCode": "740",
+      "jsonFile": "20251218141011_20251218140727_VXSE5k_1.json"
+    },
     {
       "eventID": "20251218135121",
       "dateTime": "2025-12-18 04:51:00",
