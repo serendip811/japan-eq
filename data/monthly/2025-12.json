@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-19T04:14:28.737Z",
-  "count": 184,
+  "fetchedAt": "2025-12-19T05:06:11.977Z",
+  "count": 185,
   "earthquakes": [
+    {
+      "eventID": "20251219133720",
+      "dateTime": "2025-12-19 04:36:00",
+      "epicenter": "Off the northwest Coast of Miyakojima Island",
+      "epicenterKr": "미야코 섬 북서쪽 바다",
+      "magnitude": "4.8",
+      "depth": 160,
+      "lat": 26.4,
+      "lon": 124.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-19T13:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+26.4+124.9-160000/",
+      "areaCode": "859",
+      "jsonFile": "20251219133940_20251219133720_VXSE5k_1.json"
+    },
     {
       "eventID": "20251219130412",
       "dateTime": "2025-12-19 04:04:00",
