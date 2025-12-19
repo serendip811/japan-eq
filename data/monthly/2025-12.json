@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-19T11:05:11.668Z",
-  "count": 186,
+  "fetchedAt": "2025-12-19T13:14:20.123Z",
+  "count": 187,
   "earthquakes": [
+    {
+      "eventID": "20251219215441",
+      "dateTime": "2025-12-19 12:54:00",
+      "epicenter": "Off the east Coast of Hachijojima Island",
+      "epicenterKr": "하치조 섬 동쪽 앞바다",
+      "magnitude": "4.6",
+      "depth": 150,
+      "lat": 32.6,
+      "lon": 140.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-19T21:58:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.6+140.2-150000/",
+      "areaCode": "475",
+      "jsonFile": "20251219215803_20251219215441_VXSE5k_1.json"
+    },
     {
       "eventID": "20251219194507",
       "dateTime": "2025-12-19 10:45:00",
