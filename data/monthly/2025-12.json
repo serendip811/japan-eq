@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-21T00:19:29.123Z",
-  "count": 201,
+  "fetchedAt": "2025-12-21T01:32:54.538Z",
+  "count": 202,
   "earthquakes": [
+    {
+      "eventID": "20251221102910",
+      "dateTime": "2025-12-21 01:29:00",
+      "epicenter": "",
+      "epicenterKr": "",
+      "magnitude": "",
+      "depth": null,
+      "lat": null,
+      "lon": null,
+      "maxIntensity": "4",
+      "reportedDateTime": "2025-12-21T10:30:00+09:00",
+      "title": "Seismic Intensity Information",
+      "coordinates": "",
+      "areaCode": "",
+      "jsonFile": "20251221103041_20251221102910_VXSE51_0.json"
+    },
     {
       "eventID": "20251221091343",
       "dateTime": "2025-12-21 00:13:00",
