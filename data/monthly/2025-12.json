@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-22T13:14:43.905Z",
-  "count": 215,
+  "fetchedAt": "2025-12-22T21:04:25.058Z",
+  "count": 216,
   "earthquakes": [
+    {
+      "eventID": "20251223050357",
+      "dateTime": "2025-12-22 20:03:00",
+      "epicenter": "Eastern Hidaka Region, Hokkaido",
+      "epicenterKr": "히다카 지방 동부",
+      "magnitude": "3.7",
+      "depth": 50,
+      "lat": 42.3,
+      "lon": 143,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-23T05:06:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.3+143.0-50000/",
+      "areaCode": "152",
+      "jsonFile": "20251223050638_20251223050357_VXSE5k_1.json"
+    },
     {
       "eventID": "20251222213827",
       "dateTime": "2025-12-22 12:38:00",
