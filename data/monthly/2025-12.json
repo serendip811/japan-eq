@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-25T03:32:24.782Z",
-  "count": 222,
+  "fetchedAt": "2025-12-25T11:04:15.492Z",
+  "count": 223,
   "earthquakes": [
+    {
+      "eventID": "20251225192202",
+      "dateTime": "2025-12-25 10:22:00",
+      "epicenter": "Southern Okayama Prefecture",
+      "epicenterKr": "오카야마 현 남부",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 34.5,
+      "lon": 133.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-25T19:24:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.5+133.5-10000/",
+      "areaCode": "581",
+      "jsonFile": "20251225192448_20251225192202_VXSE5k_1.json"
+    },
     {
       "eventID": "20251225115245",
       "dateTime": "2025-12-25 02:52:00",
