@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-25T11:04:15.492Z",
-  "count": 223,
+  "fetchedAt": "2025-12-25T13:13:57.553Z",
+  "count": 224,
   "earthquakes": [
+    {
+      "eventID": "20251225212835",
+      "dateTime": "2025-12-25 12:28:00",
+      "epicenter": "Central Oita Prefecture",
+      "epicenterKr": "오이타 현 중부",
+      "magnitude": "2.0",
+      "depth": 10,
+      "lat": 33.3,
+      "lon": 131.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-25T21:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.3+131.4-10000/",
+      "areaCode": "751",
+      "jsonFile": "20251225213117_20251225212835_VXSE5k_1.json"
+    },
     {
       "eventID": "20251225192202",
       "dateTime": "2025-12-25 10:22:00",
