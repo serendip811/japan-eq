@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-25T19:04:24.356Z",
-  "count": 232,
+  "fetchedAt": "2025-12-27T00:17:45.274Z",
+  "count": 233,
   "earthquakes": [
+    {
+      "eventID": "20251227082630",
+      "dateTime": "2025-12-26 23:26:00",
+      "epicenter": "Off the north Coast of Hyogo Prefecture",
+      "epicenterKr": "효고 현 북쪽 바다",
+      "magnitude": "3.6",
+      "depth": 10,
+      "lat": 35.7,
+      "lon": 134.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2025-12-27T08:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.7+134.8-10000/",
+      "areaCode": "686",
+      "jsonFile": "20251227082857_20251227082630_VXSE5k_1.json"
+    },
     {
       "eventID": "20251226032935",
       "dateTime": "2025-12-25 18:29:00",
