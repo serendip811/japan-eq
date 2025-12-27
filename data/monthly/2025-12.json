@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-27T04:12:13.637Z",
-  "count": 235,
+  "fetchedAt": "2025-12-27T10:04:25.795Z",
+  "count": 236,
   "earthquakes": [
+    {
+      "eventID": "20251227185605",
+      "dateTime": "2025-12-27 09:56:00",
+      "epicenter": "Bungosuido Strait",
+      "epicenterKr": "풍후수도",
+      "magnitude": "3.1",
+      "depth": 40,
+      "lat": 33,
+      "lon": 132.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-27T18:58:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+132.2-40000/",
+      "areaCode": "681",
+      "jsonFile": "20251227185841_20251227185605_VXSE5k_1.json"
+    },
     {
       "eventID": "20251227125526",
       "dateTime": "2025-12-27 03:55:00",
