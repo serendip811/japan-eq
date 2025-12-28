@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-27T18:05:56.552Z",
-  "count": 240,
+  "fetchedAt": "2025-12-28T00:20:35.628Z",
+  "count": 241,
   "earthquakes": [
+    {
+      "eventID": "20251228090224",
+      "dateTime": "2025-12-28 00:02:00",
+      "epicenter": "Aizu,  Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 아이즈",
+      "magnitude": "1.8",
+      "depth": 10,
+      "lat": 37.1,
+      "lon": 139.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-28T09:05:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.1+139.4-10000/",
+      "areaCode": "252",
+      "jsonFile": "20251228090543_20251228090224_VXSE5k_1.json"
+    },
     {
       "eventID": "20251228021955",
       "dateTime": "2025-12-27 17:19:00",
