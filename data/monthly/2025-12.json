@@ -1,8 +1,24 @@
 {
   "month": "2025-12",
-  "fetchedAt": "2025-12-31T00:19:05.484Z",
-  "count": 265,
+  "fetchedAt": "2025-12-31T02:39:03.918Z",
+  "count": 266,
   "earthquakes": [
+    {
+      "eventID": "20251231103336",
+      "dateTime": "2025-12-31 01:33:00",
+      "epicenter": "Kaga, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 카가 지방",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 36.7,
+      "lon": 136.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2025-12-31T10:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.7+136.8-10000/",
+      "areaCode": "391",
+      "jsonFile": "20251231103622_20251231103336_VXSE5k_1.json"
+    },
     {
       "eventID": "20251231085142",
       "dateTime": "2025-12-30 23:51:00",
