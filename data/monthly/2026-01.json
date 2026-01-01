@@ -1,0 +1,39 @@
+{
+  "month": "2026-01",
+  "fetchedAt": "2026-01-01T02:47:49.782Z",
+  "count": 2,
+  "earthquakes": [
+    {
+      "eventID": "20260101112255",
+      "dateTime": "2026-01-01 02:22:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "3.7",
+      "depth": 40,
+      "lat": 41,
+      "lon": 142.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-01T11:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.0+142.5-40000/",
+      "areaCode": "285",
+      "jsonFile": "20260101112628_20260101112255_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260101111152",
+      "dateTime": "2026-01-01 02:11:00",
+      "epicenter": "Northern Osaka Prefecture",
+      "epicenterKr": "Northern Osaka Prefecture",
+      "magnitude": "2.6",
+      "depth": 20,
+      "lat": 34.9,
+      "lon": 135.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-01T11:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+135.6-20000/",
+      "areaCode": "520",
+      "jsonFile": "20260101111428_20260101111152_VXSE5k_1.json"
+    }
+  ]
+}
