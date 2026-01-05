@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-05T10:06:11.956Z",
-  "count": 13,
+  "fetchedAt": "2026-01-05T18:07:00.194Z",
+  "count": 14,
   "earthquakes": [
+    {
+      "eventID": "20260106023411",
+      "dateTime": "2026-01-05 17:34:00",
+      "epicenter": "Northern Inland of Akita Prefecture",
+      "epicenterKr": "아키타 현 내륙 북부",
+      "magnitude": "1.7",
+      "depth": 0,
+      "lat": 40.2,
+      "lon": 140.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-06T02:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.2+140.7+0/",
+      "areaCode": "232",
+      "jsonFile": "20260106023819_20260106023411_VXSE5k_1.json"
+    },
     {
       "eventID": "20260105184235",
       "dateTime": "2026-01-05 09:42:00",
