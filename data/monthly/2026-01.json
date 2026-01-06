@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-06T14:05:23.067Z",
-  "count": 61,
+  "fetchedAt": "2026-01-06T15:05:17.422Z",
+  "count": 62,
   "earthquakes": [
+    {
+      "eventID": "20260106230923",
+      "dateTime": "2026-01-06 14:09:00",
+      "epicenter": "Eastern Shimane Prefecture",
+      "epicenterKr": "Eastern Shimane Prefecture",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 35.3,
+      "lon": 133.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-06T23:12:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.3+133.2-10000/",
+      "areaCode": "570",
+      "jsonFile": "20260106231207_20260106230923_VXSE5k_1.json"
+    },
     {
       "eventID": "20260106225241",
       "dateTime": "2026-01-06 13:52:00",
