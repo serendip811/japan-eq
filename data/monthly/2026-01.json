@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-08T17:08:37.356Z",
-  "count": 86,
+  "fetchedAt": "2026-01-08T20:05:39.407Z",
+  "count": 87,
   "earthquakes": [
+    {
+      "eventID": "20260109043009",
+      "dateTime": "2026-01-08 19:30:00",
+      "epicenter": "Eastern Oshima Region, Hokkaido",
+      "epicenterKr": "오시마 지방 동부",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 42,
+      "lon": 140.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-09T04:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.0+140.8-10000/",
+      "areaCode": "106",
+      "jsonFile": "20260109043255_20260109043009_VXSE5k_1.json"
+    },
     {
       "eventID": "20260109013631",
       "dateTime": "2026-01-08 16:36:00",
