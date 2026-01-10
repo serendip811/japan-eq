@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-10T03:32:01.352Z",
-  "count": 120,
+  "fetchedAt": "2026-01-10T06:06:05.342Z",
+  "count": 122,
   "earthquakes": [
+    {
+      "eventID": "20260110142737",
+      "dateTime": "2026-01-10 05:27:00",
+      "epicenter": "Off the Coast of Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 바다",
+      "magnitude": "3.5",
+      "depth": 40,
+      "lat": 36.4,
+      "lon": 140.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-10T14:30:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+140.9-40000/",
+      "areaCode": "471",
+      "jsonFile": "20260110143034_20260110142737_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260110141557",
+      "dateTime": "2026-01-10 05:15:00",
+      "epicenter": "Adjacent Sea of Amami-Oshima Island",
+      "epicenterKr": "아마미오 섬 근해",
+      "magnitude": "3.6",
+      "depth": 20,
+      "lat": 27.6,
+      "lon": 128.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-10T14:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.6+128.7-20000/",
+      "areaCode": "793",
+      "jsonFile": "20260110141856_20260110141557_VXSE5k_1.json"
+    },
     {
       "eventID": "20260110120810",
       "dateTime": "2026-01-10 03:08:00",
