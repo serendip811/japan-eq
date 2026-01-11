@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-11T00:20:14.631Z",
-  "count": 130,
+  "fetchedAt": "2026-01-11T01:33:50.219Z",
+  "count": 131,
   "earthquakes": [
+    {
+      "eventID": "20260111094812",
+      "dateTime": "2026-01-11 00:48:00",
+      "epicenter": "Off the Coast of Tokachi",
+      "epicenterKr": "도카치 오키",
+      "magnitude": "4.0",
+      "depth": 60,
+      "lat": 42.3,
+      "lon": 144.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-11T09:51:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.3+144.2-60000/",
+      "areaCode": "191",
+      "jsonFile": "20260111095101_20260111094812_VXSE5k_1.json"
+    },
     {
       "eventID": "20260111085917",
       "dateTime": "2026-01-10 23:59:00",
