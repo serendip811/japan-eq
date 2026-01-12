@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-12T07:09:53.237Z",
-  "count": 151,
+  "fetchedAt": "2026-01-12T15:06:57.535Z",
+  "count": 153,
   "earthquakes": [
+    {
+      "eventID": "20260113000251",
+      "dateTime": "2026-01-12 15:02:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "4.1",
+      "depth": 50,
+      "lat": 38.3,
+      "lon": 141.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-13T00:05:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.3+141.9-50000/",
+      "areaCode": "287",
+      "jsonFile": "20260113000511_20260113000251_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260112230844",
+      "dateTime": "2026-01-12 14:08:00",
+      "epicenter": "Eastern Shimane Prefecture",
+      "epicenterKr": "Eastern Shimane Prefecture",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 35.3,
+      "lon": 133.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-12T23:11:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.3+133.2-10000/",
+      "areaCode": "570",
+      "jsonFile": "20260112231113_20260112230844_VXSE5k_1.json"
+    },
     {
       "eventID": "20260112154754",
       "dateTime": "2026-01-12 06:47:00",
