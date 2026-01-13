@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-13T02:40:04.543Z",
-  "count": 166,
+  "fetchedAt": "2026-01-13T08:06:21.940Z",
+  "count": 167,
   "earthquakes": [
+    {
+      "eventID": "20260113163457",
+      "dateTime": "2026-01-13 07:34:00",
+      "epicenter": "Off the southeast Coast of Etorofu Island",
+      "epicenterKr": "이투 루프 섬 남동쪽 바다",
+      "magnitude": "6.2",
+      "depth": 10,
+      "lat": 44.6,
+      "lon": 149.7,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-13T16:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.6+149.7-10000/",
+      "areaCode": "197",
+      "jsonFile": "20260113164026_20260113163457_VXSE5k_1.json"
+    },
     {
       "eventID": "20260113113100",
       "dateTime": "2026-01-13 02:31:00",
