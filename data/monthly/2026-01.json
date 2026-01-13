@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-12T23:04:24.637Z",
-  "count": 163,
+  "fetchedAt": "2026-01-13T01:33:01.626Z",
+  "count": 165,
   "earthquakes": [
+    {
+      "eventID": "20260113102154",
+      "dateTime": "2026-01-13 01:21:00",
+      "epicenter": "Eastern Aichi Prefecture",
+      "epicenterKr": "Eastern Aichi Prefecture",
+      "magnitude": "3.5",
+      "depth": 40,
+      "lat": 34.9,
+      "lon": 137.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-13T10:24:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+137.5-40000/",
+      "areaCode": "450",
+      "jsonFile": "20260113102440_20260113102154_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260113091558",
+      "dateTime": "2026-01-13 00:15:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "3.1",
+      "depth": 30,
+      "lat": 37.4,
+      "lon": 141.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-13T09:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.4+141.2-30000/",
+      "areaCode": "289",
+      "jsonFile": "20260113091829_20260113091558_VXSE5k_1.json"
+    },
     {
       "eventID": "20260113070114",
       "dateTime": "2026-01-12 22:01:00",
