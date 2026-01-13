@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-13T19:05:50.331Z",
-  "count": 174,
+  "fetchedAt": "2026-01-13T21:04:57.047Z",
+  "count": 176,
   "earthquakes": [
+    {
+      "eventID": "20260114055510",
+      "dateTime": "2026-01-13 20:55:00",
+      "epicenter": "Eastern Shimane Prefecture",
+      "epicenterKr": "Eastern Shimane Prefecture",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 35.3,
+      "lon": 133.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-14T05:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.3+133.1-10000/",
+      "areaCode": "570",
+      "jsonFile": "20260114055749_20260114055510_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260114051531",
+      "dateTime": "2026-01-13 20:15:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.7",
+      "depth": 20,
+      "lat": 29.3,
+      "lon": 129.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-14T05:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.3+129.5-20000/",
+      "areaCode": "798",
+      "jsonFile": "20260114051905_20260114051531_VXSE5k_1.json"
+    },
     {
       "eventID": "20260114034640",
       "dateTime": "2026-01-13 18:46:00",
