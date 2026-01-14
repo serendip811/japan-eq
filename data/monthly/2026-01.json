@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-13T23:04:45.801Z",
-  "count": 177,
+  "fetchedAt": "2026-01-14T03:34:56.862Z",
+  "count": 178,
   "earthquakes": [
+    {
+      "eventID": "20260114115007",
+      "dateTime": "2026-01-14 02:50:00",
+      "epicenter": "Off the east Coast of Chiba Prefecture",
+      "epicenterKr": "치바현 동방 바다",
+      "magnitude": "4.2",
+      "depth": 30,
+      "lat": 35.6,
+      "lon": 141,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-14T11:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.6+141.0-30000/",
+      "areaCode": "473",
+      "jsonFile": "20260114115434_20260114115007_VXSE5k_1.json"
+    },
     {
       "eventID": "20260114075833",
       "dateTime": "2026-01-13 22:58:00",
