@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-14T20:04:36.822Z",
-  "count": 182,
+  "fetchedAt": "2026-01-14T22:04:56.240Z",
+  "count": 183,
   "earthquakes": [
+    {
+      "eventID": "20260115060501",
+      "dateTime": "2026-01-14 21:05:00",
+      "epicenter": "Southern Soya Region, Hokkaido",
+      "epicenterKr": "소야 지방 남부",
+      "magnitude": "2.8",
+      "depth": 0,
+      "lat": 45,
+      "lon": 142.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-15T06:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+45.0+142.2+0/",
+      "areaCode": "136",
+      "jsonFile": "20260115060817_20260115060501_VXSE5k_1.json"
+    },
     {
       "eventID": "20260115044538",
       "dateTime": "2026-01-14 19:45:00",
