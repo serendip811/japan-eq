@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-18T10:04:34.283Z",
-  "count": 231,
+  "fetchedAt": "2026-01-18T18:05:39.057Z",
+  "count": 233,
   "earthquakes": [
+    {
+      "eventID": "20260119023706",
+      "dateTime": "2026-01-18 17:37:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 40.9,
+      "lon": 142.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-19T02:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.9+142.1-50000/",
+      "areaCode": "285",
+      "jsonFile": "20260119024006_20260119023706_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260119023620",
+      "dateTime": "2026-01-18 17:36:00",
+      "epicenter": "Off the Coast of Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 바다",
+      "magnitude": "3.1",
+      "depth": 40,
+      "lat": 36.2,
+      "lon": 141,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-19T02:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+141.0-40000/",
+      "areaCode": "471",
+      "jsonFile": "20260119023855_20260119023620_VXSE5k_1.json"
+    },
     {
       "eventID": "20260118184659",
       "dateTime": "2026-01-18 09:46:00",
