@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-19T15:06:51.063Z",
-  "count": 240,
+  "fetchedAt": "2026-01-19T17:07:14.183Z",
+  "count": 241,
   "earthquakes": [
+    {
+      "eventID": "20260120013035",
+      "dateTime": "2026-01-19 16:30:00",
+      "epicenter": "Off the south Coast of Tokaido",
+      "epicenterKr": "도카이도남쪽 바다",
+      "magnitude": "4.4",
+      "depth": 10,
+      "lat": 33.6,
+      "lon": 138.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-20T01:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.6+138.5-10000/",
+      "areaCode": "499",
+      "jsonFile": "20260120013413_20260120013035_VXSE5k_1.json"
+    },
     {
       "eventID": "20260119235619",
       "dateTime": "2026-01-19 14:56:00",
