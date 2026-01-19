@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-19T17:07:14.183Z",
-  "count": 241,
+  "fetchedAt": "2026-01-19T20:05:27.799Z",
+  "count": 242,
   "earthquakes": [
+    {
+      "eventID": "20260120040907",
+      "dateTime": "2026-01-19 19:09:00",
+      "epicenter": "Off the Coast of Joetsu and Chuetsu, Niigata Prefecture",
+      "epicenterKr": "니가타 현상 주에쓰 오키",
+      "magnitude": "3.1",
+      "depth": 20,
+      "lat": 37.2,
+      "lon": 138,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-20T04:11:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.2+138.0-20000/",
+      "areaCode": "379",
+      "jsonFile": "20260120041150_20260120040907_VXSE5k_1.json"
+    },
     {
       "eventID": "20260120013035",
       "dateTime": "2026-01-19 16:30:00",
