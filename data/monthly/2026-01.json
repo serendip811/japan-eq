@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-20T03:34:18.488Z",
-  "count": 247,
+  "fetchedAt": "2026-01-20T05:10:37.221Z",
+  "count": 248,
   "earthquakes": [
+    {
+      "eventID": "20260120140312",
+      "dateTime": "2026-01-20 05:03:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "4.3",
+      "depth": 30,
+      "lat": 37.6,
+      "lon": 141.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-20T14:06:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.6+141.9-30000/",
+      "areaCode": "289",
+      "jsonFile": "20260120140611_20260120140312_VXSE5k_1.json"
+    },
     {
       "eventID": "20260120122602",
       "dateTime": "2026-01-20 03:26:00",
