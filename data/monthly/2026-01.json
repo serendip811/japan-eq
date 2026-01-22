@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-21T16:09:38.849Z",
-  "count": 263,
+  "fetchedAt": "2026-01-22T07:09:12.310Z",
+  "count": 264,
   "earthquakes": [
+    {
+      "eventID": "20260122154912",
+      "dateTime": "2026-01-22 06:49:00",
+      "epicenter": "Adjacent Sea of Ikishima Island and Tsushima Island",
+      "epicenterKr": "이키·대마도 근해",
+      "magnitude": "3.5",
+      "depth": 10,
+      "lat": 33.7,
+      "lon": 129.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-22T15:51:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.7+129.3-10000/",
+      "areaCode": "795",
+      "jsonFile": "20260122155158_20260122154912_VXSE5k_1.json"
+    },
     {
       "eventID": "20260122000827",
       "dateTime": "2026-01-21 15:08:00",
