@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-22T15:08:59.923Z",
-  "count": 268,
+  "fetchedAt": "2026-01-23T01:33:02.571Z",
+  "count": 270,
   "earthquakes": [
+    {
+      "eventID": "20260123100701",
+      "dateTime": "2026-01-23 01:07:00",
+      "epicenter": "Southern Tokachi Region, Hokkaido",
+      "epicenterKr": "도카치 지방 남부",
+      "magnitude": "3.9",
+      "depth": 50,
+      "lat": 42.4,
+      "lon": 143.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-23T10:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.4+143.2-50000/",
+      "areaCode": "157",
+      "jsonFile": "20260123100950_20260123100701_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260123092101",
+      "dateTime": "2026-01-23 00:21:00",
+      "epicenter": "Southern Tochigi Prefecture",
+      "epicenterKr": "도치기 현 남부",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 36.6,
+      "lon": 139.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-23T09:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+139.5-10000/",
+      "areaCode": "311",
+      "jsonFile": "20260123092334_20260123092101_VXSE5k_1.json"
+    },
     {
       "eventID": "20260122233138",
       "dateTime": "2026-01-22 14:31:00",
