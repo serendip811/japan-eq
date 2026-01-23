@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-23T12:08:09.610Z",
-  "count": 273,
+  "fetchedAt": "2026-01-23T14:07:24.385Z",
+  "count": 274,
   "earthquakes": [
+    {
+      "eventID": "20260123224330",
+      "dateTime": "2026-01-23 13:43:00",
+      "epicenter": "Central Setonaikai Sea",
+      "epicenterKr": "Central Setonaikai Sea",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 34,
+      "lon": 133.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-23T22:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.0+133.1-10000/",
+      "areaCode": "677",
+      "jsonFile": "20260123224616_20260123224330_VXSE5k_1.json"
+    },
     {
       "eventID": "20260123203852",
       "dateTime": "2026-01-23 11:38:00",
