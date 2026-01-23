@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-23T03:33:43.770Z",
-  "count": 271,
+  "fetchedAt": "2026-01-23T11:05:41.282Z",
+  "count": 272,
   "earthquakes": [
+    {
+      "eventID": "20260123195257",
+      "dateTime": "2026-01-23 10:53:00",
+      "epicenter": "Hida, Gifu Prefecture",
+      "epicenterKr": "기후 현 히다 지방",
+      "magnitude": "2.0",
+      "depth": 0,
+      "lat": 36.1,
+      "lon": 137.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-23T19:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.1+137.5+0/",
+      "areaCode": "430",
+      "jsonFile": "20260123195558_20260123195257_VXSE5k_1.json"
+    },
     {
       "eventID": "20260123115226",
       "dateTime": "2026-01-23 02:52:00",
