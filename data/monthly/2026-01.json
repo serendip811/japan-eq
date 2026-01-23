@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-23T11:05:41.282Z",
-  "count": 272,
+  "fetchedAt": "2026-01-23T12:08:09.610Z",
+  "count": 273,
   "earthquakes": [
+    {
+      "eventID": "20260123203852",
+      "dateTime": "2026-01-23 11:38:00",
+      "epicenter": "Off the east Coast of Osumi Peninsula",
+      "epicenterKr": "오스미 반도 동쪽 앞바다",
+      "magnitude": "2.8",
+      "depth": 40,
+      "lat": 31,
+      "lon": 131.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-23T20:41:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.0+131.1-40000/",
+      "areaCode": "820",
+      "jsonFile": "20260123204131_20260123203852_VXSE5k_1.json"
+    },
     {
       "eventID": "20260123195257",
       "dateTime": "2026-01-23 10:53:00",
