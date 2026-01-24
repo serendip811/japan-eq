@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-24T16:05:17.787Z",
-  "count": 286,
+  "fetchedAt": "2026-01-24T22:04:35.158Z",
+  "count": 288,
   "earthquakes": [
+    {
+      "eventID": "20260125061907",
+      "dateTime": "2026-01-24 21:19:00",
+      "epicenter": "Southern Rumoi Region, Hokkaido",
+      "epicenterKr": "루모이 지방 남부",
+      "magnitude": "1.9",
+      "depth": 10,
+      "lat": 44.1,
+      "lon": 141.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-25T06:24:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.1+141.9-10000/",
+      "areaCode": "131",
+      "jsonFile": "20260125062417_20260125061907_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260125060459",
+      "dateTime": "2026-01-24 21:04:00",
+      "epicenter": "Central and southern Kushiro Region, Hokkaido",
+      "epicenterKr": "쿠시로 지방 중남부",
+      "magnitude": "3.5",
+      "depth": 70,
+      "lat": 43.1,
+      "lon": 144.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-25T06:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.1+144.7-70000/",
+      "areaCode": "161",
+      "jsonFile": "20260125060803_20260125060459_VXSE5k_1.json"
+    },
     {
       "eventID": "20260125002742",
       "dateTime": "2026-01-24 15:27:00",
