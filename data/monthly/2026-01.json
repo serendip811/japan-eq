@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-25T03:37:12.032Z",
-  "count": 291,
+  "fetchedAt": "2026-01-25T07:06:14.245Z",
+  "count": 293,
   "earthquakes": [
+    {
+      "eventID": "20260125155110",
+      "dateTime": "2026-01-25 06:50:00",
+      "epicenter": "Off the west Coast of Ogasawara Islands",
+      "epicenterKr": "오가사와라 제도 서방 바다",
+      "magnitude": "5.1",
+      "depth": 490,
+      "lat": 27.7,
+      "lon": 140.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-25T15:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.7+140.4-490000/",
+      "areaCode": "916",
+      "jsonFile": "20260125155539_20260125155110_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260125154301",
+      "dateTime": "2026-01-25 06:43:00",
+      "epicenter": "Southern Nagano Prefecture",
+      "epicenterKr": "Southern Nagano Prefecture",
+      "magnitude": "3.3",
+      "depth": 0,
+      "lat": 35.9,
+      "lon": 137.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-25T15:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.9+137.6+0/",
+      "areaCode": "422",
+      "jsonFile": "20260125154559_20260125154301_VXSE5k_1.json"
+    },
     {
       "eventID": "20260125114716",
       "dateTime": "2026-01-25 02:47:00",
