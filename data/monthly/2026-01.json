@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-26T01:34:27.397Z",
-  "count": 302,
+  "fetchedAt": "2026-01-26T11:05:55.539Z",
+  "count": 303,
   "earthquakes": [
+    {
+      "eventID": "20260126194925",
+      "dateTime": "2026-01-26 10:49:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "4.4",
+      "depth": 50,
+      "lat": 24.8,
+      "lon": 125.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-26T19:52:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.8+125.4-50000/",
+      "areaCode": "853",
+      "jsonFile": "20260126195234_20260126194925_VXSE5k_1.json"
+    },
     {
       "eventID": "20260126102248",
       "dateTime": "2026-01-26 01:22:00",
