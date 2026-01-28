@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-28T02:44:16.465Z",
-  "count": 318,
+  "fetchedAt": "2026-01-28T03:34:22.295Z",
+  "count": 319,
   "earthquakes": [
+    {
+      "eventID": "20260128122709",
+      "dateTime": "2026-01-28 03:27:00",
+      "epicenter": "Adjacent Sea of​ Chichijima Island",
+      "epicenterKr": "부도 근해",
+      "magnitude": "4.6",
+      "depth": 20,
+      "lat": 27.2,
+      "lon": 142.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-28T12:30:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.2+142.6-20000/",
+      "areaCode": "911",
+      "jsonFile": "20260128123040_20260128122709_VXSE5k_1.json"
+    },
     {
       "eventID": "20260128112821",
       "dateTime": "2026-01-28 02:28:00",
