@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-29T05:20:31.191Z",
-  "count": 338,
+  "fetchedAt": "2026-01-29T13:26:44.399Z",
+  "count": 339,
   "earthquakes": [
+    {
+      "eventID": "20260129220339",
+      "dateTime": "2026-01-29 13:03:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "2.8",
+      "depth": 0,
+      "lat": 34.3,
+      "lon": 135.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-29T22:06:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.3+135.4+0/",
+      "areaCode": "550",
+      "jsonFile": "20260129220631_20260129220339_VXSE5k_1.json"
+    },
     {
       "eventID": "20260129133103",
       "dateTime": "2026-01-29 04:31:00",
