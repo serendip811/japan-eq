@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-29T14:16:33.163Z",
-  "count": 340,
+  "fetchedAt": "2026-01-29T15:13:07.479Z",
+  "count": 341,
   "earthquakes": [
+    {
+      "eventID": "20260129231327",
+      "dateTime": "2026-01-29 14:13:00",
+      "epicenter": "Off the Coast of Urakawa",
+      "epicenterKr": "우라카와 오키",
+      "magnitude": "4.1",
+      "depth": 60,
+      "lat": 42,
+      "lon": 142.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-01-29T23:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.0+142.5-60000/",
+      "areaCode": "192",
+      "jsonFile": "20260129231632_20260129231327_VXSE5k_1.json"
+    },
     {
       "eventID": "20260129222328",
       "dateTime": "2026-01-29 13:23:00",
