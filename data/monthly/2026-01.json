@@ -1,8 +1,40 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-29T21:07:36.641Z",
-  "count": 343,
+  "fetchedAt": "2026-01-30T01:35:24.446Z",
+  "count": 345,
   "earthquakes": [
+    {
+      "eventID": "20260130102313",
+      "dateTime": "2026-01-30 01:23:00",
+      "epicenter": "Southern Soya Region, Hokkaido",
+      "epicenterKr": "소야 지방 남부",
+      "magnitude": "3.2",
+      "depth": 0,
+      "lat": 45.1,
+      "lon": 142.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-30T10:25:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+45.1+142.2+0/",
+      "areaCode": "136",
+      "jsonFile": "20260130102540_20260130102313_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260130092748",
+      "dateTime": "2026-01-30 00:27:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "3.4",
+      "depth": 50,
+      "lat": 40.9,
+      "lon": 142.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-30T09:30:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.9+142.1-50000/",
+      "areaCode": "285",
+      "jsonFile": "20260130093041_20260130092748_VXSE5k_1.json"
+    },
     {
       "eventID": "20260130055252",
       "dateTime": "2026-01-29 20:52:00",
