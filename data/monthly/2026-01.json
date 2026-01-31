@@ -1,8 +1,24 @@
 {
   "month": "2026-01",
-  "fetchedAt": "2026-01-30T22:05:49.162Z",
-  "count": 355,
+  "fetchedAt": "2026-01-31T01:34:36.127Z",
+  "count": 356,
   "earthquakes": [
+    {
+      "eventID": "20260131101901",
+      "dateTime": "2026-01-31 01:19:00",
+      "epicenter": "Northern Coast of Iwate Prefecture",
+      "epicenterKr": "Northern Coast of Iwate Prefecture",
+      "magnitude": "3.4",
+      "depth": 60,
+      "lat": 39.8,
+      "lon": 141.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-01-31T10:21:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.8+141.8-60000/",
+      "areaCode": "210",
+      "jsonFile": "20260131102140_20260131101901_VXSE5k_1.json"
+    },
     {
       "eventID": "20260131061136",
       "dateTime": "2026-01-30 21:11:00",
