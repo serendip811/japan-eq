@@ -1,0 +1,23 @@
+{
+  "month": "2026-02",
+  "fetchedAt": "2026-02-01T10:05:55.811Z",
+  "count": 1,
+  "earthquakes": [
+    {
+      "eventID": "20260201183905",
+      "dateTime": "2026-02-01 09:39:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 40.7,
+      "lon": 142.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-01T18:41:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.7+142.2-50000/",
+      "areaCode": "285",
+      "jsonFile": "20260201184131_20260201183905_VXSE5k_1.json"
+    }
+  ]
+}
