@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-02T05:31:53.262Z",
-  "count": 2,
+  "fetchedAt": "2026-02-02T15:16:03.663Z",
+  "count": 3,
   "earthquakes": [
+    {
+      "eventID": "20260203001156",
+      "dateTime": "2026-02-02 15:11:00",
+      "epicenter": "Bungosuido Strait",
+      "epicenterKr": "풍후수도",
+      "magnitude": "3.5",
+      "depth": 40,
+      "lat": 33.2,
+      "lon": 132.3,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-03T00:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.2+132.3-40000/",
+      "areaCode": "681",
+      "jsonFile": "20260203001444_20260203001156_VXSE5k_1.json"
+    },
     {
       "eventID": "20260202141457",
       "dateTime": "2026-02-02 05:15:00",
