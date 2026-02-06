@@ -1,8 +1,40 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-06T01:35:03.152Z",
-  "count": 25,
+  "fetchedAt": "2026-02-06T08:13:47.573Z",
+  "count": 27,
   "earthquakes": [
+    {
+      "eventID": "20260206170000",
+      "dateTime": "2026-02-06 08:00:00",
+      "epicenter": "",
+      "epicenterKr": "",
+      "magnitude": "",
+      "depth": null,
+      "lat": null,
+      "lon": null,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-02-06T17:00:00+09:00",
+      "title": "南海トラフ地震関連解説情報",
+      "coordinates": "",
+      "areaCode": "",
+      "jsonFile": "20260206170008_20260206170000_VYSE52_0.json"
+    },
+    {
+      "eventID": "20260206164545",
+      "dateTime": "2026-02-06 07:45:00",
+      "epicenter": "Ariake Sea",
+      "epicenterKr": "아리아케 카이",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 32.8,
+      "lon": 130.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-06T16:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.8+130.4-10000/",
+      "areaCode": "785",
+      "jsonFile": "20260206164817_20260206164545_VXSE5k_1.json"
+    },
     {
       "eventID": "20260206092320",
       "dateTime": "2026-02-06 00:23:00",
