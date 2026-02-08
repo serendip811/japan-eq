@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-08T18:08:10.575Z",
-  "count": 47,
+  "fetchedAt": "2026-02-08T19:10:01.177Z",
+  "count": 48,
   "earthquakes": [
+    {
+      "eventID": "20260209035440",
+      "dateTime": "2026-02-08 18:54:00",
+      "epicenter": "Nakadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 나카도리",
+      "magnitude": "2.9",
+      "depth": 80,
+      "lat": 37.1,
+      "lon": 140.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-09T03:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.1+140.4-80000/",
+      "areaCode": "250",
+      "jsonFile": "20260209035737_20260209035440_VXSE5k_1.json"
+    },
     {
       "eventID": "20260209030020",
       "dateTime": "2026-02-08 18:00:00",
