@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-09T01:35:53.178Z",
-  "count": 50,
+  "fetchedAt": "2026-02-09T13:32:36.600Z",
+  "count": 51,
   "earthquakes": [
+    {
+      "eventID": "20260209212808",
+      "dateTime": "2026-02-09 12:28:00",
+      "epicenter": "Northern Saitama Prefecture",
+      "epicenterKr": "Northern Saitama Prefecture",
+      "magnitude": "3.5",
+      "depth": 90,
+      "lat": 36.1,
+      "lon": 139.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-09T21:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.1+139.7-90000/",
+      "areaCode": "330",
+      "jsonFile": "20260209213125_20260209212808_VXSE5k_1.json"
+    },
     {
       "eventID": "20260209101323",
       "dateTime": "2026-02-09 01:13:00",
