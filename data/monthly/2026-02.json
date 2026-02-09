@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-09T15:21:06.132Z",
-  "count": 53,
+  "fetchedAt": "2026-02-09T20:13:32.788Z",
+  "count": 54,
   "earthquakes": [
+    {
+      "eventID": "20260210043120",
+      "dateTime": "2026-02-09 19:31:00",
+      "epicenter": "Adjacent Sea of Amami-Oshima Island",
+      "epicenterKr": "아마미오 섬 근해",
+      "magnitude": "3.6",
+      "depth": 10,
+      "lat": 28.1,
+      "lon": 129,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-10T04:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+28.1+129.0-10000/",
+      "areaCode": "793",
+      "jsonFile": "20260210043446_20260210043120_VXSE5k_1.json"
+    },
     {
       "eventID": "20260210000840",
       "dateTime": "2026-02-09 15:08:00",
