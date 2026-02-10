@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-09T20:13:32.788Z",
-  "count": 54,
+  "fetchedAt": "2026-02-10T01:36:30.069Z",
+  "count": 55,
   "earthquakes": [
+    {
+      "eventID": "20260210101745",
+      "dateTime": "2026-02-10 01:17:00",
+      "epicenter": "Northern Nemuro Region, Hokkaido",
+      "epicenterKr": "네무로 지방 북부",
+      "magnitude": "3.4",
+      "depth": 10,
+      "lat": 43.9,
+      "lon": 145,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-10T10:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.9+145.0-10000/",
+      "areaCode": "165",
+      "jsonFile": "20260210102015_20260210101745_VXSE5k_1.json"
+    },
     {
       "eventID": "20260210043120",
       "dateTime": "2026-02-09 19:31:00",
