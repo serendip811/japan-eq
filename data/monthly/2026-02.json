@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-10T16:24:54.003Z",
-  "count": 58,
+  "fetchedAt": "2026-02-10T19:26:41.127Z",
+  "count": 59,
   "earthquakes": [
+    {
+      "eventID": "20260211035215",
+      "dateTime": "2026-02-10 18:52:00",
+      "epicenter": "Off the east Coast of Kanto",
+      "epicenterKr": "관동 동방 바다",
+      "magnitude": "5.1",
+      "depth": 10,
+      "lat": 35.6,
+      "lon": 143.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-11T03:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.6+143.9-10000/",
+      "areaCode": "472",
+      "jsonFile": "20260211035645_20260211035215_VXSE5k_1.json"
+    },
     {
       "eventID": "20260211011246",
       "dateTime": "2026-02-10 16:12:00",
