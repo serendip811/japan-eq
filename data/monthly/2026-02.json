@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-12T22:08:58.382Z",
-  "count": 75,
+  "fetchedAt": "2026-02-13T05:30:11.970Z",
+  "count": 76,
   "earthquakes": [
+    {
+      "eventID": "20260213135919",
+      "dateTime": "2026-02-13 04:59:00",
+      "epicenter": "Chuetsu, Niigata Prefecture",
+      "epicenterKr": "니가타 현 주에쓰 지방",
+      "magnitude": "4.7",
+      "depth": 180,
+      "lat": 37.7,
+      "lon": 139.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-13T14:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.7+139.1-180000/",
+      "areaCode": "371",
+      "jsonFile": "20260213140249_20260213135919_VXSE5k_1.json"
+    },
     {
       "eventID": "20260213064831",
       "dateTime": "2026-02-12 21:48:00",
