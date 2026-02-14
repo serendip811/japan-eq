@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-13T16:16:02.349Z",
-  "count": 77,
+  "fetchedAt": "2026-02-14T18:06:54.789Z",
+  "count": 78,
   "earthquakes": [
+    {
+      "eventID": "20260215025926",
+      "dateTime": "2026-02-14 17:59:00",
+      "epicenter": "Mutsu Bay",
+      "epicenterKr": "무쓰 만",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 41,
+      "lon": 141.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-15T03:01:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.0+141.1-10000/",
+      "areaCode": "284",
+      "jsonFile": "20260215030152_20260215025926_VXSE5k_1.json"
+    },
     {
       "eventID": "20260214005850",
       "dateTime": "2026-02-13 15:58:00",
