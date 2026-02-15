@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-15T13:19:47.643Z",
-  "count": 83,
+  "fetchedAt": "2026-02-15T16:06:30.103Z",
+  "count": 84,
   "earthquakes": [
+    {
+      "eventID": "20260216004950",
+      "dateTime": "2026-02-15 15:49:00",
+      "epicenter": "Southern Tochigi Prefecture",
+      "epicenterKr": "도치기 현 남부",
+      "magnitude": "3.7",
+      "depth": 110,
+      "lat": 36.6,
+      "lon": 140.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-16T00:52:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+140.1-110000/",
+      "areaCode": "311",
+      "jsonFile": "20260216005244_20260216004950_VXSE5k_1.json"
+    },
     {
       "eventID": "20260215212143",
       "dateTime": "2026-02-15 12:21:00",
