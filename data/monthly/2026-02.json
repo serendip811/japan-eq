@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-15T03:04:02.503Z",
-  "count": 80,
+  "fetchedAt": "2026-02-15T08:08:21.904Z",
+  "count": 81,
   "earthquakes": [
+    {
+      "eventID": "20260215161947",
+      "dateTime": "2026-02-15 07:19:00",
+      "epicenter": "Off the Coast of Tomakomai",
+      "epicenterKr": "토마코마이 바다",
+      "magnitude": "3.8",
+      "depth": 30,
+      "lat": 41.6,
+      "lon": 141.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-15T16:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.6+141.9-30000/",
+      "areaCode": "193",
+      "jsonFile": "20260215162249_20260215161947_VXSE5k_1.json"
+    },
     {
       "eventID": "20260215115232",
       "dateTime": "2026-02-15 02:52:00",
