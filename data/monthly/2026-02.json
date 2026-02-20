@@ -1,8 +1,40 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-20T15:15:35.133Z",
-  "count": 100,
+  "fetchedAt": "2026-02-20T20:07:39.391Z",
+  "count": 102,
   "earthquakes": [
+    {
+      "eventID": "20260221044444",
+      "dateTime": "2026-02-20 19:44:00",
+      "epicenter": "Adjacent Sea of Yonagunijima Island",
+      "epicenterKr": "요나 구니 섬 근해",
+      "magnitude": "4.2",
+      "depth": 50,
+      "lat": 24.2,
+      "lon": 122.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-21T04:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.2+122.5-50000/",
+      "areaCode": "857",
+      "jsonFile": "20260221044817_20260221044444_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260221041657",
+      "dateTime": "2026-02-20 19:16:00",
+      "epicenter": "Adjacent Sea of Yonagunijima Island",
+      "epicenterKr": "요나 구니 섬 근해",
+      "magnitude": "4.7",
+      "depth": 50,
+      "lat": 24.3,
+      "lon": 122.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-21T04:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.3+122.9-50000/",
+      "areaCode": "857",
+      "jsonFile": "20260221042003_20260221041657_VXSE5k_1.json"
+    },
     {
       "eventID": "20260220231640",
       "dateTime": "2026-02-20 14:16:00",
