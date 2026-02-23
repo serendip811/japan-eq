@@ -1,8 +1,40 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-23T16:19:41.893Z",
-  "count": 113,
+  "fetchedAt": "2026-02-23T23:14:08.815Z",
+  "count": 115,
   "earthquakes": [
+    {
+      "eventID": "20260224080414",
+      "dateTime": "2026-02-23 23:04:00",
+      "epicenter": "Toyama Bay",
+      "epicenterKr": "도야마 만",
+      "magnitude": "4.5",
+      "depth": 270,
+      "lat": 37,
+      "lon": 137.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-24T08:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.0+137.1-270000/",
+      "areaCode": "497",
+      "jsonFile": "20260224080803_20260224080414_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260224073436",
+      "dateTime": "2026-02-23 22:34:00",
+      "epicenter": "Adjacent Sea of Miyakejima Island",
+      "epicenterKr": "미야케 섬 근해",
+      "magnitude": "4.1",
+      "depth": 120,
+      "lat": 34.4,
+      "lon": 139.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-24T07:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.4+139.6-120000/",
+      "areaCode": "482",
+      "jsonFile": "20260224073838_20260224073436_VXSE5k_1.json"
+    },
     {
       "eventID": "20260224001659",
       "dateTime": "2026-02-23 15:16:00",
