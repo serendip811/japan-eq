@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-23T04:42:26.018Z",
-  "count": 110,
+  "fetchedAt": "2026-02-23T06:25:51.212Z",
+  "count": 111,
   "earthquakes": [
+    {
+      "eventID": "20260223143509",
+      "dateTime": "2026-02-23 05:35:00",
+      "epicenter": "Southern Mie Prefecture",
+      "epicenterKr": "미에 현 남부",
+      "magnitude": "3.2",
+      "depth": 40,
+      "lat": 34.3,
+      "lon": 136.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-23T14:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.3+136.2-40000/",
+      "areaCode": "462",
+      "jsonFile": "20260223143738_20260223143509_VXSE5k_1.json"
+    },
     {
       "eventID": "20260223115936",
       "dateTime": "2026-02-23 02:59:00",
