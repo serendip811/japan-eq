@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-24T04:37:51.866Z",
-  "count": 117,
+  "fetchedAt": "2026-02-24T05:29:21.922Z",
+  "count": 118,
   "earthquakes": [
+    {
+      "eventID": "20260224133732",
+      "dateTime": "2026-02-24 04:37:00",
+      "epicenter": "the vicinity of Taiwan",
+      "epicenterKr": "대만 부근",
+      "magnitude": "4.9",
+      "depth": 60,
+      "lat": 24.6,
+      "lon": 122,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-24T13:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.6+122.0-60000/",
+      "areaCode": "900",
+      "jsonFile": "20260224134028_20260224133732_VXSE5k_1.json"
+    },
     {
       "eventID": "20260224132708",
       "dateTime": "2026-02-24 04:27:00",
