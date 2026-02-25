@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-25T08:15:46.484Z",
-  "count": 124,
+  "fetchedAt": "2026-02-25T09:19:33.311Z",
+  "count": 125,
   "earthquakes": [
+    {
+      "eventID": "20260225180753",
+      "dateTime": "2026-02-25 09:07:00",
+      "epicenter": "Off the Coast of Shikoku",
+      "epicenterKr": "시코쿠 오키",
+      "magnitude": "4.9",
+      "depth": 10,
+      "lat": 32.1,
+      "lon": 132.7,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-25T18:11:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.1+132.7-10000/",
+      "areaCode": "902",
+      "jsonFile": "20260225181109_20260225180753_VXSE5k_1.json"
+    },
     {
       "eventID": "20260225164903",
       "dateTime": "2026-02-25 07:49:00",
