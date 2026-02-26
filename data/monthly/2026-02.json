@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-26T14:21:36.015Z",
-  "count": 133,
+  "fetchedAt": "2026-02-26T15:18:42.333Z",
+  "count": 134,
   "earthquakes": [
+    {
+      "eventID": "20260226233127",
+      "dateTime": "2026-02-26 14:31:00",
+      "epicenter": "Adjacent Sea of Okinawa Main Island",
+      "epicenterKr": "오키나와 본섬 근해",
+      "magnitude": "3.3",
+      "depth": 40,
+      "lat": 27.4,
+      "lon": 128.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-26T23:33:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.4+128.7-40000/",
+      "areaCode": "850",
+      "jsonFile": "20260226233355_20260226233127_VXSE5k_1.json"
+    },
     {
       "eventID": "20260226225408",
       "dateTime": "2026-02-26 13:54:00",
