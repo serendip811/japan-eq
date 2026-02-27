@@ -1,8 +1,24 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-27T11:13:07.937Z",
-  "count": 144,
+  "fetchedAt": "2026-02-27T14:15:47.396Z",
+  "count": 145,
   "earthquakes": [
+    {
+      "eventID": "20260227223917",
+      "dateTime": "2026-02-27 13:39:00",
+      "epicenter": "Off the northwest Coast of Hokkaido",
+      "epicenterKr": "홋카이도 서북쪽 바다",
+      "magnitude": "3.3",
+      "depth": 10,
+      "lat": 45.6,
+      "lon": 140.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-27T22:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+45.6+140.8-10000/",
+      "areaCode": "183",
+      "jsonFile": "20260227224206_20260227223917_VXSE5k_1.json"
+    },
     {
       "eventID": "20260227200114",
       "dateTime": "2026-02-27 11:01:00",
