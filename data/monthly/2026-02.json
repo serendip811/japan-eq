@@ -1,8 +1,40 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-28T00:20:06.269Z",
-  "count": 150,
+  "fetchedAt": "2026-02-28T02:49:33.287Z",
+  "count": 152,
   "earthquakes": [
+    {
+      "eventID": "20260228113719",
+      "dateTime": "2026-02-28 02:37:00",
+      "epicenter": "Kiisuido Strait",
+      "epicenterKr": "기이수도",
+      "magnitude": "2.5",
+      "depth": 0,
+      "lat": 34.2,
+      "lon": 135.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-28T11:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+135.1+0/",
+      "areaCode": "674",
+      "jsonFile": "20260228114009_20260228113719_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260228104929",
+      "dateTime": "2026-02-28 01:49:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "5.6",
+      "depth": 20,
+      "lat": 25.3,
+      "lon": 124.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-28T10:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+25.3+124.9-20000/",
+      "areaCode": "853",
+      "jsonFile": "20260228105414_20260228104929_VXSE5k_1.json"
+    },
     {
       "eventID": "20260228085516",
       "dateTime": "2026-02-27 23:55:00",
