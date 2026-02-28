@@ -1,8 +1,40 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-27T23:06:36.147Z",
-  "count": 148,
+  "fetchedAt": "2026-02-28T00:20:06.269Z",
+  "count": 150,
   "earthquakes": [
+    {
+      "eventID": "20260228085516",
+      "dateTime": "2026-02-27 23:55:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "4.8",
+      "depth": 10,
+      "lat": 25.3,
+      "lon": 124.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-28T08:58:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+25.3+124.9-10000/",
+      "areaCode": "853",
+      "jsonFile": "20260228085818_20260228085516_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260228080804",
+      "dateTime": "2026-02-27 23:07:00",
+      "epicenter": "Off the west Coast of Ogasawara Islands",
+      "epicenterKr": "오가사와라 제도 서방 바다",
+      "magnitude": "4.6",
+      "depth": 440,
+      "lat": 28.2,
+      "lon": 140.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-28T08:11:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+28.2+140.3-440000/",
+      "areaCode": "916",
+      "jsonFile": "20260228081144_20260228080804_VXSE5k_1.json"
+    },
     {
       "eventID": "20260228075921",
       "dateTime": "2026-02-27 22:59:00",
