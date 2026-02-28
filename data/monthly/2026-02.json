@@ -1,8 +1,40 @@
 {
   "month": "2026-02",
-  "fetchedAt": "2026-02-28T06:09:04.787Z",
-  "count": 153,
+  "fetchedAt": "2026-02-28T12:08:07.488Z",
+  "count": 155,
   "earthquakes": [
+    {
+      "eventID": "20260228201900",
+      "dateTime": "2026-02-28 11:19:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "4.7",
+      "depth": 0,
+      "lat": 25.3,
+      "lon": 124.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-02-28T20:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+25.3+124.9+0/",
+      "areaCode": "853",
+      "jsonFile": "20260228202208_20260228201900_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260228200132",
+      "dateTime": "2026-02-28 11:01:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "4.2",
+      "depth": 50,
+      "lat": 43.3,
+      "lon": 146,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-02-28T20:04:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.3+146.0-50000/",
+      "areaCode": "189",
+      "jsonFile": "20260228200442_20260228200132_VXSE5k_1.json"
+    },
     {
       "eventID": "20260228145342",
       "dateTime": "2026-02-28 05:54:00",
