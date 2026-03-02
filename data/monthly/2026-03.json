@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-02T05:25:05.118Z",
-  "count": 14,
+  "fetchedAt": "2026-03-02T10:17:44.545Z",
+  "count": 16,
   "earthquakes": [
+    {
+      "eventID": "20260302191320",
+      "dateTime": "2026-03-02 10:13:00",
+      "epicenter": "Southern Nagano Prefecture",
+      "epicenterKr": "Southern Nagano Prefecture",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 35.9,
+      "lon": 137.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-02T19:15:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.9+137.6-10000/",
+      "areaCode": "422",
+      "jsonFile": "20260302191559_20260302191320_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260302182337",
+      "dateTime": "2026-03-02 09:23:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "4.7",
+      "depth": 0,
+      "lat": 25.3,
+      "lon": 124.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-02T18:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+25.3+124.9+0/",
+      "areaCode": "853",
+      "jsonFile": "20260302182626_20260302182337_VXSE5k_1.json"
+    },
     {
       "eventID": "20260302141929",
       "dateTime": "2026-03-02 05:19:00",
