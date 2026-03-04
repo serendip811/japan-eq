@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-04T13:26:03.495Z",
-  "count": 29,
+  "fetchedAt": "2026-03-04T22:08:30.078Z",
+  "count": 30,
   "earthquakes": [
+    {
+      "eventID": "20260305064504",
+      "dateTime": "2026-03-04 21:45:00",
+      "epicenter": "Southern Tokachi Region, Hokkaido",
+      "epicenterKr": "도카치 지방 남부",
+      "magnitude": "3.5",
+      "depth": 100,
+      "lat": 42.6,
+      "lon": 143,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-05T06:47:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.6+143.0-100000/",
+      "areaCode": "157",
+      "jsonFile": "20260305064753_20260305064504_VXSE5k_1.json"
+    },
     {
       "eventID": "20260304215141",
       "dateTime": "2026-03-04 12:51:00",
