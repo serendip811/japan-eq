@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-04T01:35:13.891Z",
-  "count": 27,
+  "fetchedAt": "2026-03-04T13:26:03.495Z",
+  "count": 29,
   "earthquakes": [
+    {
+      "eventID": "20260304215141",
+      "dateTime": "2026-03-04 12:51:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.5",
+      "depth": 60,
+      "lat": 38.3,
+      "lon": 141.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-04T21:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.3+141.6-60000/",
+      "areaCode": "287",
+      "jsonFile": "20260304215429_20260304215141_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260304211805",
+      "dateTime": "2026-03-04 12:18:00",
+      "epicenter": "Hamadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 하마 도리",
+      "magnitude": "3.5",
+      "depth": 70,
+      "lat": 37.3,
+      "lon": 140.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-04T21:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.3+140.9-70000/",
+      "areaCode": "251",
+      "jsonFile": "20260304212045_20260304211805_VXSE5k_1.json"
+    },
     {
       "eventID": "20260304094844",
       "dateTime": "2026-03-04 00:48:00",
