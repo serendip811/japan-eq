@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-05T23:25:11.765Z",
-  "count": 39,
+  "fetchedAt": "2026-03-06T02:58:42.682Z",
+  "count": 41,
   "earthquakes": [
+    {
+      "eventID": "20260306113352",
+      "dateTime": "2026-03-06 02:33:00",
+      "epicenter": "Off the northwest Coast of Hokkaido",
+      "epicenterKr": "홋카이도 서북쪽 바다",
+      "magnitude": "2.1",
+      "depth": 20,
+      "lat": 44.5,
+      "lon": 141.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-06T11:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.5+141.7-20000/",
+      "areaCode": "183",
+      "jsonFile": "20260306113844_20260306113352_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260306112536",
+      "dateTime": "2026-03-06 02:25:00",
+      "epicenter": "Adjacent Sea of Amami-Oshima Island",
+      "epicenterKr": "아마미오 섬 근해",
+      "magnitude": "3.8",
+      "depth": 40,
+      "lat": 28.5,
+      "lon": 129.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-06T11:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+28.5+129.6-40000/",
+      "areaCode": "793",
+      "jsonFile": "20260306112831_20260306112536_VXSE5k_1.json"
+    },
     {
       "eventID": "20260306075400",
       "dateTime": "2026-03-05 22:54:00",
