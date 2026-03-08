@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-07T08:07:01.994Z",
-  "count": 57,
+  "fetchedAt": "2026-03-08T06:14:24.198Z",
+  "count": 58,
   "earthquakes": [
+    {
+      "eventID": "20260308150638",
+      "dateTime": "2026-03-08 06:06:00",
+      "epicenter": "Ariake Sea",
+      "epicenterKr": "아리아케 카이",
+      "magnitude": "3.4",
+      "depth": 10,
+      "lat": 33.1,
+      "lon": 130.3,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-08T15:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.1+130.3-10000/",
+      "areaCode": "785",
+      "jsonFile": "20260308151014_20260308150638_VXSE5k_1.json"
+    },
     {
       "eventID": "20260307163312",
       "dateTime": "2026-03-07 07:33:00",
