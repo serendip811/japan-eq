@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-08T21:06:15.533Z",
-  "count": 64,
+  "fetchedAt": "2026-03-09T03:02:32.687Z",
+  "count": 66,
   "earthquakes": [
+    {
+      "eventID": "20260309113622",
+      "dateTime": "2026-03-09 02:36:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "3.4",
+      "depth": 60,
+      "lat": 34,
+      "lon": 135.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-09T11:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.0+135.5-60000/",
+      "areaCode": "550",
+      "jsonFile": "20260309113910_20260309113622_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260309105847",
+      "dateTime": "2026-03-09 01:58:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "3.8",
+      "depth": 60,
+      "lat": 37.8,
+      "lon": 141.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-09T11:01:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.8+141.7-60000/",
+      "areaCode": "289",
+      "jsonFile": "20260309110133_20260309105847_VXSE5k_1.json"
+    },
     {
       "eventID": "20260309050644",
       "dateTime": "2026-03-08 20:06:00",
