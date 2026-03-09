@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-09T03:02:32.687Z",
-  "count": 66,
+  "fetchedAt": "2026-03-09T16:23:00.310Z",
+  "count": 67,
   "earthquakes": [
+    {
+      "eventID": "20260310004603",
+      "dateTime": "2026-03-09 15:46:00",
+      "epicenter": "Hiyama Region, Hokkaido",
+      "epicenterKr": "히야마 지방",
+      "magnitude": "5.9",
+      "depth": 150,
+      "lat": 42,
+      "lon": 140.3,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-10T00:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.0+140.3-150000/",
+      "areaCode": "110",
+      "jsonFile": "20260310004956_20260310004603_VXSE5k_1.json"
+    },
     {
       "eventID": "20260309113622",
       "dateTime": "2026-03-09 02:36:00",
