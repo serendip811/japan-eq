@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-10T07:18:39.407Z",
-  "count": 70,
+  "fetchedAt": "2026-03-10T12:12:21.067Z",
+  "count": 72,
   "earthquakes": [
+    {
+      "eventID": "20260310205632",
+      "dateTime": "2026-03-10 11:56:00",
+      "epicenter": "Eastern Hidaka Region, Hokkaido",
+      "epicenterKr": "히다카 지방 동부",
+      "magnitude": "4.1",
+      "depth": 40,
+      "lat": 42,
+      "lon": 143.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-10T20:59:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.0+143.2-40000/",
+      "areaCode": "152",
+      "jsonFile": "20260310205929_20260310205632_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260310204224",
+      "dateTime": "2026-03-10 11:42:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "4.6",
+      "depth": 10,
+      "lat": 24.1,
+      "lon": 125.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-10T20:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.1+125.2-10000/",
+      "areaCode": "853",
+      "jsonFile": "20260310204536_20260310204224_VXSE5k_1.json"
+    },
     {
       "eventID": "20260310152812",
       "dateTime": "2026-03-10 06:28:00",
