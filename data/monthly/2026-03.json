@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-12T20:09:53.307Z",
-  "count": 80,
+  "fetchedAt": "2026-03-12T23:07:43.664Z",
+  "count": 81,
   "earthquakes": [
+    {
+      "eventID": "20260313074704",
+      "dateTime": "2026-03-12 22:47:00",
+      "epicenter": "Aso Region, Kumamoto Prefecture",
+      "epicenterKr": "구마모토 현 아소 지방",
+      "magnitude": "2.2",
+      "depth": 0,
+      "lat": 33,
+      "lon": 131.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-13T07:50:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+131.1+0/",
+      "areaCode": "740",
+      "jsonFile": "20260313075032_20260313074704_VXSE5k_1.json"
+    },
     {
       "eventID": "20260313042630",
       "dateTime": "2026-03-12 19:26:00",
