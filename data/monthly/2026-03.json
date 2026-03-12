@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-11T18:19:23.025Z",
-  "count": 75,
+  "fetchedAt": "2026-03-12T12:11:31.600Z",
+  "count": 77,
   "earthquakes": [
+    {
+      "eventID": "20260312203352",
+      "dateTime": "2026-03-12 11:33:00",
+      "epicenter": "Eastern Toyama Prefecture",
+      "epicenterKr": "Eastern Toyama Prefecture",
+      "magnitude": "3.4",
+      "depth": 10,
+      "lat": 36.4,
+      "lon": 137.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-12T20:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+137.6-10000/",
+      "areaCode": "380",
+      "jsonFile": "20260312203658_20260312203352_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260312200933",
+      "dateTime": "2026-03-12 11:09:00",
+      "epicenter": "Off the Coast of Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 바다",
+      "magnitude": "3.3",
+      "depth": 50,
+      "lat": 36.6,
+      "lon": 140.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-12T20:12:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+140.9-50000/",
+      "areaCode": "471",
+      "jsonFile": "20260312201215_20260312200933_VXSE5k_1.json"
+    },
     {
       "eventID": "20260312025147",
       "dateTime": "2026-03-11 17:51:00",
