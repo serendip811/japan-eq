@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-15T16:08:17.368Z",
-  "count": 102,
+  "fetchedAt": "2026-03-15T17:08:00.728Z",
+  "count": 104,
   "earthquakes": [
+    {
+      "eventID": "20260316015923",
+      "dateTime": "2026-03-15 16:59:00",
+      "epicenter": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "epicenterKr": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "1.9",
+      "depth": 0,
+      "lat": 32.2,
+      "lon": 130.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-16T02:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.2+130.4+0/",
+      "areaCode": "743",
+      "jsonFile": "20260316020256_20260316015923_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260316013245",
+      "dateTime": "2026-03-15 16:32:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "4.5",
+      "depth": 10,
+      "lat": 40.9,
+      "lon": 143.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-16T01:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.9+143.4-10000/",
+      "areaCode": "285",
+      "jsonFile": "20260316013648_20260316013245_VXSE5k_1.json"
+    },
     {
       "eventID": "20260316000800",
       "dateTime": "2026-03-15 15:08:00",
