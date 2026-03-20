@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-20T04:35:49.082Z",
-  "count": 147,
+  "fetchedAt": "2026-03-20T07:21:19.525Z",
+  "count": 148,
   "earthquakes": [
+    {
+      "eventID": "20260320152114",
+      "dateTime": "2026-03-20 06:21:00",
+      "epicenter": "Off the east Coast of Hokkaido",
+      "epicenterKr": "Off the east Coast of Hokkaido",
+      "magnitude": "4.1",
+      "depth": 40,
+      "lat": 43.5,
+      "lon": 146.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-20T15:24:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.5+146.7-40000/",
+      "areaCode": "188",
+      "jsonFile": "20260320152419_20260320152114_VXSE5k_1.json"
+    },
     {
       "eventID": "20260320125120",
       "dateTime": "2026-03-20 03:51:00",
