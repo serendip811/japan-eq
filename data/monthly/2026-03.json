@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-20T16:15:30.440Z",
-  "count": 153,
+  "fetchedAt": "2026-03-20T19:16:39.956Z",
+  "count": 155,
   "earthquakes": [
+    {
+      "eventID": "20260321033255",
+      "dateTime": "2026-03-20 18:32:00",
+      "epicenter": "Off the Coast of Joetsu and Chuetsu, Niigata Prefecture",
+      "epicenterKr": "니가타 현상 주에쓰 오키",
+      "magnitude": "4.0",
+      "depth": 10,
+      "lat": 37.6,
+      "lon": 137.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-21T03:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.6+137.5-10000/",
+      "areaCode": "379",
+      "jsonFile": "20260321033558_20260321033255_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260321031555",
+      "dateTime": "2026-03-20 18:15:00",
+      "epicenter": "Aizu,  Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 아이즈",
+      "magnitude": "2.1",
+      "depth": 0,
+      "lat": 37,
+      "lon": 139.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-21T03:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.0+139.4+0/",
+      "areaCode": "252",
+      "jsonFile": "20260321031854_20260321031555_VXSE5k_1.json"
+    },
     {
       "eventID": "20260321002903",
       "dateTime": "2026-03-20 15:29:00",
