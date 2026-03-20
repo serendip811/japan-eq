@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-20T12:12:13.598Z",
-  "count": 149,
+  "fetchedAt": "2026-03-20T13:27:34.204Z",
+  "count": 150,
   "earthquakes": [
+    {
+      "eventID": "20260320220545",
+      "dateTime": "2026-03-20 13:05:00",
+      "epicenter": "Plain Area of Southern Miyazaki Prefecture",
+      "epicenterKr": "미야자키 현 남부 평야",
+      "magnitude": "2.9",
+      "depth": 50,
+      "lat": 31.5,
+      "lon": 131.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-20T22:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.5+131.3-50000/",
+      "areaCode": "762",
+      "jsonFile": "20260320220829_20260320220545_VXSE5k_1.json"
+    },
     {
       "eventID": "20260320210755",
       "dateTime": "2026-03-20 12:07:00",
