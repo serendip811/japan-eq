@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-23T03:05:12.312Z",
-  "count": 176,
+  "fetchedAt": "2026-03-23T06:27:37.145Z",
+  "count": 177,
   "earthquakes": [
+    {
+      "eventID": "20260323151021",
+      "dateTime": "2026-03-23 06:10:00",
+      "epicenter": "Hamadori, Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 하마 도리",
+      "magnitude": "3.6",
+      "depth": 70,
+      "lat": 36.9,
+      "lon": 140.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-23T15:13:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.9+140.7-70000/",
+      "areaCode": "251",
+      "jsonFile": "20260323151309_20260323151021_VXSE5k_1.json"
+    },
     {
       "eventID": "20260323111313",
       "dateTime": "2026-03-23 02:13:00",
