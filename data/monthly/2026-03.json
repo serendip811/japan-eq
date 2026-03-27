@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-27T15:19:07.631Z",
-  "count": 220,
+  "fetchedAt": "2026-03-27T16:19:56.379Z",
+  "count": 222,
   "earthquakes": [
+    {
+      "eventID": "20260328003958",
+      "dateTime": "2026-03-27 15:40:00",
+      "epicenter": "Aizu,  Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 아이즈",
+      "magnitude": "2.2",
+      "depth": 0,
+      "lat": 37.1,
+      "lon": 139.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-28T00:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.1+139.3+0/",
+      "areaCode": "252",
+      "jsonFile": "20260328004257_20260328003958_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260328002438",
+      "dateTime": "2026-03-27 15:24:00",
+      "epicenter": "Off the Coast of Sanriku",
+      "epicenterKr": "산리 쿠바다",
+      "magnitude": "4.7",
+      "depth": 10,
+      "lat": 39.4,
+      "lon": 143.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-28T00:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.4+143.2-10000/",
+      "areaCode": "288",
+      "jsonFile": "20260328002758_20260328002438_VXSE5k_1.json"
+    },
     {
       "eventID": "20260327232631",
       "dateTime": "2026-03-27 14:26:00",
