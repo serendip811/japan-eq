@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-28T10:09:59.270Z",
-  "count": 227,
+  "fetchedAt": "2026-03-28T11:08:43.998Z",
+  "count": 228,
   "earthquakes": [
+    {
+      "eventID": "20260328193622",
+      "dateTime": "2026-03-28 10:36:00",
+      "epicenter": "Adjacent Sea of ​​Izu-Oshima Island",
+      "epicenterKr": "이즈오 섬 근해",
+      "magnitude": "4.0",
+      "depth": 40,
+      "lat": 35,
+      "lon": 139.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-28T19:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+139.6-40000/",
+      "areaCode": "480",
+      "jsonFile": "20260328193940_20260328193622_VXSE5k_1.json"
+    },
     {
       "eventID": "20260328181952",
       "dateTime": "2026-03-28 09:19:00",
