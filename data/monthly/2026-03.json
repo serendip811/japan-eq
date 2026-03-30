@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-30T08:33:43.192Z",
-  "count": 242,
+  "fetchedAt": "2026-03-30T09:33:18.444Z",
+  "count": 243,
   "earthquakes": [
+    {
+      "eventID": "20260330175022",
+      "dateTime": "2026-03-30 08:44:00",
+      "epicenter": "South Pacific Ocean",
+      "epicenterKr": "남 태평양",
+      "magnitude": "7.3",
+      "depth": 120,
+      "lat": -15.3,
+      "lon": 167.4,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-03-30T18:15:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-15.3+167.4-120000/",
+      "areaCode": "950",
+      "jsonFile": "20260330181529_20260330175022_VXSE5e_1.json"
+    },
     {
       "eventID": "20260330164702",
       "dateTime": "2026-03-30 07:47:00",
