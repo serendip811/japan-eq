@@ -1,8 +1,40 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-30T00:28:03.876Z",
-  "count": 237,
+  "fetchedAt": "2026-03-30T01:36:15.262Z",
+  "count": 239,
   "earthquakes": [
+    {
+      "eventID": "20260330101245",
+      "dateTime": "2026-03-30 01:12:00",
+      "epicenter": "Adjacent Sea of Okinawa Main Island",
+      "epicenterKr": "오키나와 본섬 근해",
+      "magnitude": "4.9",
+      "depth": 10,
+      "lat": 26.3,
+      "lon": 129.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-03-30T10:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+26.3+129.1-10000/",
+      "areaCode": "850",
+      "jsonFile": "20260330101615_20260330101245_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260330100524",
+      "dateTime": "2026-03-30 01:05:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.9",
+      "depth": 50,
+      "lat": 38.3,
+      "lon": 141.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-03-30T10:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.3+141.9-50000/",
+      "areaCode": "287",
+      "jsonFile": "20260330100804_20260330100524_VXSE5k_1.json"
+    },
     {
       "eventID": "20260330084713",
       "dateTime": "2026-03-29 23:47:00",
