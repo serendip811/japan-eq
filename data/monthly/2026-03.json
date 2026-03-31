@@ -1,8 +1,24 @@
 {
   "month": "2026-03",
-  "fetchedAt": "2026-03-31T12:20:37.864Z",
-  "count": 249,
+  "fetchedAt": "2026-03-31T16:24:06.186Z",
+  "count": 250,
   "earthquakes": [
+    {
+      "eventID": "20260401003900",
+      "dateTime": "2026-03-31 15:39:00",
+      "epicenter": "Off the south Coast of Boso Peninsula",
+      "epicenterKr": "보소 반도 남방 바다",
+      "magnitude": "4.4",
+      "depth": 90,
+      "lat": 33.9,
+      "lon": 140.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-01T00:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.9+140.1-90000/",
+      "areaCode": "349",
+      "jsonFile": "20260401004229_20260401003900_VXSE5k_1.json"
+    },
     {
       "eventID": "20260331202227",
       "dateTime": "2026-03-31 11:22:00",
