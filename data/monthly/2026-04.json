@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-03T10:16:21.887Z",
-  "count": 20,
+  "fetchedAt": "2026-04-03T15:17:00.054Z",
+  "count": 22,
   "earthquakes": [
+    {
+      "eventID": "20260404000648",
+      "dateTime": "2026-04-03 15:06:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "2.4",
+      "depth": 0,
+      "lat": 34.3,
+      "lon": 135.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-04T00:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.3+135.1+0/",
+      "areaCode": "550",
+      "jsonFile": "20260404001031_20260404000648_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260403233709",
+      "dateTime": "2026-04-03 14:37:00",
+      "epicenter": "Central and western Mino, Gifu Prefecture",
+      "epicenterKr": "기후 현 미노 중서부",
+      "magnitude": "3.2",
+      "depth": 40,
+      "lat": 35.4,
+      "lon": 136.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-04-03T23:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.4+136.9-40000/",
+      "areaCode": "432",
+      "jsonFile": "20260403234004_20260403233709_VXSE5k_1.json"
+    },
     {
       "eventID": "20260403185319",
       "dateTime": "2026-04-03 09:53:00",
