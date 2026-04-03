@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-03T15:17:00.054Z",
-  "count": 22,
+  "fetchedAt": "2026-04-03T16:12:55.104Z",
+  "count": 23,
   "earthquakes": [
+    {
+      "eventID": "20260404005353",
+      "dateTime": "2026-04-03 15:53:00",
+      "epicenter": "Osaka Bay",
+      "epicenterKr": "오사카 만",
+      "magnitude": "3.1",
+      "depth": 20,
+      "lat": 34.5,
+      "lon": 135,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-04T00:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.5+135.0-20000/",
+      "areaCode": "675",
+      "jsonFile": "20260404005652_20260404005353_VXSE5k_1.json"
+    },
     {
       "eventID": "20260404000648",
       "dateTime": "2026-04-03 15:06:00",
