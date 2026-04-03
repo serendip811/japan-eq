@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-02T17:19:23.486Z",
-  "count": 17,
+  "fetchedAt": "2026-04-03T03:05:05.999Z",
+  "count": 18,
   "earthquakes": [
+    {
+      "eventID": "20260403113329",
+      "dateTime": "2026-04-03 02:33:00",
+      "epicenter": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "epicenterKr": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 32.3,
+      "lon": 130.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-03T11:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.3+130.4-10000/",
+      "areaCode": "743",
+      "jsonFile": "20260403113624_20260403113329_VXSE5k_1.json"
+    },
     {
       "eventID": "20260403014107",
       "dateTime": "2026-04-02 16:41:00",
