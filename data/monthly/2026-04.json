@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-04T11:10:02.556Z",
-  "count": 35,
+  "fetchedAt": "2026-04-04T17:09:52.247Z",
+  "count": 36,
   "earthquakes": [
+    {
+      "eventID": "20260405011420",
+      "dateTime": "2026-04-04 16:14:00",
+      "epicenter": "Off the southeast Coast of Tanegashima Island",
+      "epicenterKr": "다네가 섬 남동쪽 바다",
+      "magnitude": "4.6",
+      "depth": 20,
+      "lat": 30.1,
+      "lon": 131.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-05T01:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+30.1+131.2-20000/",
+      "areaCode": "822",
+      "jsonFile": "20260405011732_20260405011420_VXSE5k_1.json"
+    },
     {
       "eventID": "20260404193655",
       "dateTime": "2026-04-04 10:36:00",
