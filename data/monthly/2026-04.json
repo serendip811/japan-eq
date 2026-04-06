@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-06T20:13:54.462Z",
-  "count": 50,
+  "fetchedAt": "2026-04-06T21:13:32.151Z",
+  "count": 51,
   "earthquakes": [
+    {
+      "eventID": "20260407054231",
+      "dateTime": "2026-04-06 20:42:00",
+      "epicenter": "Southern Kamikawa Region, Hokkaido",
+      "epicenterKr": "카미카와 지방 남부",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 43,
+      "lon": 142.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-07T05:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.0+142.3-10000/",
+      "areaCode": "127",
+      "jsonFile": "20260407054529_20260407054231_VXSE5k_1.json"
+    },
     {
       "eventID": "20260407044348",
       "dateTime": "2026-04-06 19:43:00",
