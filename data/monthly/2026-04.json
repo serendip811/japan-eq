@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-08T06:34:21.408Z",
-  "count": 55,
+  "fetchedAt": "2026-04-08T08:27:06.683Z",
+  "count": 56,
   "earthquakes": [
+    {
+      "eventID": "20260408171530",
+      "dateTime": "2026-04-08 08:15:00",
+      "epicenter": "Adjacent Awajishima Island",
+      "epicenterKr": "아와지 섬 부근",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 34.3,
+      "lon": 134.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-08T17:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.3+134.8-10000/",
+      "areaCode": "688",
+      "jsonFile": "20260408171818_20260408171530_VXSE5k_1.json"
+    },
     {
       "eventID": "20260408152754",
       "dateTime": "2026-04-08 06:27:00",
