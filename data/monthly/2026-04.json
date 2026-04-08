@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-08T08:27:06.683Z",
-  "count": 56,
+  "fetchedAt": "2026-04-08T11:21:57.332Z",
+  "count": 57,
   "earthquakes": [
+    {
+      "eventID": "20260408201313",
+      "dateTime": "2026-04-08 11:13:00",
+      "epicenter": "Iyonada Sea",
+      "epicenterKr": "이요 나다",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 33.7,
+      "lon": 132.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-08T20:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.7+132.3-50000/",
+      "areaCode": "680",
+      "jsonFile": "20260408201644_20260408201313_VXSE5k_1.json"
+    },
     {
       "eventID": "20260408171530",
       "dateTime": "2026-04-08 08:15:00",
