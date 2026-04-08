@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-08T12:20:56.278Z",
-  "count": 58,
+  "fetchedAt": "2026-04-08T19:31:53.203Z",
+  "count": 59,
   "earthquakes": [
+    {
+      "eventID": "20260409035733",
+      "dateTime": "2026-04-08 18:57:00",
+      "epicenter": "Northern Tokushima Prefecture",
+      "epicenterKr": "도쿠시마 현 북부",
+      "magnitude": "3.2",
+      "depth": 50,
+      "lat": 34,
+      "lon": 134.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-09T04:00:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.0+134.2-50000/",
+      "areaCode": "600",
+      "jsonFile": "20260409040026_20260409035733_VXSE5k_1.json"
+    },
     {
       "eventID": "20260408211305",
       "dateTime": "2026-04-08 12:13:00",
