@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-13T00:30:29.653Z",
-  "count": 76,
+  "fetchedAt": "2026-04-13T07:36:33.628Z",
+  "count": 77,
   "earthquakes": [
+    {
+      "eventID": "20260413154811",
+      "dateTime": "2026-04-13 06:48:00",
+      "epicenter": "Central Nagano Prefecture",
+      "epicenterKr": "Central Nagano Prefecture",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 36.4,
+      "lon": 138,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-13T15:51:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+138.0-10000/",
+      "areaCode": "421",
+      "jsonFile": "20260413155123_20260413154811_VXSE5k_1.json"
+    },
     {
       "eventID": "20260413085404",
       "dateTime": "2026-04-12 23:54:00",
