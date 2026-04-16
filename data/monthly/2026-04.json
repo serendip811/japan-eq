@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-16T19:30:53.278Z",
-  "count": 92,
+  "fetchedAt": "2026-04-16T21:17:19.821Z",
+  "count": 93,
   "earthquakes": [
+    {
+      "eventID": "20260417052332",
+      "dateTime": "2026-04-16 20:23:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "3.4",
+      "depth": 50,
+      "lat": 39.7,
+      "lon": 142.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-17T05:25:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.7+142.1-50000/",
+      "areaCode": "286",
+      "jsonFile": "20260417052557_20260417052332_VXSE5k_1.json"
+    },
     {
       "eventID": "20260417042509",
       "dateTime": "2026-04-16 19:25:00",
