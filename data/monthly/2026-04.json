@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-17T06:39:36.508Z",
-  "count": 96,
+  "fetchedAt": "2026-04-17T10:27:40.952Z",
+  "count": 97,
   "earthquakes": [
+    {
+      "eventID": "20260417184300",
+      "dateTime": "2026-04-17 09:43:00",
+      "epicenter": "Sanpachi-Kamikita Region, Aomori Prefecture",
+      "epicenterKr": "Sanpachi-Kamikita Region, Aomori Prefecture",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 40.4,
+      "lon": 141.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-04-17T18:46:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.4+141.2-10000/",
+      "areaCode": "202",
+      "jsonFile": "20260417184616_20260417184300_VXSE5k_1.json"
+    },
     {
       "eventID": "20260417140557",
       "dateTime": "2026-04-17 05:05:00",
