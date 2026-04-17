@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-17T10:27:40.952Z",
-  "count": 97,
+  "fetchedAt": "2026-04-17T13:33:21.908Z",
+  "count": 98,
   "earthquakes": [
+    {
+      "eventID": "20260417213020",
+      "dateTime": "2026-04-17 12:30:00",
+      "epicenter": "Eastern Toyama Prefecture",
+      "epicenterKr": "Eastern Toyama Prefecture",
+      "magnitude": "3.0",
+      "depth": 0,
+      "lat": 36.4,
+      "lon": 137.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-17T21:33:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+137.6+0/",
+      "areaCode": "380",
+      "jsonFile": "20260417213316_20260417213020_VXSE5k_1.json"
+    },
     {
       "eventID": "20260417184300",
       "dateTime": "2026-04-17 09:43:00",
