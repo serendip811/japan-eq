@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-18T15:14:53.533Z",
-  "count": 125,
+  "fetchedAt": "2026-04-18T16:12:47.985Z",
+  "count": 126,
   "earthquakes": [
+    {
+      "eventID": "20260419004611",
+      "dateTime": "2026-04-18 15:46:00",
+      "epicenter": "Toyama Bay",
+      "epicenterKr": "도야마 만",
+      "magnitude": "3.7",
+      "depth": 20,
+      "lat": 37.2,
+      "lon": 137.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-19T00:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.2+137.5-20000/",
+      "areaCode": "497",
+      "jsonFile": "20260419004901_20260419004611_VXSE5k_1.json"
+    },
     {
       "eventID": "20260418232614",
       "dateTime": "2026-04-18 14:26:00",
