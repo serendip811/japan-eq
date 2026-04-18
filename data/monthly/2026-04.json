@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-18T04:48:27.723Z",
-  "count": 103,
+  "fetchedAt": "2026-04-18T05:34:11.516Z",
+  "count": 105,
   "earthquakes": [
+    {
+      "eventID": "20260418135118",
+      "dateTime": "2026-04-18 04:52:00",
+      "epicenter": "Northern Nagano Prefecture",
+      "epicenterKr": "Northern Nagano Prefecture",
+      "magnitude": "1.5",
+      "depth": 10,
+      "lat": 36.5,
+      "lon": 137.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-18T13:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.5+137.9-10000/",
+      "areaCode": "420",
+      "jsonFile": "20260418135755_20260418135118_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260418134131",
+      "dateTime": "2026-04-18 04:41:00",
+      "epicenter": "Kurile Islands",
+      "epicenterKr": "쿠릴 열도",
+      "magnitude": "5.8",
+      "depth": 10,
+      "lat": 45.8,
+      "lon": 151.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-18T13:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+45.8+151.9-10000/",
+      "areaCode": "912",
+      "jsonFile": "20260418134801_20260418134131_VXSE5k_1.json"
+    },
     {
       "eventID": "20260418133811",
       "dateTime": "2026-04-18 04:38:00",
