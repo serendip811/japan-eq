@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-20T05:04:49.584Z",
-  "count": 141,
+  "fetchedAt": "2026-04-20T07:37:33.991Z",
+  "count": 143,
   "earthquakes": [
+    {
+      "eventID": "20260420161040",
+      "dateTime": "2026-04-20 07:10:00",
+      "epicenter": "Northern Nagano Prefecture",
+      "epicenterKr": "Northern Nagano Prefecture",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 36.6,
+      "lon": 137.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-20T16:13:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+137.9-10000/",
+      "areaCode": "420",
+      "jsonFile": "20260420161332_20260420161040_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260420155459",
+      "dateTime": "2026-04-20 06:54:00",
+      "epicenter": "Northern Nagano Prefecture",
+      "epicenterKr": "Northern Nagano Prefecture",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 36.6,
+      "lon": 137.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-20T15:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+137.9-10000/",
+      "areaCode": "420",
+      "jsonFile": "20260420155740_20260420155459_VXSE5k_1.json"
+    },
     {
       "eventID": "20260420120632",
       "dateTime": "2026-04-20 03:06:00",
