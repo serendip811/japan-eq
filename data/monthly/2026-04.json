@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-21T15:30:37.186Z",
-  "count": 172,
+  "fetchedAt": "2026-04-21T16:26:23.306Z",
+  "count": 174,
   "earthquakes": [
+    {
+      "eventID": "20260422011813",
+      "dateTime": "2026-04-21 16:18:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "4.1",
+      "depth": 40,
+      "lat": 39.9,
+      "lon": 142.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-22T01:21:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.9+142.6-40000/",
+      "areaCode": "286",
+      "jsonFile": "20260422012147_20260422011813_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260422002908",
+      "dateTime": "2026-04-21 15:29:00",
+      "epicenter": "Northern Nagano Prefecture",
+      "epicenterKr": "Northern Nagano Prefecture",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 36.6,
+      "lon": 137.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-04-22T00:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+137.9-10000/",
+      "areaCode": "420",
+      "jsonFile": "20260422003146_20260422002908_VXSE5k_1.json"
+    },
     {
       "eventID": "20260421235913",
       "dateTime": "2026-04-21 14:59:00",
