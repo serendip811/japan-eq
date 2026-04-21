@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-21T08:38:23.804Z",
-  "count": 169,
+  "fetchedAt": "2026-04-21T11:26:59.948Z",
+  "count": 170,
   "earthquakes": [
+    {
+      "eventID": "20260421195818",
+      "dateTime": "2026-04-21 10:58:00",
+      "epicenter": "Noto, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 노토 지방",
+      "magnitude": "1.7",
+      "depth": 10,
+      "lat": 37.2,
+      "lon": 136.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-21T20:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.2+136.7-10000/",
+      "areaCode": "390",
+      "jsonFile": "20260421200200_20260421195818_VXSE5k_1.json"
+    },
     {
       "eventID": "20260421165111",
       "dateTime": "2026-04-21 07:51:00",
