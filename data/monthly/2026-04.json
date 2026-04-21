@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-21T16:26:23.306Z",
-  "count": 174,
+  "fetchedAt": "2026-04-21T17:23:51.132Z",
+  "count": 176,
   "earthquakes": [
+    {
+      "eventID": "20260422020519",
+      "dateTime": "2026-04-21 17:05:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 34.1,
+      "lon": 135.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-22T02:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.1+135.4-10000/",
+      "areaCode": "550",
+      "jsonFile": "20260422020845_20260422020519_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260422013013",
+      "dateTime": "2026-04-21 16:30:00",
+      "epicenter": "Aso Region, Kumamoto Prefecture",
+      "epicenterKr": "구마모토 현 아소 지방",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 33,
+      "lon": 131.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-22T01:33:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+131.1-10000/",
+      "areaCode": "740",
+      "jsonFile": "20260422013346_20260422013013_VXSE5k_1.json"
+    },
     {
       "eventID": "20260422011813",
       "dateTime": "2026-04-21 16:18:00",
