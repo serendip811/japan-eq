@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-21T03:05:48.814Z",
-  "count": 164,
+  "fetchedAt": "2026-04-21T05:00:37.313Z",
+  "count": 166,
   "earthquakes": [
+    {
+      "eventID": "20260421135056",
+      "dateTime": "2026-04-21 04:50:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "4.1",
+      "depth": 50,
+      "lat": 37.2,
+      "lon": 141.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-04-21T13:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.2+141.4-50000/",
+      "areaCode": "289",
+      "jsonFile": "20260421135410_20260421135056_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260421125431",
+      "dateTime": "2026-04-21 03:54:00",
+      "epicenter": "Northern Nagano Prefecture",
+      "epicenterKr": "Northern Nagano Prefecture",
+      "magnitude": "2.1",
+      "depth": 10,
+      "lat": 36.6,
+      "lon": 137.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-21T12:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.6+137.9-10000/",
+      "areaCode": "420",
+      "jsonFile": "20260421125725_20260421125431_VXSE5k_1.json"
+    },
     {
       "eventID": "20260421113549",
       "dateTime": "2026-04-21 02:35:00",
