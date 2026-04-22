@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-22T00:29:32.374Z",
-  "count": 180,
+  "fetchedAt": "2026-04-22T04:59:05.945Z",
+  "count": 181,
   "earthquakes": [
+    {
+      "eventID": "20260422132704",
+      "dateTime": "2026-04-22 04:27:00",
+      "epicenter": "Kaga, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 카가 지방",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 36.3,
+      "lon": 136.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-22T13:29:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.3+136.7-10000/",
+      "areaCode": "391",
+      "jsonFile": "20260422132952_20260422132704_VXSE5k_1.json"
+    },
     {
       "eventID": "20260422090116",
       "dateTime": "2026-04-22 00:01:00",
