@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-22T04:59:05.945Z",
-  "count": 181,
+  "fetchedAt": "2026-04-22T08:37:00.895Z",
+  "count": 182,
   "earthquakes": [
+    {
+      "eventID": "20260422172432",
+      "dateTime": "2026-04-22 08:24:00",
+      "epicenter": "Kiisuido Strait",
+      "epicenterKr": "기이수도",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 34.2,
+      "lon": 135.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-22T17:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+135.1-10000/",
+      "areaCode": "674",
+      "jsonFile": "20260422172718_20260422172432_VXSE5k_1.json"
+    },
     {
       "eventID": "20260422132704",
       "dateTime": "2026-04-22 04:27:00",
