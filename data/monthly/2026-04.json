@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-23T00:34:33.937Z",
-  "count": 192,
+  "fetchedAt": "2026-04-23T01:36:15.703Z",
+  "count": 194,
   "earthquakes": [
+    {
+      "eventID": "20260423093506",
+      "dateTime": "2026-04-23 00:35:00",
+      "epicenter": "Central Nagano Prefecture",
+      "epicenterKr": "Central Nagano Prefecture",
+      "magnitude": "2.6",
+      "depth": 0,
+      "lat": 36.2,
+      "lon": 137.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-04-23T09:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+137.6+0/",
+      "areaCode": "421",
+      "jsonFile": "20260423093722_20260423093506_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260423093020",
+      "dateTime": "2026-04-23 00:30:00",
+      "epicenter": "Hida, Gifu Prefecture",
+      "epicenterKr": "기후 현 히다 지방",
+      "magnitude": "2.3",
+      "depth": 0,
+      "lat": 36.2,
+      "lon": 137.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-23T09:33:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+137.5+0/",
+      "areaCode": "430",
+      "jsonFile": "20260423093318_20260423093020_VXSE5k_1.json"
+    },
     {
       "eventID": "20260423090801",
       "dateTime": "2026-04-23 00:08:00",
