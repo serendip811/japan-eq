@@ -1,8 +1,24 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-27T23:20:09.789Z",
-  "count": 230,
+  "fetchedAt": "2026-04-28T06:56:33.967Z",
+  "count": 231,
   "earthquakes": [
+    {
+      "eventID": "20260428145344",
+      "dateTime": "2026-04-28 05:53:00",
+      "epicenter": "Off the Coast of Fukui Prefecture",
+      "epicenterKr": "후쿠이 현 바다",
+      "magnitude": "3.6",
+      "depth": 10,
+      "lat": 36.2,
+      "lon": 135.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-04-28T14:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+135.9-10000/",
+      "areaCode": "493",
+      "jsonFile": "20260428145629_20260428145344_VXSE5k_1.json"
+    },
     {
       "eventID": "20260428080044",
       "dateTime": "2026-04-27 23:00:00",
