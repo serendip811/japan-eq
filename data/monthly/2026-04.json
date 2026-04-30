@@ -1,8 +1,40 @@
 {
   "month": "2026-04",
-  "fetchedAt": "2026-04-30T08:48:26.563Z",
-  "count": 238,
+  "fetchedAt": "2026-04-30T09:43:32.650Z",
+  "count": 240,
   "earthquakes": [
+    {
+      "eventID": "20260430183202",
+      "dateTime": "2026-04-30 09:32:00",
+      "epicenter": "Aso Region, Kumamoto Prefecture",
+      "epicenterKr": "구마모토 현 아소 지방",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 33,
+      "lon": 131.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-30T18:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+131.1-10000/",
+      "areaCode": "740",
+      "jsonFile": "20260430183445_20260430183202_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260430174317",
+      "dateTime": "2026-04-30 08:43:00",
+      "epicenter": "Off the Coast of Sanriku",
+      "epicenterKr": "산리 쿠바다",
+      "magnitude": "4.3",
+      "depth": 10,
+      "lat": 40.2,
+      "lon": 143.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-04-30T17:47:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.2+143.3-10000/",
+      "areaCode": "288",
+      "jsonFile": "20260430174724_20260430174317_VXSE5k_1.json"
+    },
     {
       "eventID": "20260430173600",
       "dateTime": "2026-04-30 08:36:00",
