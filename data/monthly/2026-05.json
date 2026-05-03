@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-03T19:24:17.780Z",
-  "count": 18,
+  "fetchedAt": "2026-05-03T21:16:51.556Z",
+  "count": 19,
   "earthquakes": [
+    {
+      "eventID": "20260504051428",
+      "dateTime": "2026-05-03 20:14:00",
+      "epicenter": "Tsugaru Strait",
+      "epicenterKr": "쓰가루 해협",
+      "magnitude": "3.2",
+      "depth": 10,
+      "lat": 41.3,
+      "lon": 140.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-04T05:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.3+140.6-10000/",
+      "areaCode": "280",
+      "jsonFile": "20260504051711_20260504051428_VXSE5k_1.json"
+    },
     {
       "eventID": "20260504041453",
       "dateTime": "2026-05-03 19:14:00",
