@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-06T10:42:26.310Z",
-  "count": 38,
+  "fetchedAt": "2026-05-06T19:34:59.574Z",
+  "count": 39,
   "earthquakes": [
+    {
+      "eventID": "20260507043018",
+      "dateTime": "2026-05-06 19:30:00",
+      "epicenter": "Eastern Kochi Prefecture",
+      "epicenterKr": "Eastern Kochi Prefecture",
+      "magnitude": "3.8",
+      "depth": 30,
+      "lat": 33.7,
+      "lon": 134,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-05-07T04:33:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.7+134.0-30000/",
+      "areaCode": "630",
+      "jsonFile": "20260507043329_20260507043018_VXSE5k_1.json"
+    },
     {
       "eventID": "20260506190641",
       "dateTime": "2026-05-06 10:06:00",
