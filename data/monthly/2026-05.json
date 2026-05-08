@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-08T10:33:51.269Z",
-  "count": 56,
+  "fetchedAt": "2026-05-08T17:32:16.076Z",
+  "count": 57,
   "earthquakes": [
+    {
+      "eventID": "20260509021022",
+      "dateTime": "2026-05-08 17:10:00",
+      "epicenter": "Off the Coast of Sanriku",
+      "epicenterKr": "산리 쿠바다",
+      "magnitude": "4.4",
+      "depth": 0,
+      "lat": 39.9,
+      "lon": 143,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-09T02:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.9+143.0+0/",
+      "areaCode": "288",
+      "jsonFile": "20260509021409_20260509021022_VXSE5k_1.json"
+    },
     {
       "eventID": "20260508190138",
       "dateTime": "2026-05-08 10:01:00",
