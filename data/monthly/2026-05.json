@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-09T17:20:31.047Z",
-  "count": 67,
+  "fetchedAt": "2026-05-09T21:17:57.830Z",
+  "count": 68,
   "earthquakes": [
+    {
+      "eventID": "20260510060417",
+      "dateTime": "2026-05-09 21:04:00",
+      "epicenter": "Adjacent Sea of Iriomotejima Island",
+      "epicenterKr": "이리오모테 섬 부근",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 24.4,
+      "lon": 123.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-10T06:07:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.4+123.9-10000/",
+      "areaCode": "856",
+      "jsonFile": "20260510060700_20260510060417_VXSE5k_1.json"
+    },
     {
       "eventID": "20260510011854",
       "dateTime": "2026-05-09 16:18:00",
