@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-11T13:00:27.519Z",
-  "count": 75,
+  "fetchedAt": "2026-05-11T16:54:53.727Z",
+  "count": 76,
   "earthquakes": [
+    {
+      "eventID": "20260512014634",
+      "dateTime": "2026-05-11 16:46:00",
+      "epicenter": "Southern Nagano Prefecture",
+      "epicenterKr": "Southern Nagano Prefecture",
+      "magnitude": "2.9",
+      "depth": 20,
+      "lat": 35.5,
+      "lon": 137.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-12T01:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.5+137.7-20000/",
+      "areaCode": "422",
+      "jsonFile": "20260512014927_20260512014634_VXSE5k_1.json"
+    },
     {
       "eventID": "20260511205011",
       "dateTime": "2026-05-11 11:50:00",
