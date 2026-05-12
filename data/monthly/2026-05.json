@@ -1,8 +1,40 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-12T10:49:29.737Z",
-  "count": 83,
+  "fetchedAt": "2026-05-12T18:37:44.596Z",
+  "count": 85,
   "earthquakes": [
+    {
+      "eventID": "20260513031438",
+      "dateTime": "2026-05-12 18:14:00",
+      "epicenter": "Reihoku,  Fukui Prefecture",
+      "epicenterKr": "Reihoku,  Fukui Prefecture",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 35.8,
+      "lon": 136.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-13T03:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.8+136.3-10000/",
+      "areaCode": "400",
+      "jsonFile": "20260513031731_20260513031438_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260513030308",
+      "dateTime": "2026-05-12 18:03:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 38.9,
+      "lon": 142,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-13T03:06:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.9+142.0-50000/",
+      "areaCode": "287",
+      "jsonFile": "20260513030603_20260513030308_VXSE5k_1.json"
+    },
     {
       "eventID": "20260512193226",
       "dateTime": "2026-05-12 10:32:00",
