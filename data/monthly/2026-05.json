@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-14T03:08:46.775Z",
-  "count": 105,
+  "fetchedAt": "2026-05-14T07:04:01.221Z",
+  "count": 106,
   "earthquakes": [
+    {
+      "eventID": "20260514151505",
+      "dateTime": "2026-05-14 06:15:00",
+      "epicenter": "Southern Tsugaru, Aomori Prefecture",
+      "epicenterKr": "아오모리 현 쓰가루 남부",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 40.6,
+      "lon": 140.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-05-14T15:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.6+140.4-10000/",
+      "areaCode": "201",
+      "jsonFile": "20260514151807_20260514151505_VXSE5k_1.json"
+    },
     {
       "eventID": "20260514105543",
       "dateTime": "2026-05-14 01:55:00",
