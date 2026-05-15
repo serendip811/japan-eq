@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-15T11:40:51.464Z",
-  "count": 120,
+  "fetchedAt": "2026-05-15T19:33:05.458Z",
+  "count": 121,
   "earthquakes": [
+    {
+      "eventID": "20260516035544",
+      "dateTime": "2026-05-15 18:55:00",
+      "epicenter": "Northern Osaka Prefecture",
+      "epicenterKr": "Northern Osaka Prefecture",
+      "magnitude": "2.1",
+      "depth": 10,
+      "lat": 35,
+      "lon": 135.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-16T04:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+135.4-10000/",
+      "areaCode": "520",
+      "jsonFile": "20260516040204_20260516035544_VXSE5k_1.json"
+    },
     {
       "eventID": "20260515202209",
       "dateTime": "2026-05-15 11:22:00",
