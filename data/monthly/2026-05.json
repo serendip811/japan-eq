@@ -1,8 +1,40 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-16T20:17:33.972Z",
-  "count": 125,
+  "fetchedAt": "2026-05-16T21:18:36.066Z",
+  "count": 127,
   "earthquakes": [
+    {
+      "eventID": "20260517055544",
+      "dateTime": "2026-05-16 20:55:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "2.8",
+      "depth": 0,
+      "lat": 32,
+      "lon": 130.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-05-17T05:58:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+130.4+0/",
+      "areaCode": "770",
+      "jsonFile": "20260517055806_20260517055544_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260517052249",
+      "dateTime": "2026-05-16 20:22:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "2.6",
+      "depth": 0,
+      "lat": 32,
+      "lon": 130.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-17T05:25:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+130.5+0/",
+      "areaCode": "770",
+      "jsonFile": "20260517052511_20260517052249_VXSE5k_1.json"
+    },
     {
       "eventID": "20260517042540",
       "dateTime": "2026-05-16 19:25:00",
