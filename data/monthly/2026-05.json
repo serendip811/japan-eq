@@ -1,8 +1,24 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-18T00:41:11.393Z",
-  "count": 136,
+  "fetchedAt": "2026-05-18T07:25:15.389Z",
+  "count": 137,
   "earthquakes": [
+    {
+      "eventID": "20260518151927",
+      "dateTime": "2026-05-18 06:19:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "4.0",
+      "depth": 50,
+      "lat": 37.9,
+      "lon": 141.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-05-18T15:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.9+141.6-50000/",
+      "areaCode": "287",
+      "jsonFile": "20260518152237_20260518151927_VXSE5k_1.json"
+    },
     {
       "eventID": "20260518083630",
       "dateTime": "2026-05-17 23:36:00",
