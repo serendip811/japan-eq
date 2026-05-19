@@ -1,8 +1,40 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-19T05:22:31.497Z",
-  "count": 140,
+  "fetchedAt": "2026-05-19T11:05:29.638Z",
+  "count": 142,
   "earthquakes": [
+    {
+      "eventID": "20260519193523",
+      "dateTime": "2026-05-19 10:35:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 30,
+      "lon": 130,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-05-19T19:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+30.0+130.0-10000/",
+      "areaCode": "798",
+      "jsonFile": "20260519193851_20260519193523_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260519192347",
+      "dateTime": "2026-05-19 10:23:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "4.1",
+      "depth": 80,
+      "lat": 40.8,
+      "lon": 142.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-19T19:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.8+142.5-80000/",
+      "areaCode": "285",
+      "jsonFile": "20260519192651_20260519192347_VXSE5k_1.json"
+    },
     {
       "eventID": "20260519130327",
       "dateTime": "2026-05-19 04:03:00",
