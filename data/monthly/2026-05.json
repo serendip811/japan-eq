@@ -1,8 +1,40 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-20T07:14:57.080Z",
-  "count": 149,
+  "fetchedAt": "2026-05-20T17:06:29.105Z",
+  "count": 151,
   "earthquakes": [
+    {
+      "eventID": "20260521010824",
+      "dateTime": "2026-05-20 16:08:00",
+      "epicenter": "Southern Kyoto Prefecture",
+      "epicenterKr": "Southern Kyoto Prefecture",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 35,
+      "lon": 135.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-21T01:11:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+135.5-10000/",
+      "areaCode": "511",
+      "jsonFile": "20260521011147_20260521010824_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260521002318",
+      "dateTime": "2026-05-20 15:23:00",
+      "epicenter": "Off the east Coast of Chiba Prefecture",
+      "epicenterKr": "치바현 동방 바다",
+      "magnitude": "3.5",
+      "depth": 30,
+      "lat": 35.7,
+      "lon": 141,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-21T00:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.7+141.0-30000/",
+      "areaCode": "473",
+      "jsonFile": "20260521002638_20260521002318_VXSE5k_1.json"
+    },
     {
       "eventID": "20260520151359",
       "dateTime": "2026-05-20 06:12:00",
