@@ -1,8 +1,40 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-21T09:09:36.767Z",
-  "count": 155,
+  "fetchedAt": "2026-05-21T16:55:23.225Z",
+  "count": 157,
   "earthquakes": [
+    {
+      "eventID": "20260522013324",
+      "dateTime": "2026-05-21 16:33:00",
+      "epicenter": "Ise Bay",
+      "epicenterKr": "이세완",
+      "magnitude": "3.2",
+      "depth": 40,
+      "lat": 34.9,
+      "lon": 136.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-22T01:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.9+136.7-40000/",
+      "areaCode": "490",
+      "jsonFile": "20260522013611_20260522013324_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260522002356",
+      "dateTime": "2026-05-21 15:23:00",
+      "epicenter": "Bungosuido Strait",
+      "epicenterKr": "풍후수도",
+      "magnitude": "3.5",
+      "depth": 40,
+      "lat": 33.3,
+      "lon": 132.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-05-22T00:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.3+132.4-40000/",
+      "areaCode": "681",
+      "jsonFile": "20260522002704_20260522002356_VXSE5k_1.json"
+    },
     {
       "eventID": "20260521170728",
       "dateTime": "2026-05-21 08:07:00",
