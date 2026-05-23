@@ -1,8 +1,40 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-23T06:57:00.490Z",
-  "count": 161,
+  "fetchedAt": "2026-05-23T14:33:31.159Z",
+  "count": 163,
   "earthquakes": [
+    {
+      "eventID": "20260523231959",
+      "dateTime": "2026-05-23 14:19:00",
+      "epicenter": "Off the Coast of Kushiro",
+      "epicenterKr": "구시로 오키",
+      "magnitude": "3.5",
+      "depth": 40,
+      "lat": 42.6,
+      "lon": 145.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-23T23:22:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.6+145.1-40000/",
+      "areaCode": "190",
+      "jsonFile": "20260523232249_20260523231959_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260523223149",
+      "dateTime": "2026-05-23 13:31:00",
+      "epicenter": "Eastern Shimane Prefecture",
+      "epicenterKr": "Eastern Shimane Prefecture",
+      "magnitude": "2.2",
+      "depth": 10,
+      "lat": 35.2,
+      "lon": 132.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-23T22:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.2+132.8-10000/",
+      "areaCode": "570",
+      "jsonFile": "20260523223500_20260523223149_VXSE5k_1.json"
+    },
     {
       "eventID": "20260523152037",
       "dateTime": "2026-05-23 06:20:00",
