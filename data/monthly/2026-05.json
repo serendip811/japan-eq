@@ -1,8 +1,40 @@
 {
   "month": "2026-05",
-  "fetchedAt": "2026-05-27T07:28:16.994Z",
-  "count": 186,
+  "fetchedAt": "2026-05-27T09:09:49.658Z",
+  "count": 188,
   "earthquakes": [
+    {
+      "eventID": "20260527165229",
+      "dateTime": "2026-05-27 07:52:00",
+      "epicenter": "Northern Nagano Prefecture",
+      "epicenterKr": "Northern Nagano Prefecture",
+      "magnitude": "1.7",
+      "depth": 10,
+      "lat": 36.5,
+      "lon": 137.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-27T16:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.5+137.9-10000/",
+      "areaCode": "420",
+      "jsonFile": "20260527165547_20260527165229_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260527163904",
+      "dateTime": "2026-05-27 07:39:00",
+      "epicenter": "Off the Coast of Tokachi",
+      "epicenterKr": "도카치 오키",
+      "magnitude": "4.5",
+      "depth": 60,
+      "lat": 41.6,
+      "lon": 143.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-05-27T16:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.6+143.6-60000/",
+      "areaCode": "191",
+      "jsonFile": "20260527164220_20260527163904_VXSE5k_1.json"
+    },
     {
       "eventID": "20260527161029",
       "dateTime": "2026-05-27 07:10:00",
