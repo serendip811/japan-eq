@@ -1,8 +1,40 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-01T05:39:16.993Z",
-  "count": 1,
+  "fetchedAt": "2026-06-01T16:53:27.410Z",
+  "count": 3,
   "earthquakes": [
+    {
+      "eventID": "20260602005127",
+      "dateTime": "2026-06-01 15:51:00",
+      "epicenter": "Off the Coast of Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 바다",
+      "magnitude": "3.8",
+      "depth": 40,
+      "lat": 36.4,
+      "lon": 141.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-02T00:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+141.1-40000/",
+      "areaCode": "471",
+      "jsonFile": "20260602005650_20260602005127_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260602005031",
+      "dateTime": "2026-06-01 15:50:00",
+      "epicenter": "Northern Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 북부",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 36.8,
+      "lon": 140.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-02T00:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.8+140.6-10000/",
+      "areaCode": "300",
+      "jsonFile": "20260602005619_20260602005031_VXSE5k_1.json"
+    },
     {
       "eventID": "20260601124036",
       "dateTime": "2026-06-01 03:40:00",
