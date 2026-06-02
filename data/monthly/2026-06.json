@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-02T05:36:00.983Z",
-  "count": 5,
+  "fetchedAt": "2026-06-02T19:15:28.612Z",
+  "count": 6,
   "earthquakes": [
+    {
+      "eventID": "20260603040542",
+      "dateTime": "2026-06-02 19:05:00",
+      "epicenter": "Off the southeast Coast of Mie Prefecture",
+      "epicenterKr": "Off the southeast Coast of Mie Prefecture",
+      "magnitude": "3.8",
+      "depth": 30,
+      "lat": 34.2,
+      "lon": 136.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-06-03T04:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+136.6-30000/",
+      "areaCode": "469",
+      "jsonFile": "20260603040839_20260603040542_VXSE5k_1.json"
+    },
     {
       "eventID": "20260602123532",
       "dateTime": "2026-06-02 03:35:00",
