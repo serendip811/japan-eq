@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-06T01:41:12.638Z",
-  "count": 28,
+  "fetchedAt": "2026-06-06T12:28:57.898Z",
+  "count": 29,
   "earthquakes": [
+    {
+      "eventID": "20260606202926",
+      "dateTime": "2026-06-06 11:29:00",
+      "epicenter": "Off the east Coast of Hachijojima Island",
+      "epicenterKr": "하치조 섬 동쪽 앞바다",
+      "magnitude": "4.8",
+      "depth": 50,
+      "lat": 33.3,
+      "lon": 140.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-06T20:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.3+140.8-50000/",
+      "areaCode": "475",
+      "jsonFile": "20260606203235_20260606202926_VXSE5k_1.json"
+    },
     {
       "eventID": "20260606102018",
       "dateTime": "2026-06-06 01:20:00",
