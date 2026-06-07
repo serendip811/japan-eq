@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-07T07:25:37.940Z",
-  "count": 33,
+  "fetchedAt": "2026-06-07T14:37:36.928Z",
+  "count": 34,
   "earthquakes": [
+    {
+      "eventID": "20260607224532",
+      "dateTime": "2026-06-07 13:45:00",
+      "epicenter": "Northern Coast of Akita Prefecture",
+      "epicenterKr": "아키타 현 연안 북부",
+      "magnitude": "2.8",
+      "depth": 20,
+      "lat": 39.9,
+      "lon": 140,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-07T22:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.9+140.0-20000/",
+      "areaCode": "230",
+      "jsonFile": "20260607224813_20260607224532_VXSE5k_1.json"
+    },
     {
       "eventID": "20260607154629",
       "dateTime": "2026-06-07 06:46:00",
