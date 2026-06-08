@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-08T18:51:20.922Z",
-  "count": 38,
+  "fetchedAt": "2026-06-08T20:53:31.832Z",
+  "count": 39,
   "earthquakes": [
+    {
+      "eventID": "20260609054708",
+      "dateTime": "2026-06-08 20:47:00",
+      "epicenter": "Area along Mountains of Southern Miyazaki Prefecture",
+      "epicenterKr": "미야자키 현 남부 산간 지역",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 31.9,
+      "lon": 131,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-06-09T05:50:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.9+131.0-10000/",
+      "areaCode": "763",
+      "jsonFile": "20260609055006_20260609054708_VXSE5k_1.json"
+    },
     {
       "eventID": "20260609030456",
       "dateTime": "2026-06-08 18:04:00",
