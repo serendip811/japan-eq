@@ -1,8 +1,40 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-10T09:16:08.058Z",
-  "count": 45,
+  "fetchedAt": "2026-06-10T11:17:00.648Z",
+  "count": 47,
   "earthquakes": [
+    {
+      "eventID": "20260610193518",
+      "dateTime": "2026-06-10 10:35:00",
+      "epicenter": "Northern Sea of Japan",
+      "epicenterKr": "일본해 북부",
+      "magnitude": "5.6",
+      "depth": 350,
+      "lat": 43.4,
+      "lon": 136.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-10T19:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.4+136.1-350000/",
+      "areaCode": "907",
+      "jsonFile": "20260610194058_20260610193518_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260610185552",
+      "dateTime": "2026-06-10 09:55:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "3.6",
+      "depth": 40,
+      "lat": 39.9,
+      "lon": 142.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-10T18:58:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.9+142.4-40000/",
+      "areaCode": "286",
+      "jsonFile": "20260610185835_20260610185552_VXSE5k_1.json"
+    },
     {
       "eventID": "20260610180130",
       "dateTime": "2026-06-10 09:01:00",
