@@ -1,8 +1,40 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-14T12:40:59.328Z",
-  "count": 65,
+  "fetchedAt": "2026-06-15T08:00:40.890Z",
+  "count": 67,
   "earthquakes": [
+    {
+      "eventID": "20260615163323",
+      "dateTime": "2026-06-15 07:33:00",
+      "epicenter": "Eastern Hidaka Region, Hokkaido",
+      "epicenterKr": "히다카 지방 동부",
+      "magnitude": "3.7",
+      "depth": 60,
+      "lat": 42.3,
+      "lon": 143,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-06-15T16:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.3+143.0-60000/",
+      "areaCode": "152",
+      "jsonFile": "20260615163604_20260615163323_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260615154226",
+      "dateTime": "2026-06-15 06:42:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 32.7,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-15T15:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.7+130.6-10000/",
+      "areaCode": "741",
+      "jsonFile": "20260615154509_20260615154226_VXSE5k_1.json"
+    },
     {
       "eventID": "20260614213602",
       "dateTime": "2026-06-14 12:36:00",
