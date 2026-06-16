@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-15T22:41:59.005Z",
-  "count": 71,
+  "fetchedAt": "2026-06-16T09:57:02.274Z",
+  "count": 72,
   "earthquakes": [
+    {
+      "eventID": "20260616165633",
+      "dateTime": "2026-06-16 07:56:00",
+      "epicenter": "Northern Yamaguchi Prefecture",
+      "epicenterKr": "Northern Yamaguchi Prefecture",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 34.4,
+      "lon": 131.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-16T16:59:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.4+131.5-10000/",
+      "areaCode": "700",
+      "jsonFile": "20260616165921_20260616165633_VXSE5k_1.json"
+    },
     {
       "eventID": "20260616072220",
       "dateTime": "2026-06-15 22:22:00",
