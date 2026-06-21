@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-21T20:33:24.938Z",
-  "count": 95,
+  "fetchedAt": "2026-06-21T22:27:56.080Z",
+  "count": 96,
   "earthquakes": [
+    {
+      "eventID": "20260622071950",
+      "dateTime": "2026-06-21 22:19:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.7",
+      "depth": 0,
+      "lat": 29.4,
+      "lon": 129.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-06-22T07:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.4+129.6+0/",
+      "areaCode": "798",
+      "jsonFile": "20260622072309_20260622071950_VXSE5k_1.json"
+    },
     {
       "eventID": "20260622050537",
       "dateTime": "2026-06-21 20:05:00",
