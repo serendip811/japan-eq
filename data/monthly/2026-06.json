@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-23T16:50:51.137Z",
-  "count": 102,
+  "fetchedAt": "2026-06-23T20:45:03.830Z",
+  "count": 103,
   "earthquakes": [
+    {
+      "eventID": "20260624051708",
+      "dateTime": "2026-06-23 20:17:00",
+      "epicenter": "Fukuoka Region, Fukuoka Prefecture",
+      "epicenterKr": "후쿠오카 현 후쿠오카 지방",
+      "magnitude": "2.7",
+      "depth": 20,
+      "lat": 33.6,
+      "lon": 130.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-24T05:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.6+130.4-20000/",
+      "areaCode": "710",
+      "jsonFile": "20260624052001_20260624051708_VXSE5k_1.json"
+    },
     {
       "eventID": "20260624004908",
       "dateTime": "2026-06-23 15:49:00",
