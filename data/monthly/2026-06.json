@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-25T12:53:02.815Z",
-  "count": 137,
+  "fetchedAt": "2026-06-25T15:00:29.358Z",
+  "count": 138,
   "earthquakes": [
+    {
+      "eventID": "20260625224426",
+      "dateTime": "2026-06-25 13:44:00",
+      "epicenter": "Southern Kyoto Prefecture",
+      "epicenterKr": "Southern Kyoto Prefecture",
+      "magnitude": "3.1",
+      "depth": 20,
+      "lat": 35.1,
+      "lon": 135.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-06-25T22:47:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.1+135.5-20000/",
+      "areaCode": "511",
+      "jsonFile": "20260625224736_20260625224426_VXSE5k_1.json"
+    },
     {
       "eventID": "20260625205839",
       "dateTime": "2026-06-25 11:58:00",
