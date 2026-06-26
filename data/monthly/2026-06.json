@@ -1,8 +1,24 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-26T05:28:01.152Z",
-  "count": 153,
+  "fetchedAt": "2026-06-26T07:20:11.247Z",
+  "count": 154,
   "earthquakes": [
+    {
+      "eventID": "20260626154113",
+      "dateTime": "2026-06-26 06:41:00",
+      "epicenter": "Central · Western Yamanashi Prefecture",
+      "epicenterKr": "야마나시 현 중·서부",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 35.8,
+      "lon": 138.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-26T15:43:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.8+138.3-10000/",
+      "areaCode": "411",
+      "jsonFile": "20260626154349_20260626154113_VXSE5k_1.json"
+    },
     {
       "eventID": "20260626133139",
       "dateTime": "2026-06-26 04:31:00",
