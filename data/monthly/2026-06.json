@@ -1,8 +1,40 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-26T18:38:10.337Z",
-  "count": 166,
+  "fetchedAt": "2026-06-26T19:34:06.293Z",
+  "count": 168,
   "earthquakes": [
+    {
+      "eventID": "20260627043008",
+      "dateTime": "2026-06-26 19:30:00",
+      "epicenter": "Southern Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 남부",
+      "magnitude": "3.2",
+      "depth": 50,
+      "lat": 36.2,
+      "lon": 140,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-27T04:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+140.0-50000/",
+      "areaCode": "301",
+      "jsonFile": "20260627043242_20260627043008_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260627035948",
+      "dateTime": "2026-06-26 18:59:00",
+      "epicenter": "Northwestern Chiba Prefecture",
+      "epicenterKr": "Northwestern Chiba Prefecture",
+      "magnitude": "3.8",
+      "depth": 70,
+      "lat": 35.8,
+      "lon": 140.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-06-27T04:03:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.8+140.1-70000/",
+      "areaCode": "341",
+      "jsonFile": "20260627040313_20260627035948_VXSE5k_1.json"
+    },
     {
       "eventID": "20260627023300",
       "dateTime": "2026-06-26 17:33:00",
