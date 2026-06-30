@@ -1,8 +1,40 @@
 {
   "month": "2026-06",
-  "fetchedAt": "2026-06-30T14:53:57.824Z",
-  "count": 195,
+  "fetchedAt": "2026-06-30T15:52:22.421Z",
+  "count": 197,
   "earthquakes": [
+    {
+      "eventID": "20260701003305",
+      "dateTime": "2026-06-30 15:33:00",
+      "epicenter": "Southern Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 남부",
+      "magnitude": "3.4",
+      "depth": 60,
+      "lat": 36.2,
+      "lon": 140,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-01T00:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+140.0-60000/",
+      "areaCode": "301",
+      "jsonFile": "20260701003546_20260701003305_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260701000231",
+      "dateTime": "2026-06-30 15:02:00",
+      "epicenter": "Off the south Coast of Boso Peninsula",
+      "epicenterKr": "보소 반도 남방 바다",
+      "magnitude": "4.1",
+      "depth": 60,
+      "lat": 34.5,
+      "lon": 140.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-01T00:05:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.5+140.2-60000/",
+      "areaCode": "349",
+      "jsonFile": "20260701000531_20260701000231_VXSE5k_1.json"
+    },
     {
       "eventID": "20260630230228",
       "dateTime": "2026-06-30 14:02:00",
