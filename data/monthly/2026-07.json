@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-02T16:03:15.189Z",
-  "count": 17,
+  "fetchedAt": "2026-07-02T22:04:13.836Z",
+  "count": 19,
   "earthquakes": [
+    {
+      "eventID": "20260703053020",
+      "dateTime": "2026-07-02 20:30:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "3.3",
+      "depth": 50,
+      "lat": 43.3,
+      "lon": 146.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-03T05:33:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.3+146.5-50000/",
+      "areaCode": "189",
+      "jsonFile": "20260703053324_20260703053020_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260703052456",
+      "dateTime": "2026-07-02 20:24:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 38.9,
+      "lon": 141.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-03T05:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.9+141.9-50000/",
+      "areaCode": "287",
+      "jsonFile": "20260703052742_20260703052456_VXSE5k_1.json"
+    },
     {
       "eventID": "20260702234447",
       "dateTime": "2026-07-02 14:44:00",
