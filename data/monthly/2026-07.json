@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-03T08:06:44.087Z",
-  "count": 26,
+  "fetchedAt": "2026-07-03T11:29:38.944Z",
+  "count": 28,
   "earthquakes": [
+    {
+      "eventID": "20260703183248",
+      "dateTime": "2026-07-03 09:32:00",
+      "epicenter": "Eastern Region · Fuji Five Lakes, Yamanashi Prefecture",
+      "epicenterKr": "야마나시 현 동부 후지 고호 수",
+      "magnitude": "2.5",
+      "depth": 20,
+      "lat": 35.5,
+      "lon": 138.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-03T18:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.5+138.8-20000/",
+      "areaCode": "412",
+      "jsonFile": "20260703183550_20260703183248_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260703172441",
+      "dateTime": "2026-07-03 08:24:00",
+      "epicenter": "Northwest Pacific Ocean",
+      "epicenterKr": "북서 태평양",
+      "magnitude": "6.0",
+      "depth": 10,
+      "lat": 48,
+      "lon": 154.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-03T17:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+48.0+154.9-10000/",
+      "areaCode": "930",
+      "jsonFile": "20260703173118_20260703172441_VXSE5k_1.json"
+    },
     {
       "eventID": "20260703140342",
       "dateTime": "2026-07-03 05:03:00",
