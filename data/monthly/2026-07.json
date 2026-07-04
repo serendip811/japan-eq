@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-03T19:14:36.374Z",
-  "count": 30,
+  "fetchedAt": "2026-07-04T00:02:20.643Z",
+  "count": 32,
   "earthquakes": [
+    {
+      "eventID": "20260704082941",
+      "dateTime": "2026-07-03 23:29:00",
+      "epicenter": "Eastern Aichi Prefecture",
+      "epicenterKr": "Eastern Aichi Prefecture",
+      "magnitude": "2.1",
+      "depth": 10,
+      "lat": 35.2,
+      "lon": 137.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-04T08:34:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.2+137.7-10000/",
+      "areaCode": "450",
+      "jsonFile": "20260704083440_20260704082941_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260704072516",
+      "dateTime": "2026-07-03 22:25:00",
+      "epicenter": "Hyuganada Sea",
+      "epicenterKr": "히나타 나다",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 32,
+      "lon": 131.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-04T07:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+131.9-10000/",
+      "areaCode": "791",
+      "jsonFile": "20260704072800_20260704072516_VXSE5k_1.json"
+    },
     {
       "eventID": "20260704024811",
       "dateTime": "2026-07-03 17:48:00",
