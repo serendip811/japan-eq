@@ -1,8 +1,24 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-06T22:11:11.092Z",
-  "count": 49,
+  "fetchedAt": "2026-07-07T08:19:50.229Z",
+  "count": 50,
   "earthquakes": [
+    {
+      "eventID": "20260707170000",
+      "dateTime": "2026-07-07 08:00:00",
+      "epicenter": "",
+      "epicenterKr": "",
+      "magnitude": "",
+      "depth": null,
+      "lat": null,
+      "lon": null,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-07-07T17:00:00+09:00",
+      "title": "南海トラフ地震関連解説情報",
+      "coordinates": "",
+      "areaCode": "",
+      "jsonFile": "20260707170008_20260707170000_VYSE52_0.json"
+    },
     {
       "eventID": "20260707061650",
       "dateTime": "2026-07-06 21:16:00",
