@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-10T21:58:19.205Z",
-  "count": 66,
+  "fetchedAt": "2026-07-11T04:10:23.246Z",
+  "count": 68,
   "earthquakes": [
+    {
+      "eventID": "20260711124236",
+      "dateTime": "2026-07-11 03:42:00",
+      "epicenter": "Chuetsu, Niigata Prefecture",
+      "epicenterKr": "니가타 현 주에쓰 지방",
+      "magnitude": "3.3",
+      "depth": 0,
+      "lat": 37.3,
+      "lon": 139.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-07-11T12:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.3+139.1+0/",
+      "areaCode": "371",
+      "jsonFile": "20260711124522_20260711124236_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260711114253",
+      "dateTime": "2026-07-11 02:42:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "2.2",
+      "depth": 0,
+      "lat": 31.9,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-11T11:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.9+130.6+0/",
+      "areaCode": "770",
+      "jsonFile": "20260711114926_20260711114253_VXSE5k_1.json"
+    },
     {
       "eventID": "20260711054032",
       "dateTime": "2026-07-10 20:40:00",
