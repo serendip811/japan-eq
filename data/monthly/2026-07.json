@@ -1,8 +1,24 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-14T09:54:51.713Z",
-  "count": 78,
+  "fetchedAt": "2026-07-14T17:10:49.016Z",
+  "count": 79,
   "earthquakes": [
+    {
+      "eventID": "20260715003812",
+      "dateTime": "2026-07-14 15:38:00",
+      "epicenter": "Southern Shiga Prefecture",
+      "epicenterKr": "시가 현 남부",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 35.2,
+      "lon": 135.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-15T00:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.2+135.9-10000/",
+      "areaCode": "501",
+      "jsonFile": "20260715004042_20260715003812_VXSE5k_1.json"
+    },
     {
       "eventID": "20260714170736",
       "dateTime": "2026-07-14 08:07:00",
