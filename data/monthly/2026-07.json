@@ -1,8 +1,24 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-16T02:13:57.058Z",
-  "count": 84,
+  "fetchedAt": "2026-07-16T08:06:07.479Z",
+  "count": 85,
   "earthquakes": [
+    {
+      "eventID": "20260716150443",
+      "dateTime": "2026-07-16 06:04:00",
+      "epicenter": "Western Kanagawa Prefecture",
+      "epicenterKr": "카나강 현 서부",
+      "magnitude": "2.0",
+      "depth": 20,
+      "lat": 35.4,
+      "lon": 139.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-16T15:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.4+139.3-20000/",
+      "areaCode": "361",
+      "jsonFile": "20260716150935_20260716150443_VXSE5k_1.json"
+    },
     {
       "eventID": "20260716090114",
       "dateTime": "2026-07-16 00:01:00",
