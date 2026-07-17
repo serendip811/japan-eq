@@ -1,8 +1,24 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-16T22:54:24.164Z",
-  "count": 89,
+  "fetchedAt": "2026-07-17T16:11:50.643Z",
+  "count": 90,
   "earthquakes": [
+    {
+      "eventID": "20260717235535",
+      "dateTime": "2026-07-17 14:49:00",
+      "epicenter": "Central America",
+      "epicenterKr": "중미",
+      "magnitude": "7.4",
+      "depth": null,
+      "lat": 14.4,
+      "lon": -93,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-07-18T00:16:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "+14.4-093.0/",
+      "areaCode": "945",
+      "jsonFile": "20260718001629_20260717235535_VXSE5e_1.json"
+    },
     {
       "eventID": "20260717064952",
       "dateTime": "2026-07-16 21:49:00",
