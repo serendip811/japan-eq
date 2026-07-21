@@ -1,8 +1,24 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-20T17:57:26.053Z",
-  "count": 98,
+  "fetchedAt": "2026-07-21T05:47:18.346Z",
+  "count": 99,
   "earthquakes": [
+    {
+      "eventID": "20260721112525",
+      "dateTime": "2026-07-21 02:25:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "4.0",
+      "depth": 80,
+      "lat": 43.4,
+      "lon": 146.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-07-21T11:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.4+146.2-80000/",
+      "areaCode": "189",
+      "jsonFile": "20260721112820_20260721112525_VXSE5k_1.json"
+    },
     {
       "eventID": "20260721022351",
       "dateTime": "2026-07-20 17:23:00",
