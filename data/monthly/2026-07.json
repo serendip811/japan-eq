@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-21T15:40:22.027Z",
-  "count": 100,
+  "fetchedAt": "2026-07-21T17:13:52.036Z",
+  "count": 102,
   "earthquakes": [
+    {
+      "eventID": "20260722004746",
+      "dateTime": "2026-07-21 15:47:00",
+      "epicenter": "Eastern Aichi Prefecture",
+      "epicenterKr": "Eastern Aichi Prefecture",
+      "magnitude": "3.2",
+      "depth": 40,
+      "lat": 35.1,
+      "lon": 137.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-22T00:50:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.1+137.7-40000/",
+      "areaCode": "450",
+      "jsonFile": "20260722005058_20260722004746_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260722004235",
+      "dateTime": "2026-07-21 15:42:00",
+      "epicenter": "Western Aichi Prefecture",
+      "epicenterKr": "Western Aichi Prefecture",
+      "magnitude": "3.0",
+      "depth": 40,
+      "lat": 35.2,
+      "lon": 137.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-22T00:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.2+137.3-40000/",
+      "areaCode": "451",
+      "jsonFile": "20260722004509_20260722004235_VXSE5k_1.json"
+    },
     {
       "eventID": "20260721235531",
       "dateTime": "2026-07-21 14:55:00",
