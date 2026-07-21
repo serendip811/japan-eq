@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-21T17:13:52.036Z",
-  "count": 102,
+  "fetchedAt": "2026-07-21T21:03:40.395Z",
+  "count": 104,
   "earthquakes": [
+    {
+      "eventID": "20260722054936",
+      "dateTime": "2026-07-21 20:49:00",
+      "epicenter": "Chikugo Region,  Fukuoka Prefecture",
+      "epicenterKr": "후쿠오카 현 지쿠고 지방",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 33.1,
+      "lon": 130.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-22T05:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.1+130.5-10000/",
+      "areaCode": "713",
+      "jsonFile": "20260722055420_20260722054936_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260722054558",
+      "dateTime": "2026-07-21 20:45:00",
+      "epicenter": "Central Nagano Prefecture",
+      "epicenterKr": "Central Nagano Prefecture",
+      "magnitude": "3.2",
+      "depth": 0,
+      "lat": 36.4,
+      "lon": 138,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-07-22T05:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+138.0+0/",
+      "areaCode": "421",
+      "jsonFile": "20260722054950_20260722054558_VXSE5k_1.json"
+    },
     {
       "eventID": "20260722004746",
       "dateTime": "2026-07-21 15:47:00",
