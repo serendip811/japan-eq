@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-25T06:14:05.654Z",
-  "count": 117,
+  "fetchedAt": "2026-07-25T14:59:30.238Z",
+  "count": 119,
   "earthquakes": [
+    {
+      "eventID": "20260725235340",
+      "dateTime": "2026-07-25 14:53:00",
+      "epicenter": "Aizu,  Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 아이즈",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 37.1,
+      "lon": 139.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-25T23:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.1+139.4-10000/",
+      "areaCode": "252",
+      "jsonFile": "20260725235737_20260725235340_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260725225227",
+      "dateTime": "2026-07-25 13:52:00",
+      "epicenter": "Northern Kamikawa Region, Hokkaido",
+      "epicenterKr": "카미카와 지방 북부",
+      "magnitude": "2.7",
+      "depth": 0,
+      "lat": 44.2,
+      "lon": 142.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-25T22:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+44.2+142.1+0/",
+      "areaCode": "125",
+      "jsonFile": "20260725225512_20260725225227_VXSE5k_1.json"
+    },
     {
       "eventID": "20260725140428",
       "dateTime": "2026-07-25 05:04:00",
