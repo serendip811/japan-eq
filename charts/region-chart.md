@@ -5,7 +5,7 @@ xychart-beta
     title "지역별 지진 발생 횟수"
     x-axis ["Adjacent", "Off", "Northern", "Southern", "Eastern", "Central", "Aso", "Noto,", "Amakusa", "Western"]
     y-axis "발생 횟수" 0 --> 2607
-    bar [2605, 754, 221, 175, 136, 76, 67, 58, 56, 43]
+    bar [2605, 754, 222, 175, 136, 76, 67, 58, 56, 43]
 ```
 
-업데이트 시간: 2026-07-27 20:19:40
+업데이트 시간: 2026-07-27 22:03:54
