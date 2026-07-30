@@ -1,8 +1,40 @@
 {
   "month": "2026-07",
-  "fetchedAt": "2026-07-30T15:49:36.389Z",
-  "count": 508,
+  "fetchedAt": "2026-07-30T17:22:27.868Z",
+  "count": 510,
   "earthquakes": [
+    {
+      "eventID": "20260731012053",
+      "dateTime": "2026-07-30 16:20:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "4.0",
+      "depth": 40,
+      "lat": 40.1,
+      "lon": 142.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-31T01:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.1+142.4-40000/",
+      "areaCode": "286",
+      "jsonFile": "20260731012358_20260731012053_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260731011131",
+      "dateTime": "2026-07-30 16:11:00",
+      "epicenter": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "epicenterKr": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.4",
+      "depth": 0,
+      "lat": 32.5,
+      "lon": 130.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-07-31T01:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.5+0/",
+      "areaCode": "743",
+      "jsonFile": "20260731011401_20260731011131_VXSE5k_1.json"
+    },
     {
       "eventID": "20260731002128",
       "dateTime": "2026-07-30 15:21:00",
