@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-04T22:59:21.875Z",
-  "count": 137,
+  "fetchedAt": "2026-08-05T03:57:27.743Z",
+  "count": 139,
   "earthquakes": [
+    {
+      "eventID": "20260805103723",
+      "dateTime": "2026-08-05 01:37:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "3.3",
+      "depth": 50,
+      "lat": 43.2,
+      "lon": 146.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-05T10:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.2+146.3-50000/",
+      "areaCode": "189",
+      "jsonFile": "20260805104007_20260805103723_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260805100430",
+      "dateTime": "2026-08-05 01:04:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 32.7,
+      "lon": 130.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-05T10:06:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.7+130.8-10000/",
+      "areaCode": "741",
+      "jsonFile": "20260805100655_20260805100430_VXSE5k_1.json"
+    },
     {
       "eventID": "20260805070422",
       "dateTime": "2026-08-04 22:04:00",
