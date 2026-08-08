@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-08T12:38:52.210Z",
-  "count": 206,
+  "fetchedAt": "2026-08-08T15:25:54.144Z",
+  "count": 207,
   "earthquakes": [
+    {
+      "eventID": "20260808232819",
+      "dateTime": "2026-08-08 14:28:00",
+      "epicenter": "Akinada Sea",
+      "epicenterKr": "아키 나다",
+      "magnitude": "2.9",
+      "depth": 50,
+      "lat": 33.9,
+      "lon": 132.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-08T23:30:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.9+132.3-50000/",
+      "areaCode": "678",
+      "jsonFile": "20260808233041_20260808232819_VXSE5k_1.json"
+    },
     {
       "eventID": "20260808212343",
       "dateTime": "2026-08-08 12:23:00",
