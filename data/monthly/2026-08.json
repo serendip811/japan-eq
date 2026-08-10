@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-10T11:04:19.827Z",
-  "count": 247,
+  "fetchedAt": "2026-08-10T12:58:23.301Z",
+  "count": 249,
   "earthquakes": [
+    {
+      "eventID": "20260810202536",
+      "dateTime": "2026-08-10 11:25:00",
+      "epicenter": "Abashiri Region, Hokkaido",
+      "epicenterKr": "아바시리 지방",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 43.6,
+      "lon": 143.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-10T20:28:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.6+143.8-10000/",
+      "areaCode": "140",
+      "jsonFile": "20260810202811_20260810202536_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260810201328",
+      "dateTime": "2026-08-10 11:13:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-10T20:15:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6-10000/",
+      "areaCode": "741",
+      "jsonFile": "20260810201552_20260810201328_VXSE5k_1.json"
+    },
     {
       "eventID": "20260810181912",
       "dateTime": "2026-08-10 09:19:00",
