@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-11T21:42:31.859Z",
-  "count": 283,
+  "fetchedAt": "2026-08-11T22:37:15.517Z",
+  "count": 285,
   "earthquakes": [
+    {
+      "eventID": "20260812065312",
+      "dateTime": "2026-08-11 21:53:00",
+      "epicenter": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "epicenterKr": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 32.5,
+      "lon": 130.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-12T06:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.5-10000/",
+      "areaCode": "743",
+      "jsonFile": "20260812065604_20260812065312_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260812064603",
+      "dateTime": "2026-08-11 21:46:00",
+      "epicenter": "Off the Coast of Urakawa",
+      "epicenterKr": "우라카와 오키",
+      "magnitude": "4.5",
+      "depth": 50,
+      "lat": 41.6,
+      "lon": 142.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-08-12T06:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.6+142.1-50000/",
+      "areaCode": "192",
+      "jsonFile": "20260812064923_20260812064603_VXSE5k_1.json"
+    },
     {
       "eventID": "20260812061001",
       "dateTime": "2026-08-11 21:10:00",
