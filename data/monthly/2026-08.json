@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-11T19:59:50.720Z",
-  "count": 281,
+  "fetchedAt": "2026-08-11T20:52:29.118Z",
+  "count": 282,
   "earthquakes": [
+    {
+      "eventID": "20260812054658",
+      "dateTime": "2026-08-11 20:47:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "1.6",
+      "depth": 10,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-12T05:50:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6-10000/",
+      "areaCode": "741",
+      "jsonFile": "20260812055002_20260812054658_VXSE5k_1.json"
+    },
     {
       "eventID": "20260812042915",
       "dateTime": "2026-08-11 19:29:00",
