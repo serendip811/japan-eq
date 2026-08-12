@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-12T01:29:09.325Z",
-  "count": 290,
+  "fetchedAt": "2026-08-12T04:04:03.386Z",
+  "count": 291,
   "earthquakes": [
+    {
+      "eventID": "20260812115706",
+      "dateTime": "2026-08-12 02:57:00",
+      "epicenter": "Central Tottori Prefecture",
+      "epicenterKr": "돗토리 현 중부",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 35.4,
+      "lon": 133.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-12T11:59:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.4+133.9-10000/",
+      "areaCode": "562",
+      "jsonFile": "20260812115930_20260812115706_VXSE5k_1.json"
+    },
     {
       "eventID": "20260812092517",
       "dateTime": "2026-08-12 00:25:00",
