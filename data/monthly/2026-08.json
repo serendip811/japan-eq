@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-14T22:19:02.998Z",
-  "count": 343,
+  "fetchedAt": "2026-08-14T23:17:51.140Z",
+  "count": 346,
   "earthquakes": [
+    {
+      "eventID": "20260815081315",
+      "dateTime": "2026-08-14 23:13:00",
+      "epicenter": "Off the Coast of Urakawa",
+      "epicenterKr": "우라카와 오키",
+      "magnitude": "3.1",
+      "depth": 50,
+      "lat": 41.6,
+      "lon": 142.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-15T08:16:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.6+142.1-50000/",
+      "areaCode": "192",
+      "jsonFile": "20260815081602_20260815081315_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260815072907",
+      "dateTime": "2026-08-14 22:29:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-15T07:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6-10000/",
+      "areaCode": "741",
+      "jsonFile": "20260815073137_20260815072907_VXSE5k_1.json"
+    },
     {
       "eventID": "20260815071303",
       "dateTime": "2026-08-14 22:12:00",
@@ -34,6 +66,22 @@
       "coordinates": "+36.2+139.5-70000/",
       "areaCode": "321",
       "jsonFile": "20260815070128_20260815065838_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260815065850",
+      "dateTime": "2026-08-14 21:58:00",
+      "epicenter": "Adjacent Indonesia",
+      "epicenterKr": "인도네시아 부근",
+      "magnitude": "7.7",
+      "depth": null,
+      "lat": -8.3,
+      "lon": 121.4,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-08-15T07:29:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-08.3+121.4/",
+      "areaCode": "953",
+      "jsonFile": "20260815072904_20260815065850_VXSE5e_1.json"
     },
     {
       "eventID": "20260815063856",
