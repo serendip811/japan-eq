@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-16T12:31:10.993Z",
-  "count": 373,
+  "fetchedAt": "2026-08-16T13:28:28.045Z",
+  "count": 374,
   "earthquakes": [
+    {
+      "eventID": "20260816214207",
+      "dateTime": "2026-08-16 12:42:00",
+      "epicenter": "Amakusanada Sea",
+      "epicenterKr": "아마쿠사 나다",
+      "magnitude": "3.0",
+      "depth": 0,
+      "lat": 32,
+      "lon": 130,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-16T21:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+130.0+0/",
+      "areaCode": "784",
+      "jsonFile": "20260816214513_20260816214207_VXSE5k_1.json"
+    },
     {
       "eventID": "20260816212545",
       "dateTime": "2026-08-16 12:25:00",
