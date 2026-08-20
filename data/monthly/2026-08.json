@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-20T16:29:42.752Z",
-  "count": 424,
+  "fetchedAt": "2026-08-20T18:33:02.986Z",
+  "count": 426,
   "earthquakes": [
+    {
+      "eventID": "20260821032347",
+      "dateTime": "2026-08-20 18:23:00",
+      "epicenter": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "epicenterKr": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 32.5,
+      "lon": 130.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-08-21T03:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.5-10000/",
+      "areaCode": "743",
+      "jsonFile": "20260821032719_20260821032347_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260821031540",
+      "dateTime": "2026-08-20 18:15:00",
+      "epicenter": "Adjacent Sea of​ Miyakojima Island",
+      "epicenterKr": "미야코 섬 근해",
+      "magnitude": "3.9",
+      "depth": 30,
+      "lat": 24.7,
+      "lon": 125,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-21T03:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+24.7+125.0-30000/",
+      "areaCode": "853",
+      "jsonFile": "20260821031822_20260821031540_VXSE5k_1.json"
+    },
     {
       "eventID": "20260821004621",
       "dateTime": "2026-08-20 15:46:00",
