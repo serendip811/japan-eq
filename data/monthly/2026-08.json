@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-20T20:23:21.643Z",
-  "count": 427,
+  "fetchedAt": "2026-08-20T23:21:40.556Z",
+  "count": 428,
   "earthquakes": [
+    {
+      "eventID": "20260821073404",
+      "dateTime": "2026-08-20 22:34:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "2.1",
+      "depth": 10,
+      "lat": 32,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-21T07:37:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+130.6-10000/",
+      "areaCode": "770",
+      "jsonFile": "20260821073758_20260821073404_VXSE5k_1.json"
+    },
     {
       "eventID": "20260821051324",
       "dateTime": "2026-08-20 20:13:00",
