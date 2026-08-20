@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-20T01:00:10.033Z",
-  "count": 417,
+  "fetchedAt": "2026-08-20T03:43:07.487Z",
+  "count": 419,
   "earthquakes": [
+    {
+      "eventID": "20260820120453",
+      "dateTime": "2026-08-20 03:04:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.9",
+      "depth": 0,
+      "lat": 32.4,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-20T12:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.4+130.6+0/",
+      "areaCode": "741",
+      "jsonFile": "20260820120807_20260820120453_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260820114013",
+      "dateTime": "2026-08-20 02:40:00",
+      "epicenter": "Kiisuido Strait",
+      "epicenterKr": "기이수도",
+      "magnitude": "2.8",
+      "depth": 10,
+      "lat": 34.2,
+      "lon": 135.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-20T11:43:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+135.1-10000/",
+      "areaCode": "674",
+      "jsonFile": "20260820114302_20260820114013_VXSE5k_1.json"
+    },
     {
       "eventID": "20260820094551",
       "dateTime": "2026-08-20 00:45:00",
