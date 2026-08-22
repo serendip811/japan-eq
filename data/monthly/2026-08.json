@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-22T03:38:55.811Z",
-  "count": 438,
+  "fetchedAt": "2026-08-22T09:23:47.934Z",
+  "count": 439,
   "earthquakes": [
+    {
+      "eventID": "20260822173741",
+      "dateTime": "2026-08-22 08:37:00",
+      "epicenter": "Southern Sea of Okhotsk",
+      "epicenterKr": "오호츠크 해 남부",
+      "magnitude": "4.1",
+      "depth": 10,
+      "lat": 45,
+      "lon": 145.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-08-22T17:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+45.0+145.6-10000/",
+      "areaCode": "905",
+      "jsonFile": "20260822174044_20260822173741_VXSE5k_1.json"
+    },
     {
       "eventID": "20260822113559",
       "dateTime": "2026-08-22 02:35:00",
