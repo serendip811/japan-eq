@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-23T14:19:08.535Z",
-  "count": 459,
+  "fetchedAt": "2026-08-23T17:17:02.725Z",
+  "count": 460,
   "earthquakes": [
+    {
+      "eventID": "20260824013623",
+      "dateTime": "2026-08-23 16:36:00",
+      "epicenter": "Eastern Hidaka Region, Hokkaido",
+      "epicenterKr": "히다카 지방 동부",
+      "magnitude": "4.0",
+      "depth": 60,
+      "lat": 42.2,
+      "lon": 142.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-08-24T01:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.2+142.9-60000/",
+      "areaCode": "152",
+      "jsonFile": "20260824013911_20260824013623_VXSE5k_1.json"
+    },
     {
       "eventID": "20260823224502",
       "dateTime": "2026-08-23 13:45:00",
