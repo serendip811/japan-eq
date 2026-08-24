@@ -1,8 +1,24 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-23T23:17:30.017Z",
-  "count": 465,
+  "fetchedAt": "2026-08-24T04:43:33.040Z",
+  "count": 466,
   "earthquakes": [
+    {
+      "eventID": "20260824125441",
+      "dateTime": "2026-08-24 03:54:00",
+      "epicenter": "Central and southern Kushiro Region, Hokkaido",
+      "epicenterKr": "쿠시로 지방 중남부",
+      "magnitude": "3.3",
+      "depth": 80,
+      "lat": 43.2,
+      "lon": 145,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-24T12:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.2+145.0-80000/",
+      "areaCode": "161",
+      "jsonFile": "20260824125723_20260824125441_VXSE5k_1.json"
+    },
     {
       "eventID": "20260824081215",
       "dateTime": "2026-08-23 23:12:00",
