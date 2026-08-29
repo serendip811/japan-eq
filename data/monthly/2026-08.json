@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-29T03:03:22.028Z",
-  "count": 516,
+  "fetchedAt": "2026-08-29T10:43:55.689Z",
+  "count": 518,
   "earthquakes": [
+    {
+      "eventID": "20260829184851",
+      "dateTime": "2026-08-29 09:48:00",
+      "epicenter": "Northern Gunma Prefecture",
+      "epicenterKr": "군마 현 북부",
+      "magnitude": "3.2",
+      "depth": 0,
+      "lat": 36.9,
+      "lon": 139.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-29T18:51:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.9+139.3+0/",
+      "areaCode": "320",
+      "jsonFile": "20260829185136_20260829184851_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260829135933",
+      "dateTime": "2026-08-29 04:59:00",
+      "epicenter": "Off the west Coast of Satsuma Peninsula",
+      "epicenterKr": "사쓰마 반도 서방 바다",
+      "magnitude": "3.6",
+      "depth": 140,
+      "lat": 31.1,
+      "lon": 130.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-29T14:02:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.1+130.4-140000/",
+      "areaCode": "797",
+      "jsonFile": "20260829140214_20260829135933_VXSE5k_1.json"
+    },
     {
       "eventID": "20260829081458",
       "dateTime": "2026-08-28 23:14:00",
