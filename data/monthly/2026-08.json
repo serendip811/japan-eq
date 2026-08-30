@@ -1,8 +1,40 @@
 {
   "month": "2026-08",
-  "fetchedAt": "2026-08-29T15:27:07.541Z",
-  "count": 523,
+  "fetchedAt": "2026-08-30T01:00:53.195Z",
+  "count": 525,
   "earthquakes": [
+    {
+      "eventID": "20260830094536",
+      "dateTime": "2026-08-30 00:45:00",
+      "epicenter": "Nara Prefecture",
+      "epicenterKr": "나라현",
+      "magnitude": "3.7",
+      "depth": 60,
+      "lat": 34.1,
+      "lon": 135.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-30T09:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.1+135.6-60000/",
+      "areaCode": "540",
+      "jsonFile": "20260830094829_20260830094536_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260830091429",
+      "dateTime": "2026-08-30 00:14:00",
+      "epicenter": "Off the Coast of Urakawa",
+      "epicenterKr": "우라카와 오키",
+      "magnitude": "4.0",
+      "depth": 60,
+      "lat": 42,
+      "lon": 142.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-08-30T09:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.0+142.6-60000/",
+      "areaCode": "192",
+      "jsonFile": "20260830091738_20260830091429_VXSE5k_1.json"
+    },
     {
       "eventID": "20260830001711",
       "dateTime": "2026-08-29 15:17:00",
