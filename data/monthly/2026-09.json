@@ -1,8 +1,24 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-04T18:02:40.181Z",
-  "count": 33,
+  "fetchedAt": "2026-09-04T21:12:19.286Z",
+  "count": 34,
   "earthquakes": [
+    {
+      "eventID": "20260905025000",
+      "dateTime": "2026-09-04 17:50:00",
+      "epicenter": "Adjacent Indonesia",
+      "epicenterKr": "인도네시아 부근",
+      "magnitude": "Ｍ不明",
+      "depth": null,
+      "lat": -6.1,
+      "lon": 105.4,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-09-05T04:00:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-06.1+105.4/",
+      "areaCode": "953",
+      "jsonFile": "20260905040015_20260905025000_VXSE5e_1.json"
+    },
     {
       "eventID": "20260904235244",
       "dateTime": "2026-09-04 14:52:00",
