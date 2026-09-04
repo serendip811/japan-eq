@@ -1,8 +1,24 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-04T14:45:08.507Z",
-  "count": 32,
+  "fetchedAt": "2026-09-04T18:02:40.181Z",
+  "count": 33,
   "earthquakes": [
+    {
+      "eventID": "20260904235244",
+      "dateTime": "2026-09-04 14:52:00",
+      "epicenter": "Off the Coast of Kushiro",
+      "epicenterKr": "구시로 오키",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 42.8,
+      "lon": 144.7,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-09-04T23:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.8+144.7-50000/",
+      "areaCode": "190",
+      "jsonFile": "20260904235523_20260904235244_VXSE5k_1.json"
+    },
     {
       "eventID": "20260904211003",
       "dateTime": "2026-09-04 12:10:00",
