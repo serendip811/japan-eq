@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-07T18:35:24.559Z",
-  "count": 49,
+  "fetchedAt": "2026-09-08T03:02:28.535Z",
+  "count": 51,
   "earthquakes": [
+    {
+      "eventID": "20260908093239",
+      "dateTime": "2026-09-08 00:32:00",
+      "epicenter": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "epicenterKr": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "2.3",
+      "depth": 0,
+      "lat": 32.2,
+      "lon": 130.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-08T09:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.2+130.4+0/",
+      "areaCode": "743",
+      "jsonFile": "20260908093539_20260908093239_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260908085401",
+      "dateTime": "2026-09-07 23:54:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "2.1",
+      "depth": 0,
+      "lat": 32,
+      "lon": 130.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-08T08:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.0+130.2+0/",
+      "areaCode": "770",
+      "jsonFile": "20260908085727_20260908085401_VXSE5k_1.json"
+    },
     {
       "eventID": "20260907232129",
       "dateTime": "2026-09-07 14:21:00",
