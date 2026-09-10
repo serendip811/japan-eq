@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-10T05:32:53.265Z",
-  "count": 66,
+  "fetchedAt": "2026-09-10T10:30:44.812Z",
+  "count": 68,
   "earthquakes": [
+    {
+      "eventID": "20260910185532",
+      "dateTime": "2026-09-10 09:55:00",
+      "epicenter": "Aizu,  Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 아이즈",
+      "magnitude": "3.2",
+      "depth": 0,
+      "lat": 37,
+      "lon": 139.4,
+      "maxIntensity": "3",
+      "reportedDateTime": "2026-09-10T18:58:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.0+139.4+0/",
+      "areaCode": "252",
+      "jsonFile": "20260910185814_20260910185532_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260910171528",
+      "dateTime": "2026-09-10 08:15:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.1",
+      "depth": 0,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-09-10T17:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6+0/",
+      "areaCode": "741",
+      "jsonFile": "20260910171809_20260910171528_VXSE5k_1.json"
+    },
     {
       "eventID": "20260910114942",
       "dateTime": "2026-09-10 02:49:00",
