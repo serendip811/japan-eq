@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-10T00:48:06.615Z",
-  "count": 64,
+  "fetchedAt": "2026-09-10T05:32:53.265Z",
+  "count": 66,
   "earthquakes": [
+    {
+      "eventID": "20260910114942",
+      "dateTime": "2026-09-10 02:49:00",
+      "epicenter": "Central and western Mino, Gifu Prefecture",
+      "epicenterKr": "기후 현 미노 중서부",
+      "magnitude": "3.8",
+      "depth": 10,
+      "lat": 35.8,
+      "lon": 137,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-09-10T11:52:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.8+137.0-10000/",
+      "areaCode": "432",
+      "jsonFile": "20260910115243_20260910114942_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260910102040",
+      "dateTime": "2026-09-10 01:20:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-10T10:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6-10000/",
+      "areaCode": "741",
+      "jsonFile": "20260910102323_20260910102040_VXSE5k_1.json"
+    },
     {
       "eventID": "20260910081532",
       "dateTime": "2026-09-09 23:15:00",
