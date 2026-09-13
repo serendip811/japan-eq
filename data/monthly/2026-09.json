@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-12T21:11:15.925Z",
-  "count": 79,
+  "fetchedAt": "2026-09-13T07:58:23.453Z",
+  "count": 81,
   "earthquakes": [
+    {
+      "eventID": "20260913135329",
+      "dateTime": "2026-09-13 04:53:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "3.4",
+      "depth": 50,
+      "lat": 38.8,
+      "lon": 142,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-13T13:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.8+142.0-50000/",
+      "areaCode": "287",
+      "jsonFile": "20260913135603_20260913135329_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260913125054",
+      "dateTime": "2026-09-13 03:50:00",
+      "epicenter": "Adjacent Sea of​ Chichijima Island",
+      "epicenterKr": "부도 근해",
+      "magnitude": "4.6",
+      "depth": 10,
+      "lat": 26.5,
+      "lon": 142.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-13T12:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+26.5+142.9-10000/",
+      "areaCode": "911",
+      "jsonFile": "20260913125553_20260913125054_VXSE5k_1.json"
+    },
     {
       "eventID": "20260913053312",
       "dateTime": "2026-09-12 20:33:00",
