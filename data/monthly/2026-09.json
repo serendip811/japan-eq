@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-17T14:39:07.661Z",
-  "count": 117,
+  "fetchedAt": "2026-09-17T18:47:07.561Z",
+  "count": 119,
   "earthquakes": [
+    {
+      "eventID": "20260918030608",
+      "dateTime": "2026-09-17 18:06:00",
+      "epicenter": "Adjacent Sea of Okinawa Main Island",
+      "epicenterKr": "오키나와 본섬 근해",
+      "magnitude": "3.4",
+      "depth": 50,
+      "lat": 27.3,
+      "lon": 128.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-18T03:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.3+128.4-50000/",
+      "areaCode": "850",
+      "jsonFile": "20260918030858_20260918030608_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260918020415",
+      "dateTime": "2026-09-17 17:04:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.5",
+      "depth": 20,
+      "lat": 32.7,
+      "lon": 130.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-18T02:06:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.7+130.7-20000/",
+      "areaCode": "741",
+      "jsonFile": "20260918020652_20260918020415_VXSE5k_1.json"
+    },
     {
       "eventID": "20260917224027",
       "dateTime": "2026-09-17 13:40:00",
