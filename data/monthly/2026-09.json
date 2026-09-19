@@ -1,8 +1,24 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-18T22:59:56.516Z",
-  "count": 127,
+  "fetchedAt": "2026-09-19T01:04:05.883Z",
+  "count": 128,
   "earthquakes": [
+    {
+      "eventID": "20260919092934",
+      "dateTime": "2026-09-19 00:29:00",
+      "epicenter": "Hyuganada Sea",
+      "epicenterKr": "히나타 나다",
+      "magnitude": "4.0",
+      "depth": 0,
+      "lat": 31.8,
+      "lon": 131.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-19T09:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+31.8+131.9+0/",
+      "areaCode": "791",
+      "jsonFile": "20260919093223_20260919092934_VXSE5k_1.json"
+    },
     {
       "eventID": "20260919074854",
       "dateTime": "2026-09-18 22:48:00",
