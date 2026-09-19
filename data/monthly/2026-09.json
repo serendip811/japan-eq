@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-19T01:04:05.883Z",
-  "count": 128,
+  "fetchedAt": "2026-09-19T06:59:10.878Z",
+  "count": 130,
   "earthquakes": [
+    {
+      "eventID": "20260919140420",
+      "dateTime": "2026-09-19 05:04:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.7",
+      "depth": 10,
+      "lat": 32.7,
+      "lon": 130.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-19T14:07:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.7+130.7-10000/",
+      "areaCode": "741",
+      "jsonFile": "20260919140710_20260919140420_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260919140100",
+      "dateTime": "2026-09-19 05:01:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "3.9",
+      "depth": 30,
+      "lat": 39.1,
+      "lon": 142.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-19T14:03:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.1+142.3-30000/",
+      "areaCode": "286",
+      "jsonFile": "20260919140343_20260919140100_VXSE5k_1.json"
+    },
     {
       "eventID": "20260919092934",
       "dateTime": "2026-09-19 00:29:00",
