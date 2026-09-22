@@ -1,8 +1,24 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-22T15:24:00.955Z",
-  "count": 162,
+  "fetchedAt": "2026-09-22T19:32:55.665Z",
+  "count": 163,
   "earthquakes": [
+    {
+      "eventID": "20260923023348",
+      "dateTime": "2026-09-22 17:33:00",
+      "epicenter": "Off the Coast of Akita Prefecture",
+      "epicenterKr": "아키타 현 바다",
+      "magnitude": "2.6",
+      "depth": 20,
+      "lat": 39.8,
+      "lon": 140,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-23T02:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.8+140.0-20000/",
+      "areaCode": "282",
+      "jsonFile": "20260923023607_20260923023348_VXSE5k_1.json"
+    },
     {
       "eventID": "20260922215120",
       "dateTime": "2026-09-22 12:51:00",
