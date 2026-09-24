@@ -1,8 +1,24 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-24T05:50:37.771Z",
-  "count": 170,
+  "fetchedAt": "2026-09-24T11:02:17.046Z",
+  "count": 171,
   "earthquakes": [
+    {
+      "eventID": "20260924172735",
+      "dateTime": "2026-09-24 08:27:00",
+      "epicenter": "Northeastern Chiba Prefecture",
+      "epicenterKr": "Northeastern Chiba Prefecture",
+      "magnitude": "3.6",
+      "depth": 50,
+      "lat": 35.7,
+      "lon": 140.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-24T17:30:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.7+140.6-50000/",
+      "areaCode": "340",
+      "jsonFile": "20260924173016_20260924172735_VXSE5k_1.json"
+    },
     {
       "eventID": "20260924123920",
       "dateTime": "2026-09-24 03:39:00",
