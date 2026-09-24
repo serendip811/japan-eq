@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-23T22:01:11.624Z",
-  "count": 168,
+  "fetchedAt": "2026-09-24T05:50:37.771Z",
+  "count": 170,
   "earthquakes": [
+    {
+      "eventID": "20260924123920",
+      "dateTime": "2026-09-24 03:39:00",
+      "epicenter": "Eastern Mino, Gifu Prefecture",
+      "epicenterKr": "기후 현 미노 동부",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 35.5,
+      "lon": 137.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-24T12:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.5+137.4-10000/",
+      "areaCode": "431",
+      "jsonFile": "20260924124200_20260924123920_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260924095118",
+      "dateTime": "2026-09-24 00:51:00",
+      "epicenter": "Off the Coast of Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 바다",
+      "magnitude": "3.7",
+      "depth": 40,
+      "lat": 36.4,
+      "lon": 141.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-24T09:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.4+141.1-40000/",
+      "areaCode": "471",
+      "jsonFile": "20260924095407_20260924095118_VXSE5k_1.json"
+    },
     {
       "eventID": "20260924063530",
       "dateTime": "2026-09-23 21:35:00",
