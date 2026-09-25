@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-25T09:20:10.624Z",
-  "count": 178,
+  "fetchedAt": "2026-09-25T23:03:03.355Z",
+  "count": 180,
   "earthquakes": [
+    {
+      "eventID": "20260926063141",
+      "dateTime": "2026-09-25 21:23:00",
+      "epicenter": "South Pacific Ocean",
+      "epicenterKr": "남 태평양",
+      "magnitude": "7.0",
+      "depth": null,
+      "lat": -21.2,
+      "lon": 168.5,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-09-26T06:48:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-21.2+168.5/",
+      "areaCode": "950",
+      "jsonFile": "20260926064840_20260926063141_VXSE5e_1.json"
+    },
+    {
+      "eventID": "20260926041457",
+      "dateTime": "2026-09-25 19:14:00",
+      "epicenter": "Adjacent Sea of Okinawa Main Island",
+      "epicenterKr": "오키나와 본섬 근해",
+      "magnitude": "3.8",
+      "depth": 10,
+      "lat": 26.8,
+      "lon": 128.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-26T04:18:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+26.8+128.6-10000/",
+      "areaCode": "850",
+      "jsonFile": "20260926041803_20260926041457_VXSE5k_1.json"
+    },
     {
       "eventID": "20260925170457",
       "dateTime": "2026-09-25 08:04:00",
