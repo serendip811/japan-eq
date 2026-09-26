@@ -1,8 +1,40 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-26T09:02:41.038Z",
-  "count": 189,
+  "fetchedAt": "2026-09-26T14:02:30.768Z",
+  "count": 191,
   "earthquakes": [
+    {
+      "eventID": "20260926210756",
+      "dateTime": "2026-09-26 12:07:00",
+      "epicenter": "Ise Bay",
+      "epicenterKr": "이세완",
+      "magnitude": "3.2",
+      "depth": 40,
+      "lat": 34.8,
+      "lon": 136.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-26T21:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.8+136.8-40000/",
+      "areaCode": "490",
+      "jsonFile": "20260926211045_20260926210756_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20260926194226",
+      "dateTime": "2026-09-26 10:42:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.6",
+      "depth": 0,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-26T19:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6+0/",
+      "areaCode": "741",
+      "jsonFile": "20260926194510_20260926194226_VXSE5k_1.json"
+    },
     {
       "eventID": "20260926170527",
       "dateTime": "2026-09-26 08:05:00",
