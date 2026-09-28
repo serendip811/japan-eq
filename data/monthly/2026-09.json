@@ -1,8 +1,24 @@
 {
   "month": "2026-09",
-  "fetchedAt": "2026-09-28T03:22:17.341Z",
-  "count": 200,
+  "fetchedAt": "2026-09-28T10:29:37.749Z",
+  "count": 201,
   "earthquakes": [
+    {
+      "eventID": "20260928162438",
+      "dateTime": "2026-09-28 07:24:00",
+      "epicenter": "Aizu,  Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 아이즈",
+      "magnitude": "2.9",
+      "depth": 0,
+      "lat": 37.4,
+      "lon": 139.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-09-28T16:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.4+139.4+0/",
+      "areaCode": "252",
+      "jsonFile": "20260928162656_20260928162438_VXSE5k_1.json"
+    },
     {
       "eventID": "20260928110535",
       "dateTime": "2026-09-28 02:05:00",
