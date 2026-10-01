@@ -1,0 +1,23 @@
+{
+  "month": "2026-10",
+  "fetchedAt": "2026-10-01T01:47:48.976Z",
+  "count": 1,
+  "earthquakes": [
+    {
+      "eventID": "20261001103235",
+      "dateTime": "2026-10-01 01:32:00",
+      "epicenter": "Southern Saitama Prefecture",
+      "epicenterKr": "Southern Saitama Prefecture",
+      "magnitude": "3.2",
+      "depth": 50,
+      "lat": 36,
+      "lon": 139.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-01T10:35:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.0+139.5-50000/",
+      "areaCode": "331",
+      "jsonFile": "20261001103525_20261001103235_VXSE5k_1.json"
+    }
+  ]
+}
