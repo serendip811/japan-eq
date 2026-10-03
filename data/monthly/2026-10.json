@@ -1,8 +1,24 @@
 {
   "month": "2026-10",
-  "fetchedAt": "2026-10-03T13:01:35.393Z",
-  "count": 31,
+  "fetchedAt": "2026-10-03T20:33:28.395Z",
+  "count": 32,
   "earthquakes": [
+    {
+      "eventID": "20261004034055",
+      "dateTime": "2026-10-03 18:40:00",
+      "epicenter": "Plain Area of Northern Miyazaki Prefecture",
+      "epicenterKr": "미야자키 현 북부 평야",
+      "magnitude": "2.8",
+      "depth": 60,
+      "lat": 32.1,
+      "lon": 131.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-04T03:43:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.1+131.3-60000/",
+      "areaCode": "760",
+      "jsonFile": "20261004034331_20261004034055_VXSE5k_1.json"
+    },
     {
       "eventID": "20261003171723",
       "dateTime": "2026-10-03 08:17:00",
