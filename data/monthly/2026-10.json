@@ -1,8 +1,40 @@
 {
   "month": "2026-10",
-  "fetchedAt": "2026-10-06T04:37:40.857Z",
-  "count": 48,
+  "fetchedAt": "2026-10-06T11:44:35.352Z",
+  "count": 50,
   "earthquakes": [
+    {
+      "eventID": "20261006195357",
+      "dateTime": "2026-10-06 10:53:00",
+      "epicenter": "Western Kanagawa Prefecture",
+      "epicenterKr": "카나강 현 서부",
+      "magnitude": "3.4",
+      "depth": 40,
+      "lat": 35.4,
+      "lon": 139.3,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-10-06T19:57:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.4+139.3-40000/",
+      "areaCode": "361",
+      "jsonFile": "20261006195717_20261006195357_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261006134727",
+      "dateTime": "2026-10-06 04:47:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 32.6,
+      "lon": 130.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-06T13:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.6+130.7-10000/",
+      "areaCode": "741",
+      "jsonFile": "20261006134949_20261006134727_VXSE5k_1.json"
+    },
     {
       "eventID": "20261006104835",
       "dateTime": "2026-10-06 01:48:00",
