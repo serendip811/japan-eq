@@ -1,8 +1,40 @@
 {
   "month": "2026-10",
-  "fetchedAt": "2026-10-07T02:02:35.743Z",
-  "count": 54,
+  "fetchedAt": "2026-10-07T09:43:51.660Z",
+  "count": 56,
   "earthquakes": [
+    {
+      "eventID": "20261007170000",
+      "dateTime": "2026-10-07 08:00:00",
+      "epicenter": "",
+      "epicenterKr": "",
+      "magnitude": "",
+      "depth": null,
+      "lat": null,
+      "lon": null,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-10-07T17:00:00+09:00",
+      "title": "南海トラフ地震関連解説情報",
+      "coordinates": "",
+      "areaCode": "",
+      "jsonFile": "20261007170002_20261007170000_VYSE52_0.json"
+    },
+    {
+      "eventID": "20261007160305",
+      "dateTime": "2026-10-07 07:03:00",
+      "epicenter": "Off the northeast Coast of Amami-Oshima Island",
+      "epicenterKr": "아마미 오시마 동북 해역",
+      "magnitude": "3.5",
+      "depth": 60,
+      "lat": 29.7,
+      "lon": 130.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-07T16:05:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.7+130.5-60000/",
+      "areaCode": "823",
+      "jsonFile": "20261007160547_20261007160305_VXSE5k_1.json"
+    },
     {
       "eventID": "20261007092251",
       "dateTime": "2026-10-07 00:22:00",
