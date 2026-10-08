@@ -1,8 +1,40 @@
 {
   "month": "2026-10",
-  "fetchedAt": "2026-10-08T17:10:35.598Z",
-  "count": 72,
+  "fetchedAt": "2026-10-08T22:48:56.069Z",
+  "count": 74,
   "earthquakes": [
+    {
+      "eventID": "20261009071419",
+      "dateTime": "2026-10-08 22:14:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "3.3",
+      "depth": 60,
+      "lat": 43.2,
+      "lon": 145.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-09T07:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.2+145.7-60000/",
+      "areaCode": "189",
+      "jsonFile": "20261009071738_20261009071419_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261009042307",
+      "dateTime": "2026-10-08 19:23:00",
+      "epicenter": "Off the east Coast of Aomori Prefecture",
+      "epicenterKr": "아오모리 현 동쪽 앞바다",
+      "magnitude": "4.1",
+      "depth": 30,
+      "lat": 40.5,
+      "lon": 142.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-09T04:26:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.5+142.9-30000/",
+      "areaCode": "285",
+      "jsonFile": "20261009042624_20261009042307_VXSE5k_1.json"
+    },
     {
       "eventID": "20261009003134",
       "dateTime": "2026-10-08 15:31:00",
