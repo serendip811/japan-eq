@@ -1,7 +1,23 @@
 {
-  "fetchedAt": "2026-10-11T10:33:25.199Z",
-  "count": 5613,
+  "fetchedAt": "2026-10-11T16:31:54.487Z",
+  "count": 5614,
   "earthquakes": [
+    {
+      "eventID": "20261012012430",
+      "dateTime": "2026-10-11 16:24:00",
+      "epicenter": "Off the east Coast of Chiba Prefecture",
+      "epicenterKr": "치바현 동방 바다",
+      "magnitude": "4.3",
+      "depth": 50,
+      "lat": 35.6,
+      "lon": 140.7,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-10-12T01:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.6+140.7-50000/",
+      "areaCode": "473",
+      "jsonFile": "20261012012732_20261012012430_VXSE5k_1.json"
+    },
     {
       "eventID": "20261011154917",
       "dateTime": "2026-10-11 06:49:00",
