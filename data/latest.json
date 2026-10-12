@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-10-12T00:10:44.258Z",
-  "count": 5615,
+  "fetchedAt": "2026-10-12T06:54:50.752Z",
+  "count": 5617,
   "earthquakes": [
+    {
+      "eventID": "20261012124510",
+      "dateTime": "2026-10-12 03:45:00",
+      "epicenter": "Off the Coast of Kushiro",
+      "epicenterKr": "구시로 오키",
+      "magnitude": "4.0",
+      "depth": 70,
+      "lat": 42.5,
+      "lon": 144.3,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-10-12T12:48:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+42.5+144.3-70000/",
+      "areaCode": "190",
+      "jsonFile": "20261012124812_20261012124510_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261012095423",
+      "dateTime": "2026-10-12 00:53:00",
+      "epicenter": "Adjacent Sea of​ Ioto Island",
+      "epicenterKr": "이오 섬 근해",
+      "magnitude": "5.0",
+      "depth": 180,
+      "lat": 25.5,
+      "lon": 140.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-12T10:00:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+25.5+140.8-180000/",
+      "areaCode": "917",
+      "jsonFile": "20261012100017_20261012095423_VXSE5k_1.json"
+    },
     {
       "eventID": "20261012050528",
       "dateTime": "2026-10-11 20:05:00",
