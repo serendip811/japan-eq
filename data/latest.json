@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-10-14T16:25:59.770Z",
-  "count": 5628,
+  "fetchedAt": "2026-10-14T20:25:41.128Z",
+  "count": 5630,
   "earthquakes": [
+    {
+      "eventID": "20261015020254",
+      "dateTime": "2026-10-14 17:02:00",
+      "epicenter": "Area along Mountains of Southern Miyazaki Prefecture",
+      "epicenterKr": "미야자키 현 남부 산간 지역",
+      "magnitude": "2.6",
+      "depth": 0,
+      "lat": 32.1,
+      "lon": 131,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-15T02:05:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.1+131.0+0/",
+      "areaCode": "763",
+      "jsonFile": "20261015020530_20261015020254_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261015015135",
+      "dateTime": "2026-10-14 16:51:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 29.5,
+      "lon": 129.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-15T01:54:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.5+129.9-10000/",
+      "areaCode": "798",
+      "jsonFile": "20261015015426_20261015015135_VXSE5k_1.json"
+    },
     {
       "eventID": "20261014221915",
       "dateTime": "2026-10-14 13:19:00",
