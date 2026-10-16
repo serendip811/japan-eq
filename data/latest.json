@@ -1,7 +1,23 @@
 {
-  "fetchedAt": "2026-10-16T00:02:38.549Z",
-  "count": 5635,
+  "fetchedAt": "2026-10-16T05:24:16.082Z",
+  "count": 5636,
   "earthquakes": [
+    {
+      "eventID": "20261016123810",
+      "dateTime": "2026-10-16 03:38:00",
+      "epicenter": "Adjacent Kamchatka Peninsula",
+      "epicenterKr": "캄차카 반도",
+      "magnitude": "6.9",
+      "depth": 160,
+      "lat": 50,
+      "lon": 158.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-16T12:52:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+50.0+158.1-160000/",
+      "areaCode": "941",
+      "jsonFile": "20261016125239_20261016123810_VXSE5k_1.json"
+    },
     {
       "eventID": "20261016001343",
       "dateTime": "2026-10-15 15:13:00",
