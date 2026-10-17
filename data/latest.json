@@ -1,7 +1,23 @@
 {
-  "fetchedAt": "2026-10-17T01:00:23.577Z",
-  "count": 5637,
+  "fetchedAt": "2026-10-17T05:28:40.216Z",
+  "count": 5638,
   "earthquakes": [
+    {
+      "eventID": "20261017115417",
+      "dateTime": "2026-10-17 02:54:00",
+      "epicenter": "Kiisuido Strait",
+      "epicenterKr": "기이수도",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 34.1,
+      "lon": 135.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-17T11:56:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.1+135.1-10000/",
+      "areaCode": "674",
+      "jsonFile": "20261017115652_20261017115417_VXSE5k_1.json"
+    },
     {
       "eventID": "20261016181738",
       "dateTime": "2026-10-16 09:17:00",
