@@ -1,8 +1,24 @@
 {
   "month": "2026-10",
-  "fetchedAt": "2026-10-22T00:24:28.060Z",
-  "count": 136,
+  "fetchedAt": "2026-10-22T16:33:36.768Z",
+  "count": 137,
   "earthquakes": [
+    {
+      "eventID": "20261022233944",
+      "dateTime": "2026-10-22 14:33:00",
+      "epicenter": "Western China",
+      "epicenterKr": "중국 서부",
+      "magnitude": "7.0",
+      "depth": null,
+      "lat": 32.3,
+      "lon": 93.7,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-10-23T00:06:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "+32.3+093.7/",
+      "areaCode": "963",
+      "jsonFile": "20261023000627_20261022233944_VXSE5e_1.json"
+    },
     {
       "eventID": "20261022074552",
       "dateTime": "2026-10-21 22:45:00",
