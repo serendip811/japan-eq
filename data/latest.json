@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-10-24T00:14:18.069Z",
-  "count": 5669,
+  "fetchedAt": "2026-10-24T05:21:02.576Z",
+  "count": 5671,
   "earthquakes": [
+    {
+      "eventID": "20261024124440",
+      "dateTime": "2026-10-24 03:44:00",
+      "epicenter": "Mutsu Bay",
+      "epicenterKr": "무쓰 만",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 41,
+      "lon": 141.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-24T12:47:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+41.0+141.1-10000/",
+      "areaCode": "284",
+      "jsonFile": "20261024124728_20261024124440_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261024113820",
+      "dateTime": "2026-10-24 02:31:00",
+      "epicenter": "South Pacific Ocean",
+      "epicenterKr": "남 태평양",
+      "magnitude": "7.2",
+      "depth": null,
+      "lat": -13.8,
+      "lon": 165.7,
+      "maxIntensity": "",
+      "reportedDateTime": "2026-10-24T11:54:00+09:00",
+      "title": "Distant Earthquake Information",
+      "coordinates": "-13.8+165.7/",
+      "areaCode": "950",
+      "jsonFile": "20261024115400_20261024113820_VXSE5e_1.json"
+    },
     {
       "eventID": "20261024023136",
       "dateTime": "2026-10-23 17:31:00",
