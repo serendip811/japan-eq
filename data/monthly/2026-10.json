@@ -1,8 +1,40 @@
 {
   "month": "2026-10",
-  "fetchedAt": "2026-10-25T05:37:44.463Z",
-  "count": 159,
+  "fetchedAt": "2026-10-25T10:37:35.181Z",
+  "count": 161,
   "earthquakes": [
+    {
+      "eventID": "20261025191443",
+      "dateTime": "2026-10-25 10:14:00",
+      "epicenter": "Northern Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 북부",
+      "magnitude": "3.8",
+      "depth": 90,
+      "lat": 36.8,
+      "lon": 140.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-25T19:17:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.8+140.4-90000/",
+      "areaCode": "300",
+      "jsonFile": "20261025191740_20261025191443_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261025150429",
+      "dateTime": "2026-10-25 06:04:00",
+      "epicenter": "Off the Coast of Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 바다",
+      "magnitude": "4.2",
+      "depth": 40,
+      "lat": 37.8,
+      "lon": 141.8,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-10-25T15:08:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.8+141.8-40000/",
+      "areaCode": "289",
+      "jsonFile": "20261025150804_20261025150429_VXSE5k_1.json"
+    },
     {
       "eventID": "20261025122323",
       "dateTime": "2026-10-25 03:23:00",
