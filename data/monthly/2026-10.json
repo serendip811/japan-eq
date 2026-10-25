@@ -1,8 +1,40 @@
 {
   "month": "2026-10",
-  "fetchedAt": "2026-10-25T10:37:35.181Z",
-  "count": 161,
+  "fetchedAt": "2026-10-25T23:46:33.180Z",
+  "count": 163,
   "earthquakes": [
+    {
+      "eventID": "20261026071522",
+      "dateTime": "2026-10-25 22:15:00",
+      "epicenter": "Off the west Coast of Ogasawara Islands",
+      "epicenterKr": "오가사와라 제도 서방 바다",
+      "magnitude": "5.6",
+      "depth": 500,
+      "lat": 27.9,
+      "lon": 140,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-26T07:20:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+27.9+140.0-500000/",
+      "areaCode": "916",
+      "jsonFile": "20261026072052_20261026071522_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261026064639",
+      "dateTime": "2026-10-25 21:46:00",
+      "epicenter": "Aizu,  Fukushima Prefecture",
+      "epicenterKr": "후쿠시마 현 아이즈",
+      "magnitude": "3.2",
+      "depth": 0,
+      "lat": 37.4,
+      "lon": 139.4,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-10-26T06:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.4+139.4+0/",
+      "areaCode": "252",
+      "jsonFile": "20261026064930_20261026064639_VXSE5k_1.json"
+    },
     {
       "eventID": "20261025191443",
       "dateTime": "2026-10-25 10:14:00",
