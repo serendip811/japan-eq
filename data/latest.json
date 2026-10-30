@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-10-30T09:32:46.879Z",
-  "count": 5710,
+  "fetchedAt": "2026-10-30T16:30:49.252Z",
+  "count": 5712,
   "earthquakes": [
+    {
+      "eventID": "20261030231133",
+      "dateTime": "2026-10-30 14:11:00",
+      "epicenter": "Eastern Shimane Prefecture",
+      "epicenterKr": "Eastern Shimane Prefecture",
+      "magnitude": "3.5",
+      "depth": 10,
+      "lat": 35.3,
+      "lon": 133.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-10-30T23:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.3+133.2-10000/",
+      "areaCode": "570",
+      "jsonFile": "20261030231425_20261030231133_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261030221821",
+      "dateTime": "2026-10-30 13:18:00",
+      "epicenter": "Off the Coast of Iwate Prefecture",
+      "epicenterKr": "이와테 현 바다",
+      "magnitude": "4.0",
+      "depth": 20,
+      "lat": 40.3,
+      "lon": 142.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-10-30T22:21:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.3+142.7-20000/",
+      "areaCode": "286",
+      "jsonFile": "20261030222123_20261030221821_VXSE5k_1.json"
+    },
     {
       "eventID": "20261030174600",
       "dateTime": "2026-10-30 08:45:00",
