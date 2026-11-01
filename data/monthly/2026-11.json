@@ -1,8 +1,40 @@
 {
   "month": "2026-11",
-  "fetchedAt": "2026-11-01T10:01:00.259Z",
-  "count": 3,
+  "fetchedAt": "2026-11-01T16:45:11.244Z",
+  "count": 5,
   "earthquakes": [
+    {
+      "eventID": "20261102012106",
+      "dateTime": "2026-11-01 16:21:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-02T01:23:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6-10000/",
+      "areaCode": "741",
+      "jsonFile": "20261102012349_20261102012106_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261102010706",
+      "dateTime": "2026-11-01 16:07:00",
+      "epicenter": "Hida, Gifu Prefecture",
+      "epicenterKr": "기후 현 히다 지방",
+      "magnitude": "2.5",
+      "depth": 10,
+      "lat": 36,
+      "lon": 137.4,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-02T01:09:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.0+137.4-10000/",
+      "areaCode": "430",
+      "jsonFile": "20261102010924_20261102010706_VXSE5k_1.json"
+    },
     {
       "eventID": "20261101161602",
       "dateTime": "2026-11-01 07:16:00",
