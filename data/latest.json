@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-11-04T16:48:41.441Z",
-  "count": 5736,
+  "fetchedAt": "2026-11-04T22:24:27.220Z",
+  "count": 5738,
   "earthquakes": [
+    {
+      "eventID": "20261105042852",
+      "dateTime": "2026-11-04 19:28:00",
+      "epicenter": "Satsuma Region, Kagoshima Prefecture",
+      "epicenterKr": "가고시마 현 사쓰마 지방",
+      "magnitude": "3.1",
+      "depth": 10,
+      "lat": 32.2,
+      "lon": 130.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-11-05T04:32:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.2+130.2-10000/",
+      "areaCode": "770",
+      "jsonFile": "20261105043201_20261105042852_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261105042154",
+      "dateTime": "2026-11-04 19:21:00",
+      "epicenter": "Off the Coast of Miyagi Prefecture",
+      "epicenterKr": "미야기 현 바다",
+      "magnitude": "4.1",
+      "depth": 50,
+      "lat": 38.3,
+      "lon": 141.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-05T04:24:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.3+141.8-50000/",
+      "areaCode": "287",
+      "jsonFile": "20261105042440_20261105042154_VXSE5k_1.json"
+    },
     {
       "eventID": "20261104072834",
       "dateTime": "2026-11-03 22:28:00",
