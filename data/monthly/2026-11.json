@@ -1,8 +1,24 @@
 {
   "month": "2026-11",
-  "fetchedAt": "2026-11-09T19:43:53.724Z",
-  "count": 67,
+  "fetchedAt": "2026-11-10T02:31:33.852Z",
+  "count": 68,
   "earthquakes": [
+    {
+      "eventID": "20261110061614",
+      "dateTime": "2026-11-09 21:16:00",
+      "epicenter": "Tachibana Bay",
+      "epicenterKr": "타치바나완",
+      "magnitude": "3.3",
+      "depth": 10,
+      "lat": 32.7,
+      "lon": 130.1,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-11-10T06:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.7+130.1-10000/",
+      "areaCode": "786",
+      "jsonFile": "20261110061932_20261110061614_VXSE5k_1.json"
+    },
     {
       "eventID": "20261110000940",
       "dateTime": "2026-11-09 15:09:00",
