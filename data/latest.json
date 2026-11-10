@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-11-10T18:27:42.323Z",
-  "count": 5775,
+  "fetchedAt": "2026-11-10T23:54:52.643Z",
+  "count": 5777,
   "earthquakes": [
+    {
+      "eventID": "20261111083312",
+      "dateTime": "2026-11-10 23:33:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.7",
+      "depth": 0,
+      "lat": 32.8,
+      "lon": 130.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-11T08:36:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.8+130.8+0/",
+      "areaCode": "741",
+      "jsonFile": "20261111083604_20261111083312_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261111073644",
+      "dateTime": "2026-11-10 22:36:00",
+      "epicenter": "Southern Inland of Iwate Prefecture",
+      "epicenterKr": "Southern Inland of Iwate Prefecture",
+      "magnitude": "2.9",
+      "depth": 10,
+      "lat": 39.1,
+      "lon": 140.9,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-11T07:39:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+39.1+140.9-10000/",
+      "areaCode": "213",
+      "jsonFile": "20261111073938_20261111073644_VXSE5k_1.json"
+    },
     {
       "eventID": "20261110222305",
       "dateTime": "2026-11-10 13:23:00",
