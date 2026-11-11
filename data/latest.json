@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-11-11T04:30:25.185Z",
-  "count": 5778,
+  "fetchedAt": "2026-11-11T12:24:49.343Z",
+  "count": 5780,
   "earthquakes": [
+    {
+      "eventID": "20261111211353",
+      "dateTime": "2026-11-11 12:13:00",
+      "epicenter": "Tachibana Bay",
+      "epicenterKr": "타치바나완",
+      "magnitude": "2.3",
+      "depth": 10,
+      "lat": 32.7,
+      "lon": 130.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-11T21:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.7+130.1-10000/",
+      "areaCode": "786",
+      "jsonFile": "20261111211948_20261111211353_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261111152156",
+      "dateTime": "2026-11-11 06:21:00",
+      "epicenter": "Aso Region, Kumamoto Prefecture",
+      "epicenterKr": "구마모토 현 아소 지방",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 33,
+      "lon": 131.1,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-11T15:24:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+33.0+131.1-10000/",
+      "areaCode": "740",
+      "jsonFile": "20261111152458_20261111152156_VXSE5k_1.json"
+    },
     {
       "eventID": "20261111125704",
       "dateTime": "2026-11-11 03:57:00",
