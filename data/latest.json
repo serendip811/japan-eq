@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-11-12T01:52:05.222Z",
-  "count": 5781,
+  "fetchedAt": "2026-11-12T09:12:15.329Z",
+  "count": 5783,
   "earthquakes": [
+    {
+      "eventID": "20261112134643",
+      "dateTime": "2026-11-12 04:46:00",
+      "epicenter": "Adjacent Sea of Tokara Islands",
+      "epicenterKr": "도카라 열도 근해",
+      "magnitude": "2.6",
+      "depth": 0,
+      "lat": 29.7,
+      "lon": 129.8,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-12T13:49:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+29.7+129.8+0/",
+      "areaCode": "798",
+      "jsonFile": "20261112134933_20261112134643_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261112130734",
+      "dateTime": "2026-11-12 04:07:00",
+      "epicenter": "Off the Coast of Sanriku",
+      "epicenterKr": "산리 쿠바다",
+      "magnitude": "4.7",
+      "depth": 10,
+      "lat": 40.3,
+      "lon": 143.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-12T13:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.3+143.7-10000/",
+      "areaCode": "288",
+      "jsonFile": "20261112131053_20261112130734_VXSE5k_1.json"
+    },
     {
       "eventID": "20261112021536",
       "dateTime": "2026-11-11 17:15:00",
