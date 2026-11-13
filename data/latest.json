@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-11-13T04:52:03.015Z",
-  "count": 5788,
+  "fetchedAt": "2026-11-13T12:50:21.088Z",
+  "count": 5790,
   "earthquakes": [
+    {
+      "eventID": "20261113194233",
+      "dateTime": "2026-11-13 10:42:00",
+      "epicenter": "Northern Wakayama Prefecture",
+      "epicenterKr": "Northern Wakayama Prefecture",
+      "magnitude": "2.4",
+      "depth": 10,
+      "lat": 34.2,
+      "lon": 135.2,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-13T19:45:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+34.2+135.2-10000/",
+      "areaCode": "550",
+      "jsonFile": "20261113194514_20261113194233_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261113152656",
+      "dateTime": "2026-11-13 06:26:00",
+      "epicenter": "Kumamoto Region, Kumamoto Prefecture",
+      "epicenterKr": "Kumamoto Region, Kumamoto Prefecture",
+      "magnitude": "2.2",
+      "depth": 0,
+      "lat": 32.5,
+      "lon": 130.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-13T15:30:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.5+130.6+0/",
+      "areaCode": "741",
+      "jsonFile": "20261113153059_20261113152656_VXSE5k_1.json"
+    },
     {
       "eventID": "20261113105223",
       "dateTime": "2026-11-13 01:52:00",
