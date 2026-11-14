@@ -1,8 +1,40 @@
 {
   "month": "2026-11",
-  "fetchedAt": "2026-11-14T01:14:57.297Z",
-  "count": 92,
+  "fetchedAt": "2026-11-14T08:32:09.690Z",
+  "count": 94,
   "earthquakes": [
+    {
+      "eventID": "20261114153905",
+      "dateTime": "2026-11-14 06:39:00",
+      "epicenter": "Off the southeast Coast of the Nemuro Peninsula",
+      "epicenterKr": "네무로 반도 남동쪽 바다",
+      "magnitude": "4.2",
+      "depth": 30,
+      "lat": 43,
+      "lon": 146.3,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-14T15:42:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+43.0+146.3-30000/",
+      "areaCode": "189",
+      "jsonFile": "20261114154205_20261114153905_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261114111650",
+      "dateTime": "2026-11-14 02:16:00",
+      "epicenter": "Western Toyama Prefecture",
+      "epicenterKr": "Western Toyama Prefecture",
+      "magnitude": "3.0",
+      "depth": 10,
+      "lat": 36.3,
+      "lon": 137,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-11-14T11:19:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.3+137.0-10000/",
+      "areaCode": "381",
+      "jsonFile": "20261114111928_20261114111650_VXSE5k_1.json"
+    },
     {
       "eventID": "20261114090203",
       "dateTime": "2026-11-14 00:02:00",
