@@ -1,7 +1,23 @@
 {
-  "fetchedAt": "2026-11-15T20:46:16.228Z",
-  "count": 5805,
+  "fetchedAt": "2026-11-16T00:41:28.604Z",
+  "count": 5806,
   "earthquakes": [
+    {
+      "eventID": "20261116060805",
+      "dateTime": "2026-11-15 21:08:00",
+      "epicenter": "Eastern Aichi Prefecture",
+      "epicenterKr": "Eastern Aichi Prefecture",
+      "magnitude": "3.4",
+      "depth": 40,
+      "lat": 35,
+      "lon": 137.7,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-16T06:10:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.0+137.7-40000/",
+      "areaCode": "450",
+      "jsonFile": "20261116061046_20261116060805_VXSE5k_1.json"
+    },
     {
       "eventID": "20261116043416",
       "dateTime": "2026-11-15 19:34:00",
