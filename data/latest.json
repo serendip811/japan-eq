@@ -1,7 +1,39 @@
 {
-  "fetchedAt": "2026-11-16T00:41:28.604Z",
-  "count": 5806,
+  "fetchedAt": "2026-11-16T07:36:49.728Z",
+  "count": 5808,
   "earthquakes": [
+    {
+      "eventID": "20261116132858",
+      "dateTime": "2026-11-16 04:28:00",
+      "epicenter": "Eastern Shizuoka Prefecture",
+      "epicenterKr": "Eastern Shizuoka Prefecture",
+      "magnitude": "2.8",
+      "depth": 0,
+      "lat": 35.3,
+      "lon": 139,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-16T13:31:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+35.3+139.0+0/",
+      "areaCode": "441",
+      "jsonFile": "20261116133148_20261116132858_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261116132447",
+      "dateTime": "2026-11-16 04:24:00",
+      "epicenter": "Noto, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 노토 지방",
+      "magnitude": "5.1",
+      "depth": 280,
+      "lat": 37.3,
+      "lon": 137,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-16T13:29:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.3+137.0-280000/",
+      "areaCode": "390",
+      "jsonFile": "20261116132902_20261116132447_VXSE5k_1.json"
+    },
     {
       "eventID": "20261116060805",
       "dateTime": "2026-11-15 21:08:00",
