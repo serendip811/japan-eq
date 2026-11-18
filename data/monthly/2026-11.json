@@ -1,8 +1,40 @@
 {
   "month": "2026-11",
-  "fetchedAt": "2026-11-17T19:34:34.522Z",
-  "count": 123,
+  "fetchedAt": "2026-11-18T02:02:55.624Z",
+  "count": 125,
   "earthquakes": [
+    {
+      "eventID": "20261118105214",
+      "dateTime": "2026-11-18 01:52:00",
+      "epicenter": "Hida, Gifu Prefecture",
+      "epicenterKr": "기후 현 히다 지방",
+      "magnitude": "2.1",
+      "depth": 10,
+      "lat": 36.2,
+      "lon": 137.5,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-18T10:55:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.2+137.5-10000/",
+      "areaCode": "430",
+      "jsonFile": "20261118105540_20261118105214_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261118094158",
+      "dateTime": "2026-11-18 00:41:00",
+      "epicenter": "Southern Ibaraki Prefecture",
+      "epicenterKr": "이바라키 현 남부",
+      "magnitude": "3.5",
+      "depth": 50,
+      "lat": 36,
+      "lon": 139.9,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-11-18T09:44:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+36.0+139.9-50000/",
+      "areaCode": "301",
+      "jsonFile": "20261118094457_20261118094158_VXSE5k_1.json"
+    },
     {
       "eventID": "20261118025455",
       "dateTime": "2026-11-17 17:54:00",
