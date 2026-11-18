@@ -1,7 +1,23 @@
 {
-  "fetchedAt": "2026-11-18T02:02:55.651Z",
-  "count": 5819,
+  "fetchedAt": "2026-11-18T11:02:34.709Z",
+  "count": 5820,
   "earthquakes": [
+    {
+      "eventID": "20261118183714",
+      "dateTime": "2026-11-18 09:37:00",
+      "epicenter": "Central Sea of Japan",
+      "epicenterKr": "일본 바다 속부",
+      "magnitude": "5.0",
+      "depth": 10,
+      "lat": 38.8,
+      "lon": 137.9,
+      "maxIntensity": "3",
+      "reportedDateTime": "2026-11-18T18:40:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+38.8+137.9-10000/",
+      "areaCode": "908",
+      "jsonFile": "20261118184058_20261118183714_VXSE5k_1.json"
+    },
     {
       "eventID": "20261118105214",
       "dateTime": "2026-11-18 01:52:00",
