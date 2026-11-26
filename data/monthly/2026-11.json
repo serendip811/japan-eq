@@ -1,8 +1,40 @@
 {
   "month": "2026-11",
-  "fetchedAt": "2026-11-26T14:41:40.092Z",
-  "count": 295,
+  "fetchedAt": "2026-11-26T23:28:38.202Z",
+  "count": 297,
   "earthquakes": [
+    {
+      "eventID": "20261127043332",
+      "dateTime": "2026-11-26 19:33:00",
+      "epicenter": "Adjacent Sea of​ Chichijima Island",
+      "epicenterKr": "부도 근해",
+      "magnitude": "5.5",
+      "depth": 30,
+      "lat": 28.4,
+      "lon": 141.2,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-11-27T04:38:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+28.4+141.2-30000/",
+      "areaCode": "911",
+      "jsonFile": "20261127043828_20261127043332_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261127001112",
+      "dateTime": "2026-11-26 15:11:00",
+      "epicenter": "Noto, Ishikawa Prefecture",
+      "epicenterKr": "이시카와 현 노토 지방",
+      "magnitude": "3.8",
+      "depth": 10,
+      "lat": 37.5,
+      "lon": 137.3,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-11-27T00:14:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+37.5+137.3-10000/",
+      "areaCode": "390",
+      "jsonFile": "20261127001421_20261127001112_VXSE5k_1.json"
+    },
     {
       "eventID": "20261126213650",
       "dateTime": "2026-11-26 12:36:00",
