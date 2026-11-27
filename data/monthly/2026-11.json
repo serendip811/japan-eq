@@ -1,8 +1,40 @@
 {
   "month": "2026-11",
-  "fetchedAt": "2026-11-27T06:29:47.510Z",
-  "count": 298,
+  "fetchedAt": "2026-11-27T17:12:18.587Z",
+  "count": 300,
   "earthquakes": [
+    {
+      "eventID": "20261127215850",
+      "dateTime": "2026-11-27 12:58:00",
+      "epicenter": "Northern Inland of Akita Prefecture",
+      "epicenterKr": "아키타 현 내륙 북부",
+      "magnitude": "2.6",
+      "depth": 10,
+      "lat": 40.4,
+      "lon": 140.6,
+      "maxIntensity": "1",
+      "reportedDateTime": "2026-11-27T22:01:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+40.4+140.6-10000/",
+      "areaCode": "232",
+      "jsonFile": "20261127220132_20261127215850_VXSE5k_1.json"
+    },
+    {
+      "eventID": "20261127172343",
+      "dateTime": "2026-11-27 08:23:00",
+      "epicenter": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "epicenterKr": "Amakusa and Ashikita Region,  Kumamoto Prefecture",
+      "magnitude": "3.3",
+      "depth": 10,
+      "lat": 32.3,
+      "lon": 130.5,
+      "maxIntensity": "2",
+      "reportedDateTime": "2026-11-27T17:27:00+09:00",
+      "title": "Earthquake and Seismic Intensity Information",
+      "coordinates": "+32.3+130.5-10000/",
+      "areaCode": "743",
+      "jsonFile": "20261127172727_20261127172343_VXSE5k_1.json"
+    },
     {
       "eventID": "20261127141004",
       "dateTime": "2026-11-27 05:10:00",
